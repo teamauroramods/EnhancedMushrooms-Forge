@@ -1,0 +1,13 @@
+{
+  "_comment": "Red Mushroom Blocks",
+  "block.enhanced_mushrooms.red_mushroom_stem": "Red Mushroom Stem",
+  "block.enhanced_mushrooms.stripped_red_mushroom_stem": "Stripped Red Mushroom Stem",
+  "block.enhanced_mushrooms.red_mushroom_hyphae": "Red Mushroom Hyphae",
+  "block.enhanced_mushrooms.stripped_red_mushroom_hyphae": "Stripped Red Mushroom Hyphae",
+
+  "_comment": "Brown Mushroom Blocks",
+  "block.enhanced_mushrooms.brown_mushroom_stem": "Brown Mushroom Stem",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_stem": "Stripped Brown Mushroom Stem",
+  "block.enhanced_mushrooms.brown_mushroom_hyphae": "Brown Mushroom Hyphae",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_hyphae": "Stripped Brown Mushroom Hyphae"
+}

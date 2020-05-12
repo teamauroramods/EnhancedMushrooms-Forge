@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "enhanced_mushrooms:block/stripped_brown_mushroom_hyphae" },
+    "axis=z": { "model": "enhanced_mushrooms:block/stripped_brown_mushroom_hyphae", "x": 90 },
+    "axis=x": { "model": "enhanced_mushrooms:block/stripped_brown_mushroom_hyphae", "x": 90, "y": 90 }
+  }
+}

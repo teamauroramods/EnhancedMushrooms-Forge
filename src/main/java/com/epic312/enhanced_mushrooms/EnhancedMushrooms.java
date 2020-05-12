@@ -1,5 +1,8 @@
 package com.epic312.enhanced_mushrooms;
 
+import com.epic312.enhanced_mushrooms.data.EnhancedMushroomsBlockData;
+import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsBlocks;
+import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsItems;
 import com.epic312.enhanced_mushrooms.setup.ClientProxy;
 import com.epic312.enhanced_mushrooms.setup.IProxy;
 import com.epic312.enhanced_mushrooms.setup.ModSetup;
@@ -10,6 +13,7 @@ import net.minecraft.item.Item;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.InterModComms;
@@ -27,6 +31,7 @@ import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("enhanced_mushrooms")
+@Mod.EventBusSubscriber(modid = "enhanced_mushrooms", bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EnhancedMushrooms
 {
     public static final String MODID = "enhanced_mushrooms";
@@ -39,12 +44,20 @@ public class EnhancedMushrooms
 
     public EnhancedMushrooms() {
         // Register the setup method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        EnhancedMushroomsBlocks.BLOCKS.register(eventBus);
+        EnhancedMushroomsItems.ITEMS.register(eventBus);
+
+        MinecraftForge.EVENT_BUS.register(this);
+
+        eventBus.addListener(this::setup);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
         setup.init();
         proxy.init();
+        EnhancedMushroomsBlockData.registerStrippables();
+        EnhancedMushroomsBlockData.registerFlammables();
     }
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
