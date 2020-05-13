@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "enhanced_mushrooms:block/red_mushroom_planks",
+    "top": "enhanced_mushrooms:block/red_mushroom_planks",
+    "side": "enhanced_mushrooms:block/red_mushroom_planks"
+  }
+}

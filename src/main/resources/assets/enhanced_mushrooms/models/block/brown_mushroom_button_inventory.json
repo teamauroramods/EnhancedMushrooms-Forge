@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "enhanced_mushrooms:block/brown_mushroom_planks"
+  }
+}

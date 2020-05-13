@@ -4,10 +4,24 @@
   "block.enhanced_mushrooms.stripped_red_mushroom_stem": "Stripped Red Mushroom Stem",
   "block.enhanced_mushrooms.red_mushroom_hyphae": "Red Mushroom Hyphae",
   "block.enhanced_mushrooms.stripped_red_mushroom_hyphae": "Stripped Red Mushroom Hyphae",
+  "block.enhanced_mushrooms.red_mushroom_planks": "Red Mushroom Planks",
+  "block.enhanced_mushrooms.red_mushroom_slab": "Red Mushroom Slab",
+  "block.enhanced_mushrooms.red_mushroom_stairs": "Red Mushroom Stairs",
+  "block.enhanced_mushrooms.red_mushroom_pressure_plate": "Red Mushroom Pressure Plate",
+  "block.enhanced_mushrooms.red_mushroom_fence": "Red Mushroom Fence",
+  "block.enhanced_mushrooms.red_mushroom_fence_gate": "Red Mushroom Fence Gate",
+  "block.enhanced_mushrooms.red_mushroom_button": "Red Mushroom Button",
 
   "_comment": "Brown Mushroom Blocks",
   "block.enhanced_mushrooms.brown_mushroom_stem": "Brown Mushroom Stem",
   "block.enhanced_mushrooms.stripped_brown_mushroom_stem": "Stripped Brown Mushroom Stem",
   "block.enhanced_mushrooms.brown_mushroom_hyphae": "Brown Mushroom Hyphae",
-  "block.enhanced_mushrooms.stripped_brown_mushroom_hyphae": "Stripped Brown Mushroom Hyphae"
+  "block.enhanced_mushrooms.stripped_brown_mushroom_hyphae": "Stripped Brown Mushroom Hyphae",
+  "block.enhanced_mushrooms.brown_mushroom_planks": "Brown Mushroom Planks",
+  "block.enhanced_mushrooms.brown_mushroom_slab": "Brown Mushroom Slab",
+  "block.enhanced_mushrooms.brown_mushroom_stairs": "Brown Mushroom Stairs",
+  "block.enhanced_mushrooms.brown_mushroom_pressure_plate": "Brown Mushroom Pressure Plate",
+  "block.enhanced_mushrooms.brown_mushroom_fence": "Brown Mushroom Fence",
+  "block.enhanced_mushrooms.brown_mushroom_fence_gate": "Brown Mushroom Fence Gate",
+  "block.enhanced_mushrooms.brown_mushroom_button": "Brown Mushroom Button"
 }

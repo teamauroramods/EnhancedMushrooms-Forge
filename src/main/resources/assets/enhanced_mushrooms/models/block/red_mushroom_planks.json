@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "enhanced_mushrooms:block/red_mushroom_planks"
+  }
+}

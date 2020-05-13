@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "enhanced_mushrooms:block/brown_mushroom_slab" },
+    "type=top": { "model": "enhanced_mushrooms:block/brown_mushroom_slab_top" },
+    "type=double": { "model": "enhanced_mushrooms:block/brown_mushroom_planks" }
+  }
+}
