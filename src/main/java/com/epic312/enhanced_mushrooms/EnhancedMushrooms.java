@@ -7,9 +7,11 @@ import com.epic312.enhanced_mushrooms.setup.ClientProxy;
 import com.epic312.enhanced_mushrooms.setup.IProxy;
 import com.epic312.enhanced_mushrooms.setup.ModSetup;
 import com.epic312.enhanced_mushrooms.setup.ServerProxy;
+import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
+import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -35,6 +37,7 @@ import java.util.stream.Collectors;
 public class EnhancedMushrooms
 {
     public static final String MODID = "enhanced_mushrooms";
+    public static final RegistryHelper REGISTRY_HELPER = new RegistryHelper(MODID);
 
     public static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
 
@@ -45,19 +48,25 @@ public class EnhancedMushrooms
     public EnhancedMushrooms() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        EnhancedMushroomsBlocks.BLOCKS.register(eventBus);
-        EnhancedMushroomsItems.ITEMS.register(eventBus);
+        REGISTRY_HELPER.getDeferredItemRegister().register(eventBus);
+        REGISTRY_HELPER.getDeferredBlockRegister().register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
         eventBus.addListener(this::setup);
+        DistExecutor.runWhenOn(Dist.CLIENT, () -> () -> {
+            eventBus.addListener(this::clientSetup);
+        });
     }
 
     private void setup(final FMLCommonSetupEvent event) {
         setup.init();
         proxy.init();
-        EnhancedMushroomsBlockData.registerStrippables();
         EnhancedMushroomsBlockData.registerFlammables();
+    }
+
+    private void clientSetup(final FMLClientSetupEvent event) {
+
     }
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
