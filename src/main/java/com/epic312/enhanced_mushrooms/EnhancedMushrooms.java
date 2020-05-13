@@ -56,7 +56,7 @@ public class EnhancedMushrooms
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
-
+        EnhancedMushroomsBlockData.setupRenderLayer();
     }
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
