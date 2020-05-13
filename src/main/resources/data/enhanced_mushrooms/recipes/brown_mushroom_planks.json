@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "enhanced_mushrooms:brown_mushroom_stem"
+      "tag": "enhanced_mushrooms:brown_mushroom_stems"
     }
   ],
   "result": {
