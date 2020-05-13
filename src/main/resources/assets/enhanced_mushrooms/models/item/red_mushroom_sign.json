@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "enhanced_mushrooms:item/red_mushroom_sign"
+  }
+}
