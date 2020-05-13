@@ -3,10 +3,6 @@ package com.epic312.enhanced_mushrooms;
 import com.epic312.enhanced_mushrooms.data.EnhancedMushroomsBlockData;
 import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsBlocks;
 import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsItems;
-import com.epic312.enhanced_mushrooms.setup.ClientProxy;
-import com.epic312.enhanced_mushrooms.setup.IProxy;
-import com.epic312.enhanced_mushrooms.setup.ModSetup;
-import com.epic312.enhanced_mushrooms.setup.ServerProxy;
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -39,10 +35,6 @@ public class EnhancedMushrooms
     public static final String MODID = "enhanced_mushrooms";
     public static final RegistryHelper REGISTRY_HELPER = new RegistryHelper(MODID);
 
-    public static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
-
-    public static ModSetup setup = new ModSetup();
-
     private static final Logger LOGGER = LogManager.getLogger();
 
     public EnhancedMushrooms() {
@@ -60,8 +52,6 @@ public class EnhancedMushrooms
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        setup.init();
-        proxy.init();
         EnhancedMushroomsBlockData.registerFlammables();
     }
 
