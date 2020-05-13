@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " x "
+  ],
+  "key": {
+    "#": {
+      "item": "enhanced_mushrooms:brown_mushroom_planks"
+    },
+    "x": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "enhanced_mushrooms:brown_mushroom_sign",
+    "count": 3
+  }
+}
