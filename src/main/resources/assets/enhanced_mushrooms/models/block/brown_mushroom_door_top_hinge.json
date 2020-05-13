@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "enhanced_mushrooms:block/brown_mushroom_door_bottom",
+    "top": "enhanced_mushrooms:block/brown_mushroom_door_top"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "enhanced_mushrooms:item/brown_mushroom_door"
+  }
+}
