@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "enhanced_mushrooms:red_mushroom_planks"
+    }
+  },
+  "result": {
+    "item": "enhanced_mushrooms:red_mushroom_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enhanced_mushrooms:brown_mushroom_hyphae"
+    }
+  ],
+  "result": {
+    "item": "enhanced_mushrooms:brown_mushroom_planks",
+    "count": 4
+  }
+}

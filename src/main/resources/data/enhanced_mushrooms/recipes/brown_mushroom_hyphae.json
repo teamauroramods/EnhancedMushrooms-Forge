@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "enhanced_mushrooms:brown_mushroom_stem"
+    }
+  },
+  "result": {
+    "item": "enhanced_mushrooms:brown_mushroom_hyphae",
+    "count": 3
+  }
+}
