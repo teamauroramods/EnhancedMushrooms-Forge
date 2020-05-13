@@ -1,5 +1,5 @@
 {
-  "_comment": "Red Mushroom Blocks",
+  "_comment": "Red Mushroom Blocks & Items",
   "block.enhanced_mushrooms.red_mushroom_stem": "Red Mushroom Stem",
   "block.enhanced_mushrooms.stripped_red_mushroom_stem": "Stripped Red Mushroom Stem",
   "block.enhanced_mushrooms.red_mushroom_hyphae": "Red Mushroom Hyphae",
@@ -16,7 +16,9 @@
   "block.enhanced_mushrooms.red_mushroom_sign": "Red Mushroom Sign",
   "block.minecraft.red_mushroom_block": "Red Mushroom Cap",
 
-  "_comment2": "Brown Mushroom Blocks",
+  "item.enhanced_mushrooms.red_mushroom_boat": "Red Mushroom Boat",
+
+  "_comment2": "Brown Mushroom Blocks & Items",
   "block.enhanced_mushrooms.brown_mushroom_stem": "Brown Mushroom Stem",
   "block.enhanced_mushrooms.stripped_brown_mushroom_stem": "Stripped Brown Mushroom Stem",
   "block.enhanced_mushrooms.brown_mushroom_hyphae": "Brown Mushroom Hyphae",
@@ -31,5 +33,7 @@
   "block.enhanced_mushrooms.brown_mushroom_trapdoor": "Brown Mushroom Trapdoor",
   "block.enhanced_mushrooms.brown_mushroom_door": "Brown Mushroom Door",
   "block.enhanced_mushrooms.brown_mushroom_sign": "Brown Mushroom Sign",
-  "block.minecraft.brown_mushroom_block": "Brown Mushroom Cap"
+  "block.minecraft.brown_mushroom_block": "Brown Mushroom Cap",
+
+  "item.enhanced_mushrooms.brown_mushroom_boat": "Brown Mushroom Boat"
 }
