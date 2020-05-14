@@ -34,10 +34,6 @@ public class EnMushroomsBiomeFeatures {
 
     // Code originally created by bageldotjpg for Swamp Expansion, repurposed "slightly" for mushroom purposes
     public static void removeVanillaMushrooms(Biome biome) {
-        ConfiguredFeature<BigMushroomFeatureConfig, BigRedMushroomFeature> ConfiguredHugeRedMushroom = new ConfiguredFeature<BigMushroomFeatureConfig, BigRedMushroomFeature>((BigRedMushroomFeature) Feature.HUGE_RED_MUSHROOM, DefaultBiomeFeatures.BIG_RED_MUSHROOM);
-        ConfiguredFeature<BigMushroomFeatureConfig, BigBrownMushroomFeature> ConfiguredHugeBrownMushroom = new ConfiguredFeature<BigMushroomFeatureConfig, BigBrownMushroomFeature>((BigBrownMushroomFeature) Feature.HUGE_BROWN_MUSHROOM, DefaultBiomeFeatures.BIG_BROWN_MUSHROOM);
-       // ConfiguredFeature<TwoFeatureChoiceConfig, TwoFeatureChoiceFeature> ConfiguredMushrooms = new ConfiguredFeature<TwoFeatureChoiceConfig,TwoFeatureChoiceFeature>(Feature.RANDOM_BOOLEAN_SELECTOR.withConfiguration(new TwoFeatureChoiceConfig(Feature.HUGE_RED_MUSHROOM.withConfiguration(DefaultBiomeFeatures.BIG_RED_MUSHROOM), Feature.HUGE_BROWN_MUSHROOM.withConfiguration(DefaultBiomeFeatures.BIG_BROWN_MUSHROOM))).withPlacement(Placement.COUNT_HEIGHTMAP.configure(new FrequencyConfig(1))));)
-        //for (GenerationStage.Decoration stage : GenerationStage.Decoration.values()) {
             List<ConfiguredFeature<?, ?>> list = biome.getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
             for (ConfiguredFeature<?, ?> configuredFeature : list) {
                 if (configuredFeature.config instanceof TwoFeatureChoiceConfig) {
