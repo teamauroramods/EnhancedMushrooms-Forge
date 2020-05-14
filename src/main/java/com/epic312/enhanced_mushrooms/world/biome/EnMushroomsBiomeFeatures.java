@@ -13,7 +13,6 @@ import net.minecraft.world.gen.placement.FrequencyConfig;
 import net.minecraft.world.gen.placement.Placement;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class EnMushroomsBiomeFeatures {
@@ -33,8 +32,6 @@ public class EnMushroomsBiomeFeatures {
                     new SimpleBlockStateProvider(BROWN_MUSHROOM_CAP),
                     new SimpleBlockStateProvider(BROWN_MUSHROOM_STEM),
                     3));
-
-    //public static final Feature DefaultBigMushroomCF = Feature.RANDOM_BOOLEAN_SELECTOR.withConfiguration(new TwoFeatureChoiceConfig(Feature.HUGE_RED_MUSHROOM.withConfiguration(DefaultBiomeFeatures.BIG_RED_MUSHROOM), Feature.HUGE_BROWN_MUSHROOM.withConfiguration(DefaultBiomeFeatures.BIG_BROWN_MUSHROOM))).withPlacement(Placement.COUNT_HEIGHTMAP.configure(new FrequencyConfig(1)));
 
     public static void removeVanillaMushrooms(Biome biome) {
         List<ConfiguredFeature<?, ?>> list = biome.getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
