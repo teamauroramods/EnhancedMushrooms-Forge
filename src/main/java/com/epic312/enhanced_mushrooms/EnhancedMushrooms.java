@@ -2,6 +2,7 @@ package com.epic312.enhanced_mushrooms;
 
 import com.epic312.enhanced_mushrooms.data.EnhancedMushroomsBlockData;
 import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsBlocks;
+import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsFeatures;
 import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsItems;
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 import net.minecraft.block.Block;
@@ -53,6 +54,7 @@ public class EnhancedMushrooms
 
     private void setup(final FMLCommonSetupEvent event) {
         EnhancedMushroomsBlockData.registerFlammables();
+        EnhancedMushroomsFeatures.generateFeatures();
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
