@@ -1,221 +1,214 @@
-[15May2020 15:20:01.844] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200414.225201, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.78, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Kaden\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[15May2020 15:20:01.848] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 14.0.1 by Oracle Corporation
-[15May2020 15:20:02.080] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[15May2020 15:20:03.429] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.516] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.523] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.530] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.534] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.539] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.543] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.548] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.555] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.560] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.564] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.569] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.572] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.575] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.579] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.583] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:03.589] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[15May2020 15:20:04.076] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Kaden\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[15May2020 15:20:05.788] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[15May2020 15:20:14.175] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[15May2020 15:20:14.630] [modloading-worker-9/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.88, for MC 1.15.2 with MCP 20200414.225201
-[15May2020 15:20:14.631] [modloading-worker-9/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.88 Initialized
-[15May2020 15:20:15.045] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity stoneling
-[15May2020 15:20:15.079] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity frog
-[15May2020 15:20:15.117] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity crab
-[15May2020 15:20:15.172] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity glass_frame
-[15May2020 15:20:15.173] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity colored_frame
-[15May2020 15:20:15.196] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity foxhound
-[15May2020 15:20:15.201] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity pickarang
-[15May2020 15:20:15.204] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity gravisand
-[15May2020 15:20:15.206] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity toretoise
-[15May2020 15:20:15.238] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity chest_passenger
-[15May2020 15:20:15.293] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity wrapped
-[15May2020 15:20:15.629] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity abnormals_core:boat
-[15May2020 15:20:17.109] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[15May2020 15:20:17.175] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[15May2020 15:20:17.257] [modloading-worker-2/INFO] [quark/]: Loading Module Chain Linkage
-[15May2020 15:20:17.261] [modloading-worker-2/INFO] [quark/]: Loading Module Chute
-[15May2020 15:20:17.261] [modloading-worker-2/INFO] [quark/]: Loading Module Color Slime
-[15May2020 15:20:17.261] [modloading-worker-2/INFO] [quark/]: Loading Module Dispensers Place Blocks
-[15May2020 15:20:17.261] [modloading-worker-2/INFO] [quark/]: Loading Module Ender Watcher
-[15May2020 15:20:17.261] [modloading-worker-2/INFO] [quark/]: Loading Module Endermites Form Shulkers
-[15May2020 15:20:17.268] [modloading-worker-2/INFO] [quark/]: Loading Module Feeding Trough
-[15May2020 15:20:17.273] [modloading-worker-2/INFO] [quark/]: Loading Module Gravisand
-[15May2020 15:20:17.273] [modloading-worker-2/INFO] [quark/]: Loading Module Iron Rod
-[15May2020 15:20:17.273] [modloading-worker-2/INFO] [quark/]: Loading Module Metal Buttons
-[15May2020 15:20:17.273] [modloading-worker-2/INFO] [quark/]: Loading Module Obsidian Plate
-[15May2020 15:20:17.273] [modloading-worker-2/INFO] [quark/]: Loading Module Pistons Move Tile Entities
-[15May2020 15:20:17.274] [modloading-worker-2/INFO] [quark/]: Loading Module Redstone Circuit
-[15May2020 15:20:17.274] [modloading-worker-2/INFO] [quark/]: Loading Module Weather Sensor
-[15May2020 15:20:17.274] [modloading-worker-2/INFO] [quark/]: Loading Module Cobblestone Bricks
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Compressed Blocks
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Duskbound Blocks
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Framed Glass
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Gold Bars
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Grate
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Iron Plates
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Item Frames
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Leaf Carpet
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Lit Lamp
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Midori
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module More Brick Types
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module More Potted Plants
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module More Stone Variants
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Nether Brick Fence Gate
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Paper Decor
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Quilted Wool
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Rope
-[15May2020 15:20:17.275] [modloading-worker-2/INFO] [quark/]: Loading Module Shingles
-[15May2020 15:20:17.276] [modloading-worker-2/INFO] [quark/]: Loading Module Soul Sandstone
-[15May2020 15:20:17.276] [modloading-worker-2/INFO] [quark/]: Loading Module Stained Planks
-[15May2020 15:20:17.276] [modloading-worker-2/INFO] [quark/]: Loading Module Sturdy Stone
-[15May2020 15:20:17.276] [modloading-worker-2/INFO] [quark/]: Loading Module Tallow And Candles
-[15May2020 15:20:17.301] [modloading-worker-2/INFO] [quark/]: Loading Module Thatch
-[15May2020 15:20:17.301] [modloading-worker-2/INFO] [quark/]: Loading Module Turf
-[15May2020 15:20:17.301] [modloading-worker-2/INFO] [quark/]: Loading Module Variant Bookshelves
-[15May2020 15:20:17.301] [modloading-worker-2/INFO] [quark/]: Loading Module Variant Chests
-[15May2020 15:20:17.308] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[15May2020 15:20:17.311] [modloading-worker-2/INFO] [quark/]: Loading Module Variant Ladders
-[15May2020 15:20:17.311] [modloading-worker-2/INFO] [quark/]: Loading Module Vertical Planks
-[15May2020 15:20:17.311] [modloading-worker-2/INFO] [quark/]: Loading Module Vertical Slabs
-[15May2020 15:20:17.311] [modloading-worker-2/INFO] [quark/]: Loading Module Fairy Rings
-[15May2020 15:20:17.311] [modloading-worker-2/INFO] [quark/]: Loading Module Chests In Boats
-[15May2020 15:20:17.313] [modloading-worker-2/INFO] [quark/]: Loading Module Easy Transfering
-[15May2020 15:20:17.314] [modloading-worker-2/INFO] [quark/]: Loading Module F To Switch
-[15May2020 15:20:17.314] [modloading-worker-2/INFO] [quark/]: Loading Module Hotbar Changer
-[15May2020 15:20:17.320] [modloading-worker-2/INFO] [quark/]: Loading Module Inventory Sorting
-[15May2020 15:20:17.320] [modloading-worker-2/INFO] [quark/]: Loading Module Item Sharing
-[15May2020 15:20:17.324] [modloading-worker-2/INFO] [quark/]: Loading Module Shulker Box Right Click
-[15May2020 15:20:17.326] [modloading-worker-2/INFO] [quark/]: Loading Module Ancient Tomes
-[15May2020 15:20:17.364] [modloading-worker-2/INFO] [quark/]: Loading Module Camera
-[15May2020 15:20:17.366] [modloading-worker-2/INFO] [quark/]: Loading Module Color Runes
-[15May2020 15:20:17.367] [modloading-worker-2/INFO] [quark/]: Loading Module Pathfinder Maps
-[15May2020 15:20:17.368] [modloading-worker-2/INFO] [quark/]: Loading Module Pickarang
-[15May2020 15:20:17.368] [modloading-worker-2/INFO] [quark/]: Loading Module Slime In A Bucket
-[15May2020 15:20:17.369] [modloading-worker-2/INFO] [quark/]: Loading Module Trowel
-[15May2020 15:20:17.369] [modloading-worker-2/INFO] [quark/]: Loading Module Armed Armor Stands
-[15May2020 15:20:17.370] [modloading-worker-2/INFO] [quark/]: Loading Module Automatic Recipe Unlock
-[15May2020 15:20:17.371] [modloading-worker-2/INFO] [quark/]: Loading Module Axe Leaf Harvesting
-[15May2020 15:20:17.373] [modloading-worker-2/INFO] [quark/]: Loading Module Campfires Boost Elytra
-[15May2020 15:20:17.374] [modloading-worker-2/INFO] [quark/]: Loading Module Compasses Work Everywhere
-[15May2020 15:20:17.375] [modloading-worker-2/INFO] [quark/]: Loading Module Dirt To Path
-[15May2020 15:20:17.376] [modloading-worker-2/INFO] [quark/]: Loading Module Double Door Opening
-[15May2020 15:20:17.376] [modloading-worker-2/INFO] [quark/]: Loading Module Dragon Scales
-[15May2020 15:20:17.377] [modloading-worker-2/INFO] [quark/]: Loading Module Emotes
-[15May2020 15:20:17.380] [modloading-worker-2/INFO] [quark/]: Loading Module Enhanced Ladders
-[15May2020 15:20:17.388] [modloading-worker-2/INFO] [quark/]: Loading Module Glass Shard
-[15May2020 15:20:17.389] [modloading-worker-2/INFO] [quark/]: Loading Module Hoe Harvesting
-[15May2020 15:20:17.390] [modloading-worker-2/INFO] [quark/]: Loading Module Improved Sleeping
-[15May2020 15:20:17.392] [modloading-worker-2/INFO] [quark/]: Loading Module Lock Rotation
-[15May2020 15:20:17.394] [modloading-worker-2/INFO] [quark/]: Loading Module Note Block Mob Sounds
-[15May2020 15:20:17.395] [modloading-worker-2/INFO] [quark/]: Loading Module Pat The Dogs
-[15May2020 15:20:17.396] [modloading-worker-2/INFO] [quark/]: Loading Module Poison Potato Usage
-[15May2020 15:20:17.397] [modloading-worker-2/INFO] [quark/]: Loading Module Reacharound Placing
-[15May2020 15:20:17.398] [modloading-worker-2/INFO] [quark/]: Loading Module Sign Editing
-[15May2020 15:20:17.398] [modloading-worker-2/INFO] [quark/]: Loading Module Simple Harvest
-[15May2020 15:20:17.399] [modloading-worker-2/INFO] [quark/]: Loading Module Snow Golem Player Heads
-[15May2020 15:20:17.399] [modloading-worker-2/INFO] [quark/]: Loading Module Springy Slime
-[15May2020 15:20:17.399] [modloading-worker-2/INFO] [quark/]: Loading Module Utility Recipes
-[15May2020 15:20:17.399] [modloading-worker-2/INFO] [quark/]: Loading Module Villagers Follow Emeralds
-[15May2020 15:20:17.400] [modloading-worker-2/INFO] [quark/]: Loading Module Big Dungeon
-[15May2020 15:20:17.400] [modloading-worker-2/INFO] [quark/]: Loading Module Big Stone Clusters
-[15May2020 15:20:17.400] [modloading-worker-2/INFO] [quark/]: Loading Module Biotite
-[15May2020 15:20:17.401] [modloading-worker-2/INFO] [quark/]: Loading Module Blossom Trees
-[15May2020 15:20:17.401] [modloading-worker-2/INFO] [quark/]: Loading Module Cave Roots
-[15May2020 15:20:17.402] [modloading-worker-2/INFO] [quark/]: Loading Module Crevices
-[15May2020 15:20:17.402] [modloading-worker-2/INFO] [quark/]: Loading Module Mega Caves
-[15May2020 15:20:17.402] [modloading-worker-2/INFO] [quark/]: Loading Module Monster Box
-[15May2020 15:20:17.402] [modloading-worker-2/INFO] [quark/]: Loading Module Nether Obsidian Spikes
-[15May2020 15:20:17.402] [modloading-worker-2/INFO] [quark/]: Loading Module New Stone Types
-[15May2020 15:20:17.403] [modloading-worker-2/INFO] [quark/]: Loading Module Speleothems
-[15May2020 15:20:17.403] [modloading-worker-2/INFO] [quark/]: Loading Module Underground Clay
-[15May2020 15:20:17.403] [modloading-worker-2/INFO] [quark/]: Loading Module Brimstone Underground Biome
-[15May2020 15:20:17.403] [modloading-worker-2/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
-[15May2020 15:20:17.403] [modloading-worker-2/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
-[15May2020 15:20:17.403] [modloading-worker-2/INFO] [quark/]: Loading Module Glowshroom Underground Biome
-[15May2020 15:20:17.405] [modloading-worker-2/INFO] [quark/]: Loading Module Lush Underground Biome
-[15May2020 15:20:17.405] [modloading-worker-2/INFO] [quark/]: Loading Module Overgrown Underground Biome
-[15May2020 15:20:17.405] [modloading-worker-2/INFO] [quark/]: Loading Module Permafrost Underground Biome
-[15May2020 15:20:17.405] [modloading-worker-2/INFO] [quark/]: Loading Module Sandstone Underground Biome
-[15May2020 15:20:17.405] [modloading-worker-2/INFO] [quark/]: Loading Module Slime Underground Biome
-[15May2020 15:20:17.405] [modloading-worker-2/INFO] [quark/]: Loading Module Spider Nest Underground Biome
-[15May2020 15:20:17.406] [modloading-worker-2/INFO] [quark/]: Loading Module Crabs
-[15May2020 15:20:17.407] [modloading-worker-2/INFO] [quark/]: Loading Module Foxhound
-[15May2020 15:20:17.407] [modloading-worker-2/INFO] [quark/]: Loading Module Frogs
-[15May2020 15:20:17.408] [modloading-worker-2/INFO] [quark/]: Loading Module Stonelings
-[15May2020 15:20:17.408] [modloading-worker-2/INFO] [quark/]: Loading Module Toretoise
-[15May2020 15:20:17.409] [modloading-worker-2/INFO] [quark/]: Loading Module Back Button Keybind
-[15May2020 15:20:17.410] [modloading-worker-2/INFO] [quark/]: Loading Module Chest Searching
-[15May2020 15:20:17.417] [modloading-worker-2/INFO] [quark/]: Loading Module Greener Grass
-[15May2020 15:20:17.417] [modloading-worker-2/INFO] [quark/]: Loading Module Improved Mount Hud
-[15May2020 15:20:17.418] [modloading-worker-2/INFO] [quark/]: Loading Module Improved Tooltips
-[15May2020 15:20:17.427] [modloading-worker-2/INFO] [quark/]: Loading Module Usage Ticker
-[15May2020 15:20:17.429] [modloading-worker-2/INFO] [quark/]: Loading Module Variant Animal Textures
-[15May2020 15:20:17.431] [modloading-worker-2/INFO] [quark/]: Loading Module Adjustable Chat
-[15May2020 15:20:17.431] [modloading-worker-2/INFO] [quark/]: Loading Module Custom Underground Biome
-[15May2020 15:20:17.461] [modloading-worker-2/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle, types have been assigned on a best-effort guess: [WET, JUNGLE, HOT]
-[15May2020 15:20:17.461] [modloading-worker-2/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle_hills, types have been assigned on a best-effort guess: [WET, JUNGLE, HOT]
-[15May2020 15:20:17.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.78 Target: 31.2.0
-[15May2020 15:20:24.029] [Render thread/INFO] [com.teamabnormals.abnormals_core.core.AbnormalsCore/]: Endimation Data Manager has Loaded 1 Endimations
-[15May2020 15:20:24.667] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[15May2020 15:20:24.668] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[15May2020 15:20:24.776] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[15May2020 15:20:24.804] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
-[15May2020 15:20:24.804] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15May2020 15:20:24.805] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15May2020 15:20:24.806] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
-[15May2020 15:20:24.808] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15May2020 15:20:24.809] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15May2020 15:20:25.338] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[15May2020 15:20:25.339] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15May2020 15:20:25.340] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[15May2020 15:20:25.761] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[15May2020 15:20:34.304] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[15May2020 15:20:34.304] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15May2020 15:20:34.305] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15May2020 15:20:34.305] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[15May2020 15:20:34.306] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15May2020 15:20:34.460] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
-[15May2020 15:20:34.460] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[15May2020 15:20:34.565] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[15May2020 15:20:34.769] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, abnormals-core-2956344_mapped_snapshot_20200225-1.15.1.jar, main, forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar, autoreglib-2911830_mapped_snapshot_20200225-1.15.1.jar, quark-2956472_mapped_snapshot_20200225-1.15.1.jar
-[15May2020 15:20:35.805] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:glowshroom_stem_from_quark
-com.google.gson.JsonSyntaxException: Unknown item tag 'quark:glowshroom_stem'
-	at net.minecraft.item.crafting.Ingredient.deserializeItemList(Ingredient.java:221) ~[?:?]
-	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
-	at net.minecraft.item.crafting.Ingredient.deserialize(Ingredient.java:187) ~[?:?]
-	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.readIngredients(ShapelessRecipe.java:111) ~[?:?]
-	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:96) ~[?:?]
-	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:92) ~[?:?]
-	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:137) ~[?:?]
-	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[?:?]
-	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
-	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
-	at net.minecraft.resources.AsyncReloader.lambda$new$3(AsyncReloader.java:66) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:759) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:141) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOneInternal(MinecraftServer.java:742) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:736) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:123) [?:?]
-	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1583) [?:?]
-	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:457) [?:?]
-	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:77) [?:?]
-	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:99) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:638) [?:?]
-	at java.lang.Thread.run(Thread.java:832) [?:?]
-[15May2020 15:20:35.811] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[15May2020 15:20:36.240] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table quark:blocks/magnet
+[15May2020 17:00:50.919] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200414.225201, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.78, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Kaden\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[15May2020 17:00:50.923] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 14.0.1 by Oracle Corporation
+[15May2020 17:00:51.193] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[15May2020 17:00:52.572] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.668] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.674] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.678] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.683] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.687] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.691] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.695] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.698] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.701] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.704] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.708] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.711] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.714] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.717] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.722] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:52.727] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[15May2020 17:00:53.185] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Kaden\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[15May2020 17:00:54.928] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[15May2020 17:01:03.465] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[15May2020 17:01:04.075] [modloading-worker-9/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.88, for MC 1.15.2 with MCP 20200414.225201
+[15May2020 17:01:04.076] [modloading-worker-9/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.88 Initialized
+[15May2020 17:01:04.475] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity frog
+[15May2020 17:01:04.512] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity crab
+[15May2020 17:01:04.533] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity pickarang
+[15May2020 17:01:04.562] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity toretoise
+[15May2020 17:01:04.581] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity foxhound
+[15May2020 17:01:04.610] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity wrapped
+[15May2020 17:01:04.616] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity chest_passenger
+[15May2020 17:01:04.657] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity stoneling
+[15May2020 17:01:04.711] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity glass_frame
+[15May2020 17:01:04.711] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity colored_frame
+[15May2020 17:01:04.718] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity gravisand
+[15May2020 17:01:05.026] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity abnormals_core:boat
+[15May2020 17:01:06.399] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[15May2020 17:01:06.473] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[15May2020 17:01:06.561] [modloading-worker-2/INFO] [quark/]: Loading Module Chain Linkage
+[15May2020 17:01:06.569] [modloading-worker-2/INFO] [quark/]: Loading Module Chute
+[15May2020 17:01:06.569] [modloading-worker-2/INFO] [quark/]: Loading Module Color Slime
+[15May2020 17:01:06.569] [modloading-worker-2/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[15May2020 17:01:06.569] [modloading-worker-2/INFO] [quark/]: Loading Module Ender Watcher
+[15May2020 17:01:06.569] [modloading-worker-2/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[15May2020 17:01:06.579] [modloading-worker-2/INFO] [quark/]: Loading Module Feeding Trough
+[15May2020 17:01:06.585] [modloading-worker-2/INFO] [quark/]: Loading Module Gravisand
+[15May2020 17:01:06.585] [modloading-worker-2/INFO] [quark/]: Loading Module Iron Rod
+[15May2020 17:01:06.585] [modloading-worker-2/INFO] [quark/]: Loading Module Metal Buttons
+[15May2020 17:01:06.585] [modloading-worker-2/INFO] [quark/]: Loading Module Obsidian Plate
+[15May2020 17:01:06.585] [modloading-worker-2/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[15May2020 17:01:06.586] [modloading-worker-2/INFO] [quark/]: Loading Module Redstone Circuit
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Weather Sensor
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Cobblestone Bricks
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Compressed Blocks
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Duskbound Blocks
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Framed Glass
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Gold Bars
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Grate
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Iron Plates
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Item Frames
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Leaf Carpet
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Lit Lamp
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Midori
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module More Brick Types
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module More Potted Plants
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module More Stone Variants
+[15May2020 17:01:06.587] [modloading-worker-2/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[15May2020 17:01:06.588] [modloading-worker-2/INFO] [quark/]: Loading Module Paper Decor
+[15May2020 17:01:06.588] [modloading-worker-2/INFO] [quark/]: Loading Module Quilted Wool
+[15May2020 17:01:06.588] [modloading-worker-2/INFO] [quark/]: Loading Module Rope
+[15May2020 17:01:06.588] [modloading-worker-2/INFO] [quark/]: Loading Module Shingles
+[15May2020 17:01:06.588] [modloading-worker-2/INFO] [quark/]: Loading Module Soul Sandstone
+[15May2020 17:01:06.588] [modloading-worker-2/INFO] [quark/]: Loading Module Stained Planks
+[15May2020 17:01:06.588] [modloading-worker-2/INFO] [quark/]: Loading Module Sturdy Stone
+[15May2020 17:01:06.588] [modloading-worker-2/INFO] [quark/]: Loading Module Tallow And Candles
+[15May2020 17:01:06.608] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15May2020 17:01:06.617] [modloading-worker-2/INFO] [quark/]: Loading Module Thatch
+[15May2020 17:01:06.617] [modloading-worker-2/INFO] [quark/]: Loading Module Turf
+[15May2020 17:01:06.617] [modloading-worker-2/INFO] [quark/]: Loading Module Variant Bookshelves
+[15May2020 17:01:06.617] [modloading-worker-2/INFO] [quark/]: Loading Module Variant Chests
+[15May2020 17:01:06.623] [modloading-worker-2/INFO] [quark/]: Loading Module Variant Ladders
+[15May2020 17:01:06.623] [modloading-worker-2/INFO] [quark/]: Loading Module Vertical Planks
+[15May2020 17:01:06.623] [modloading-worker-2/INFO] [quark/]: Loading Module Vertical Slabs
+[15May2020 17:01:06.623] [modloading-worker-2/INFO] [quark/]: Loading Module Fairy Rings
+[15May2020 17:01:06.623] [modloading-worker-2/INFO] [quark/]: Loading Module Chests In Boats
+[15May2020 17:01:06.624] [modloading-worker-2/INFO] [quark/]: Loading Module Easy Transfering
+[15May2020 17:01:06.625] [modloading-worker-2/INFO] [quark/]: Loading Module F To Switch
+[15May2020 17:01:06.625] [modloading-worker-2/INFO] [quark/]: Loading Module Hotbar Changer
+[15May2020 17:01:06.631] [modloading-worker-2/INFO] [quark/]: Loading Module Inventory Sorting
+[15May2020 17:01:06.631] [modloading-worker-2/INFO] [quark/]: Loading Module Item Sharing
+[15May2020 17:01:06.638] [modloading-worker-2/INFO] [quark/]: Loading Module Shulker Box Right Click
+[15May2020 17:01:06.639] [modloading-worker-2/INFO] [quark/]: Loading Module Ancient Tomes
+[15May2020 17:01:06.649] [modloading-worker-2/INFO] [quark/]: Loading Module Camera
+[15May2020 17:01:06.651] [modloading-worker-2/INFO] [quark/]: Loading Module Color Runes
+[15May2020 17:01:06.653] [modloading-worker-2/INFO] [quark/]: Loading Module Pathfinder Maps
+[15May2020 17:01:06.654] [modloading-worker-2/INFO] [quark/]: Loading Module Pickarang
+[15May2020 17:01:06.655] [modloading-worker-2/INFO] [quark/]: Loading Module Slime In A Bucket
+[15May2020 17:01:06.656] [modloading-worker-2/INFO] [quark/]: Loading Module Trowel
+[15May2020 17:01:06.656] [modloading-worker-2/INFO] [quark/]: Loading Module Armed Armor Stands
+[15May2020 17:01:06.658] [modloading-worker-2/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[15May2020 17:01:06.659] [modloading-worker-2/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[15May2020 17:01:06.660] [modloading-worker-2/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[15May2020 17:01:06.662] [modloading-worker-2/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[15May2020 17:01:06.663] [modloading-worker-2/INFO] [quark/]: Loading Module Dirt To Path
+[15May2020 17:01:06.664] [modloading-worker-2/INFO] [quark/]: Loading Module Double Door Opening
+[15May2020 17:01:06.665] [modloading-worker-2/INFO] [quark/]: Loading Module Dragon Scales
+[15May2020 17:01:06.666] [modloading-worker-2/INFO] [quark/]: Loading Module Emotes
+[15May2020 17:01:06.672] [modloading-worker-2/INFO] [quark/]: Loading Module Enhanced Ladders
+[15May2020 17:01:06.676] [modloading-worker-2/INFO] [quark/]: Loading Module Glass Shard
+[15May2020 17:01:06.677] [modloading-worker-2/INFO] [quark/]: Loading Module Hoe Harvesting
+[15May2020 17:01:06.678] [modloading-worker-2/INFO] [quark/]: Loading Module Improved Sleeping
+[15May2020 17:01:06.679] [modloading-worker-2/INFO] [quark/]: Loading Module Lock Rotation
+[15May2020 17:01:06.681] [modloading-worker-2/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[15May2020 17:01:06.682] [modloading-worker-2/INFO] [quark/]: Loading Module Pat The Dogs
+[15May2020 17:01:06.683] [modloading-worker-2/INFO] [quark/]: Loading Module Poison Potato Usage
+[15May2020 17:01:06.685] [modloading-worker-2/INFO] [quark/]: Loading Module Reacharound Placing
+[15May2020 17:01:06.686] [modloading-worker-2/INFO] [quark/]: Loading Module Sign Editing
+[15May2020 17:01:06.688] [modloading-worker-2/INFO] [quark/]: Loading Module Simple Harvest
+[15May2020 17:01:06.688] [modloading-worker-2/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[15May2020 17:01:06.689] [modloading-worker-2/INFO] [quark/]: Loading Module Springy Slime
+[15May2020 17:01:06.689] [modloading-worker-2/INFO] [quark/]: Loading Module Utility Recipes
+[15May2020 17:01:06.690] [modloading-worker-2/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[15May2020 17:01:06.690] [modloading-worker-2/INFO] [quark/]: Loading Module Big Dungeon
+[15May2020 17:01:06.690] [modloading-worker-2/INFO] [quark/]: Loading Module Big Stone Clusters
+[15May2020 17:01:06.690] [modloading-worker-2/INFO] [quark/]: Loading Module Biotite
+[15May2020 17:01:06.691] [modloading-worker-2/INFO] [quark/]: Loading Module Blossom Trees
+[15May2020 17:01:06.691] [modloading-worker-2/INFO] [quark/]: Loading Module Cave Roots
+[15May2020 17:01:06.692] [modloading-worker-2/INFO] [quark/]: Loading Module Crevices
+[15May2020 17:01:06.692] [modloading-worker-2/INFO] [quark/]: Loading Module Mega Caves
+[15May2020 17:01:06.692] [modloading-worker-2/INFO] [quark/]: Loading Module Monster Box
+[15May2020 17:01:06.692] [modloading-worker-2/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[15May2020 17:01:06.693] [modloading-worker-2/INFO] [quark/]: Loading Module New Stone Types
+[15May2020 17:01:06.693] [modloading-worker-2/INFO] [quark/]: Loading Module Speleothems
+[15May2020 17:01:06.693] [modloading-worker-2/INFO] [quark/]: Loading Module Underground Clay
+[15May2020 17:01:06.694] [modloading-worker-2/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[15May2020 17:01:06.694] [modloading-worker-2/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[15May2020 17:01:06.694] [modloading-worker-2/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[15May2020 17:01:06.694] [modloading-worker-2/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[15May2020 17:01:06.695] [modloading-worker-2/INFO] [quark/]: Loading Module Lush Underground Biome
+[15May2020 17:01:06.695] [modloading-worker-2/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[15May2020 17:01:06.695] [modloading-worker-2/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[15May2020 17:01:06.695] [modloading-worker-2/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[15May2020 17:01:06.695] [modloading-worker-2/INFO] [quark/]: Loading Module Slime Underground Biome
+[15May2020 17:01:06.695] [modloading-worker-2/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[15May2020 17:01:06.697] [modloading-worker-2/INFO] [quark/]: Loading Module Crabs
+[15May2020 17:01:06.697] [modloading-worker-2/INFO] [quark/]: Loading Module Foxhound
+[15May2020 17:01:06.698] [modloading-worker-2/INFO] [quark/]: Loading Module Frogs
+[15May2020 17:01:06.698] [modloading-worker-2/INFO] [quark/]: Loading Module Stonelings
+[15May2020 17:01:06.698] [modloading-worker-2/INFO] [quark/]: Loading Module Toretoise
+[15May2020 17:01:06.699] [modloading-worker-2/INFO] [quark/]: Loading Module Back Button Keybind
+[15May2020 17:01:06.700] [modloading-worker-2/INFO] [quark/]: Loading Module Chest Searching
+[15May2020 17:01:06.709] [modloading-worker-2/INFO] [quark/]: Loading Module Greener Grass
+[15May2020 17:01:06.710] [modloading-worker-2/INFO] [quark/]: Loading Module Improved Mount Hud
+[15May2020 17:01:06.711] [modloading-worker-2/INFO] [quark/]: Loading Module Improved Tooltips
+[15May2020 17:01:06.721] [modloading-worker-2/INFO] [quark/]: Loading Module Usage Ticker
+[15May2020 17:01:06.724] [modloading-worker-2/INFO] [quark/]: Loading Module Variant Animal Textures
+[15May2020 17:01:06.726] [modloading-worker-2/INFO] [quark/]: Loading Module Adjustable Chat
+[15May2020 17:01:06.726] [modloading-worker-2/INFO] [quark/]: Loading Module Custom Underground Biome
+[15May2020 17:01:06.762] [modloading-worker-2/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle, types have been assigned on a best-effort guess: [HOT, JUNGLE, WET]
+[15May2020 17:01:06.763] [modloading-worker-2/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle_hills, types have been assigned on a best-effort guess: [HOT, JUNGLE, WET]
+[15May2020 17:01:07.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.78 Target: 31.2.0
+[15May2020 17:01:13.626] [Render thread/INFO] [com.teamabnormals.abnormals_core.core.AbnormalsCore/]: Endimation Data Manager has Loaded 1 Endimations
+[15May2020 17:01:14.195] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[15May2020 17:01:14.196] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[15May2020 17:01:14.322] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[15May2020 17:01:14.347] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[15May2020 17:01:14.348] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15May2020 17:01:14.348] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15May2020 17:01:14.349] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[15May2020 17:01:14.350] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15May2020 17:01:14.351] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15May2020 17:01:14.893] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[15May2020 17:01:14.894] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15May2020 17:01:14.894] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15May2020 17:01:15.291] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[15May2020 17:01:21.854] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15May2020 17:01:21.854] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15May2020 17:01:21.855] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15May2020 17:01:21.855] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15May2020 17:01:21.856] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15May2020 17:01:21.953] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[15May2020 17:01:21.953] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[15May2020 17:01:22.043] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:red_mushroom_ladder Expected: 698 Got: 1360
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:red_mushroom_bookshelf Expected: 697 Got: 1361
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:vertical_red_mushroom_planks Expected: 695 Got: 1362
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:brown_mushroom_vertical_slab Expected: 715 Got: 1363
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:brown_mushroom_bookshelf Expected: 716 Got: 1364
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:vertical_glowshroom_planks Expected: 733 Got: 1365
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:glowshroom_ladder Expected: 736 Got: 1366
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:red_mushroom_vertical_slab Expected: 696 Got: 1367
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:vertical_brown_mushroom_planks Expected: 714 Got: 1368
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:brown_mushroom_ladder Expected: 717 Got: 1369
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:glowshroom_vertical_slab Expected: 734 Got: 1370
+[15May2020 17:01:22.112] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: enhanced_mushrooms:glowshroom_bookshelf Expected: 735 Got: 1371
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:red_mushroom_ladder Expected: 901 Got: 1616
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:red_mushroom_bookshelf Expected: 900 Got: 1617
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:vertical_red_mushroom_planks Expected: 898 Got: 1618
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:brown_mushroom_vertical_slab Expected: 917 Got: 1619
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:brown_mushroom_bookshelf Expected: 918 Got: 1620
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:vertical_glowshroom_planks Expected: 934 Got: 1621
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:glowshroom_ladder Expected: 937 Got: 1622
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:red_mushroom_vertical_slab Expected: 899 Got: 1623
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:vertical_brown_mushroom_planks Expected: 916 Got: 1624
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:brown_mushroom_ladder Expected: 919 Got: 1625
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:glowshroom_vertical_slab Expected: 935 Got: 1626
+[15May2020 17:01:22.113] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: enhanced_mushrooms:glowshroom_bookshelf Expected: 936 Got: 1627
+[15May2020 17:01:22.255] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, abnormals-core-2956344_mapped_snapshot_20200225-1.15.1.jar, main, forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar, autoreglib-2911830_mapped_snapshot_20200225-1.15.1.jar, quark-2956472_mapped_snapshot_20200225-1.15.1.jar
+[15May2020 17:01:23.352] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[15May2020 17:01:23.750] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table quark:blocks/magnet
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'quark:magnet'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:112) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:401) ~[?:?]
@@ -275,7 +268,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:99) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:638) [?:?]
 	at java.lang.Thread.run(Thread.java:832) [?:?]
-[15May2020 15:20:36.384] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table quark:blocks/pipe
+[15May2020 17:01:23.890] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table quark:blocks/pipe
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'quark:pipe'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:112) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:401) ~[?:?]
@@ -335,7 +328,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:99) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:638) [?:?]
 	at java.lang.Thread.run(Thread.java:832) [?:?]
-[15May2020 15:20:36.482] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table quark:blocks/bonded_ravager_hide
+[15May2020 17:01:23.990] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table quark:blocks/bonded_ravager_hide
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'quark:bonded_ravager_hide'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:112) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:401) ~[?:?]
@@ -395,41 +388,86 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:99) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:638) [?:?]
 	at java.lang.Thread.run(Thread.java:832) [?:?]
-[15May2020 15:20:36.961] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[15May2020 15:20:37.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[15May2020 15:20:38.069] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[15May2020 15:20:38.069] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[15May2020 15:20:39.502] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[15May2020 15:20:39.502] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[15May2020 15:20:39.502] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[15May2020 15:20:39.869] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
-[15May2020 15:20:40.337] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
-[15May2020 15:20:40.402] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3066 ms
-[15May2020 15:20:40.647] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15May2020 15:20:40.648] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15May2020 15:20:40.650] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[15May2020 15:20:41.832] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[15May2020 15:20:41.924] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@636ec987
-[15May2020 15:20:41.948] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:f768ec91] logged in with entity id 368 at (27.44967597649448, 64.0, 65.4202070037535)
-[15May2020 15:20:41.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[15May2020 15:20:42.158] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[15May2020 15:20:42.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Quark Test 2'/minecraft:overworld
-[15May2020 15:20:42.390] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 730 advancements
-[15May2020 15:20:47.456] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Incorrect argument for command
-[15May2020 15:20:47.456] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] /gamemode c<--[HERE]
-[15May2020 15:20:49.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[15May2020 15:20:49.304] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
-[15May2020 15:20:52.587] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 733 advancements
-[15May2020 15:21:38.752] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] [Debug]: Advanced tooltips: shown
-[15May2020 15:21:41.920] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[15May2020 15:21:41.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Quark Test 2'/minecraft:overworld
-[15May2020 15:21:42.427] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[15May2020 15:21:42.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[15May2020 15:21:42.440] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[15May2020 15:21:42.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[15May2020 15:21:42.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[15May2020 15:21:42.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[15May2020 15:21:42.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Quark Test 2'/minecraft:overworld
-[15May2020 15:21:42.562] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Quark Test 2 (1)): All chunks are saved
-[15May2020 15:21:42.579] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Quark Test 2 (1)): All chunks are saved
-[15May2020 15:21:43.488] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[15May2020 17:01:24.505] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[15May2020 17:01:24.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15May2020 17:01:25.403] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[15May2020 17:01:25.403] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[15May2020 17:01:27.036] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[15May2020 17:01:27.036] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[15May2020 17:01:27.036] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[15May2020 17:01:27.270] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2367 ms
+[15May2020 17:01:27.583] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15May2020 17:01:27.584] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15May2020 17:01:27.586] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[15May2020 17:01:28.699] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[15May2020 17:01:28.780] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@12d26a4b
+[15May2020 17:01:28.810] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:b2510ccf] logged in with entity id 294 at (19.33062616595555, 64.0, 61.325158827694)
+[15May2020 17:01:28.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[15May2020 17:01:28.834] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
+java.lang.ArrayIndexOutOfBoundsException: Index 13 out of bounds for length 13
+	at net.minecraftforge.eventbus.ListenerList.getListeners(ListenerList.java:120) ~[eventbus-2.2.0-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:251) ~[eventbus-2.2.0-service.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatchEvent(NetworkInstance.java:109) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraftforge.fml.network.FMLMCRegisterPacketHandler$ChannelList.lambda$updateFrom$0(FMLMCRegisterPacketHandler.java:56) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1694) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497) ~[?:?]
+	at net.minecraftforge.fml.network.FMLMCRegisterPacketHandler$ChannelList.updateFrom(FMLMCRegisterPacketHandler.java:56) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraftforge.fml.network.FMLMCRegisterPacketHandler.registerListener(FMLMCRegisterPacketHandler.java:92) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212) ~[eventbus-2.2.0-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204) ~[eventbus-2.2.0-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:258) ~[eventbus-2.2.0-service.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:84) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:78) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at java.util.Optional.map(Optional.java:258) ~[?:?]
+	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:78) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.handleCustomPayload(ClientPlayNetHandler.java:2021) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.network.play.server.SCustomPayloadPlayPacket.processPacket(SCustomPayloadPlayPacket.java:68) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.network.play.server.SCustomPayloadPlayPacket.processPacket(SCustomPayloadPlayPacket.java:11) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:934) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:558) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.88_mapped_snapshot_20200225-1.15.1-recomp.jar:?]
+[15May2020 17:01:29.081] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+java.lang.ArrayIndexOutOfBoundsException: null
+[15May2020 17:01:29.086] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[15May2020 17:01:29.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Quark Test 2'/minecraft:overworld
+[15May2020 17:01:29.295] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
+java.lang.ArrayIndexOutOfBoundsException: null
+[15May2020 17:01:29.349] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 733 advancements
+[15May2020 17:02:43.439] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2020-05-15_17.02.43.png
+[15May2020 17:02:44.237] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[15May2020 17:02:44.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Quark Test 2'/minecraft:overworld
+[15May2020 17:02:53.848] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[15May2020 17:02:53.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[15May2020 17:02:53.859] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[15May2020 17:02:53.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[15May2020 17:02:53.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[15May2020 17:02:53.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[15May2020 17:02:53.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Quark Test 2'/minecraft:overworld
+[15May2020 17:02:54.086] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Quark Test 2 (1)): All chunks are saved
+[15May2020 17:02:54.101] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Quark Test 2 (1)): All chunks are saved
+[15May2020 17:02:55.207] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

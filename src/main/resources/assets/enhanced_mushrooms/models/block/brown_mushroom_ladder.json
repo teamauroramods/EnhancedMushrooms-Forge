@@ -1,0 +1,8 @@
+{
+  "parent": "block/ladder",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "enhanced_mushrooms:block/brown_mushroom_ladder",
+    "texture": "enhanced_mushrooms:block/brown_mushroom_ladder"
+  }
+}

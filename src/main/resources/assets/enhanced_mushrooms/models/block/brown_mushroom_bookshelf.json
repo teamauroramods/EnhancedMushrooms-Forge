@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "enhanced_mushrooms:block/brown_mushroom_planks",
+    "side": "enhanced_mushrooms:block/brown_mushroom_bookshelf"
+  }
+}

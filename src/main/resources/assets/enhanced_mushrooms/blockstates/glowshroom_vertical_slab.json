@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "type=north": { "model": "enhanced_mushrooms:block/glowshroom_vertical_slab", "y": 0, "uvlock": true },
+    "type=south": { "model": "enhanced_mushrooms:block/glowshroom_vertical_slab", "y": 180, "uvlock": true },
+    "type=east": { "model": "enhanced_mushrooms:block/glowshroom_vertical_slab", "y": 90, "uvlock": true },
+    "type=west": { "model": "enhanced_mushrooms:block/glowshroom_vertical_slab", "y": 270, "uvlock": true },
+    "type=double": { "model": "enhanced_mushrooms:block/glowshroom_planks" }
+  }
+}
