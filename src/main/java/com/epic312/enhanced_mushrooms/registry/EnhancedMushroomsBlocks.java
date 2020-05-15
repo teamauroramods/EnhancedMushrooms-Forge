@@ -2,6 +2,7 @@ package com.epic312.enhanced_mushrooms.registry;
 
 import com.epic312.enhanced_mushrooms.EnhancedMushrooms;
 import com.epic312.enhanced_mushrooms.block.AbnormalsStemBlock;
+import com.epic312.enhanced_mushrooms.util.EMRegistryHelper;
 import com.mojang.datafixers.util.Pair;
 import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsStandingSignBlock;
 import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsWallSignBlock;
@@ -24,7 +25,7 @@ import net.minecraftforge.fml.common.Mod;
 // Registry code originally written by bageldotjpg for the Atmospheric mod
 @Mod.EventBusSubscriber(modid = EnhancedMushrooms.MODID, bus=Mod.EventBusSubscriber.Bus.MOD)
 public class EnhancedMushroomsBlocks {
-    public static final RegistryHelper HELPER = EnhancedMushrooms.REGISTRY_HELPER;
+    public static final EMRegistryHelper HELPER = EnhancedMushrooms.REGISTRY_HELPER;
 
     // red mushroom blocks
     public static final RegistryObject<Block> STRIPPED_RED_MUSHROOM_STEM = HELPER.createBlock("stripped_red_mushroom_stem", ()->new StrippedLogBlock(Block.Properties.from(Blocks.STRIPPED_OAK_LOG)), ItemGroup.BUILDING_BLOCKS);
@@ -72,7 +73,5 @@ public class EnhancedMushroomsBlocks {
     public static final RegistryObject<Block> GLOWSHROOM_BUTTON = HELPER.createCompatBlock("quark","glowshroom_button", ()->new AbnormalsWoodButtonBlock(Block.Properties.from(Blocks.OAK_BUTTON)), ItemGroup.REDSTONE);
     public static final RegistryObject<Block> GLOWSHROOM_TRAPDOOR = HELPER.createCompatBlock("quark","glowshroom_trapdoor", ()->new WoodTrapDoorBlock(Block.Properties.from(Blocks.OAK_TRAPDOOR)), ItemGroup.REDSTONE);
     public static final RegistryObject<Block> GLOWSHROOM_DOOR = HELPER.createCompatBlock("quark","glowshroom_door", ()->new WoodDoorBlock(Block.Properties.from(Blocks.OAK_DOOR)), ItemGroup.REDSTONE);
-    /*ItemGroup determinedGroup = !ModList.get().isLoaded("quark") ? null : ItemGroup.DECORATIONS;
-    public static final Pair<RegistryObject<AbnormalsStandingSignBlock>, RegistryObject<AbnormalsWallSignBlock>> GLOWSHROOM_SIGNS = HELPER.createSignBlock("glowshroom", MaterialColor.BLUE);*/
-    //TODO: Abnormals Core PR to add createCompatSignBlock() method
+    public static final Pair<RegistryObject<AbnormalsStandingSignBlock>, RegistryObject<AbnormalsWallSignBlock>> GLOWSHROOM_SIGNS = HELPER.createCompatSignBlock("quark","glowshroom", MaterialColor.BLUE);
 }

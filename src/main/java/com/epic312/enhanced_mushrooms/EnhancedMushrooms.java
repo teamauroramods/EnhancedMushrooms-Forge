@@ -5,6 +5,7 @@ import com.epic312.enhanced_mushrooms.event.BonemealEventHandler;
 import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsBlocks;
 import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsFeatures;
 import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsItems;
+import com.epic312.enhanced_mushrooms.util.EMRegistryHelper;
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -32,7 +33,7 @@ import java.util.stream.Collectors;
 public class EnhancedMushrooms
 {
     public static final String MODID = "enhanced_mushrooms";
-    public static final RegistryHelper REGISTRY_HELPER = new RegistryHelper(MODID);
+    public static final EMRegistryHelper REGISTRY_HELPER = new EMRegistryHelper(MODID);
 
     private static final Logger LOGGER = LogManager.getLogger();
 
