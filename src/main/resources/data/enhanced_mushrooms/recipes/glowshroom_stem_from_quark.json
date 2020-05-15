@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quark:glowshroom_stem"
+    }
+  ],
+  "result": {
+    "item": "enhanced_mushrooms:glowshroom_stem"
+  }
+}
