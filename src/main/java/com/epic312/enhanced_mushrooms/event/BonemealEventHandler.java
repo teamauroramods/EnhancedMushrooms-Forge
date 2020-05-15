@@ -30,7 +30,6 @@ public class BonemealEventHandler {
             BlockPos pos = event.getPos();
             BlockState block = event.getBlock();
             Random rand = new Random();
-            System.out.print("gamer: " + block.getBlock().getRegistryName() + "\n");
             if (block.getBlock() == Blocks.RED_MUSHROOM || block.getBlock() == Blocks.BROWN_MUSHROOM) {
                 event.setResult(Event.Result.ALLOW);
                 if (canUseBonemeal(world, rand, pos, block)) {
