@@ -35,5 +35,12 @@
   "block.enhanced_mushrooms.brown_mushroom_sign": "Brown Mushroom Sign",
   "block.minecraft.brown_mushroom_block": "Brown Mushroom Cap",
 
-  "item.enhanced_mushrooms.brown_mushroom_boat": "Brown Mushroom Boat"
+  "item.enhanced_mushrooms.brown_mushroom_boat": "Brown Mushroom Boat",
+
+  "_comment3": "Glowshroom Blocks & Items",
+
+  "_comment4": "Quark Compat",
+
+  "_comment5": "Misc",
+  "item.enhanced_mushrooms.roasted_mushrooms": "Roasted Mushrooms"
 }
