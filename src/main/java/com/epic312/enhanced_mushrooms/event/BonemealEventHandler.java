@@ -4,6 +4,7 @@ import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsBlocks;
 import com.epic312.enhanced_mushrooms.world.biome.EnMushroomsBiomeFeatures;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
@@ -18,19 +19,20 @@ import net.minecraftforge.event.entity.player.BonemealEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
+import java.util.Objects;
 import java.util.Random;
 
 public class BonemealEventHandler {
     @SubscribeEvent
     public void bonemealEvent (BonemealEvent event) {
         if (event.getWorld() instanceof ServerWorld) {
-            event.setResult(Event.Result.ALLOW);
             ServerWorld world = (ServerWorld) event.getWorld();
             BlockPos pos = event.getPos();
             BlockState block = event.getBlock();
             Random rand = new Random();
-
+            System.out.print("gamer: " + block.getBlock().getRegistryName() + "\n");
             if (block.getBlock() == Blocks.RED_MUSHROOM || block.getBlock() == Blocks.BROWN_MUSHROOM) {
+                event.setResult(Event.Result.ALLOW);
                 if (canUseBonemeal(world, rand, pos, block)) {
                     if (block.getBlock() == Blocks.RED_MUSHROOM) {
                         world.setBlockState(pos, EnhancedMushroomsBlocks.RED_MUSHROOM_STEM.get().getDefaultState());
@@ -40,12 +42,6 @@ public class BonemealEventHandler {
                     mushroomGrowth(world, pos, block, rand);
                 }
             }
-        /*if (block.getBlock() == Blocks.BROWN_MUSHROOM) {
-            System.out.print("gamer\n");
-            event.setResult(Event.Result.DENY);
-            world.setBlockState(pos, Blocks.AIR.getDefaultState());
-            Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.BROWN_MUSHROOM_CONFIG).place(world, world.getChunkProvider().getChunkGenerator(), rand, pos);
-        }*/
         }
     }
 
