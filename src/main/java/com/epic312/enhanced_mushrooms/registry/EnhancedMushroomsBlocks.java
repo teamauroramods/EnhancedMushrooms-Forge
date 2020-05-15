@@ -6,12 +6,18 @@ import com.mojang.datafixers.util.Pair;
 import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsStandingSignBlock;
 import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsWallSignBlock;
 import com.teamabnormals.abnormals_core.common.blocks.wood.*;
+import com.teamabnormals.abnormals_core.common.items.AbnormalsSignItem;
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.PressurePlateBlock;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 
@@ -52,4 +58,21 @@ public class EnhancedMushroomsBlocks {
     public static final RegistryObject<Block> BROWN_MUSHROOM_DOOR = HELPER.createBlock("brown_mushroom_door", ()->new WoodDoorBlock(Block.Properties.from(Blocks.OAK_DOOR)), ItemGroup.REDSTONE);
     public static final Pair<RegistryObject<AbnormalsStandingSignBlock>, RegistryObject<AbnormalsWallSignBlock>> BROWN_MUSHROOM_SIGNS = HELPER.createSignBlock("brown_mushroom", MaterialColor.BROWN);
 
+    // glowshroom blocks (if Quark is installed)
+    public static final RegistryObject<Block> STRIPPED_GLOWSHROOM_STEM = HELPER.createCompatBlock("quark","stripped_glowshroom_stem", ()->new StrippedLogBlock(Block.Properties.from(Blocks.STRIPPED_OAK_LOG)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> GLOWSHROOM_STEM = HELPER.createCompatBlock("quark","glowshroom_stem", ()->new AbnormalsStemBlock(STRIPPED_BROWN_MUSHROOM_STEM, MaterialColor.BLUE, Block.Properties.from(Blocks.OAK_LOG)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> STRIPPED_GLOWSHROOM_HYPHAE = HELPER.createCompatBlock("quark","stripped_glowshroom_hyphae", ()->new StrippedWoodBlock(Block.Properties.from(Blocks.STRIPPED_OAK_WOOD)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> GLOWSHROOM_HYPHAE = HELPER.createCompatBlock("quark","glowshroom_hyphae", ()->new WoodBlock(STRIPPED_BROWN_MUSHROOM_HYPHAE, Block.Properties.from(Blocks.OAK_WOOD)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> GLOWSHROOM_PLANKS = HELPER.createCompatBlock("quark","glowshroom_planks", ()->new PlanksBlock(Block.Properties.from(Blocks.OAK_PLANKS)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> GLOWSHROOM_SLAB = HELPER.createCompatBlock("quark","glowshroom_slab", ()->new WoodSlabBlock(Block.Properties.from(Blocks.OAK_SLAB)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> GLOWSHROOM_STAIRS = HELPER.createCompatBlock("quark","glowshroom_stairs", ()->new WoodStairsBlock(BROWN_MUSHROOM_PLANKS.get().getDefaultState(), Block.Properties.from(Blocks.OAK_STAIRS)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> GLOWSHROOM_PRESSURE_PLATE = HELPER.createCompatBlock("quark","glowshroom_pressure_plate", ()->new WoodPressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, Block.Properties.from(Blocks.OAK_PRESSURE_PLATE)), ItemGroup.REDSTONE);
+    public static final RegistryObject<Block> GLOWSHROOM_FENCE = HELPER.createCompatBlock("quark","glowshroom_fence", ()->new WoodFenceBlock(Block.Properties.from(Blocks.OAK_FENCE)), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> GLOWSHROOM_FENCE_GATE = HELPER.createCompatBlock("quark","glowshroom_fence_gate", ()->new WoodFenceGateBlock(Block.Properties.from(Blocks.OAK_FENCE_GATE)), ItemGroup.REDSTONE);
+    public static final RegistryObject<Block> GLOWSHROOM_BUTTON = HELPER.createCompatBlock("quark","glowshroom_button", ()->new AbnormalsWoodButtonBlock(Block.Properties.from(Blocks.OAK_BUTTON)), ItemGroup.REDSTONE);
+    public static final RegistryObject<Block> GLOWSHROOM_TRAPDOOR = HELPER.createCompatBlock("quark","glowshroom_trapdoor", ()->new WoodTrapDoorBlock(Block.Properties.from(Blocks.OAK_TRAPDOOR)), ItemGroup.REDSTONE);
+    public static final RegistryObject<Block> GLOWSHROOM_DOOR = HELPER.createCompatBlock("quark","glowshroom_door", ()->new WoodDoorBlock(Block.Properties.from(Blocks.OAK_DOOR)), ItemGroup.REDSTONE);
+    /*ItemGroup determinedGroup = !ModList.get().isLoaded("quark") ? null : ItemGroup.DECORATIONS;
+    public static final Pair<RegistryObject<AbnormalsStandingSignBlock>, RegistryObject<AbnormalsWallSignBlock>> GLOWSHROOM_SIGNS = HELPER.createSignBlock("glowshroom", MaterialColor.BLUE);*/
+    //TODO: Abnormals Core PR to add createCompatSignBlock() method
 }
