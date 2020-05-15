@@ -2,7 +2,6 @@ package com.epic312.enhanced_mushrooms;
 
 import com.epic312.enhanced_mushrooms.data.EnhancedMushroomsBlockData;
 import com.epic312.enhanced_mushrooms.event.BonemealEventHandler;
-import com.epic312.enhanced_mushrooms.event.LootTableLoadEventHandler;
 import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsFeatures;
 import com.epic312.enhanced_mushrooms.util.EMRegistryHelper;
 import net.minecraft.block.Block;
@@ -45,7 +44,6 @@ public class EnhancedMushrooms
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         MinecraftForge.EVENT_BUS.register(new BonemealEventHandler());
-        MinecraftForge.EVENT_BUS.register(new LootTableLoadEventHandler());
         EnhancedMushroomsBlockData.registerFlammables();
         EnhancedMushroomsFeatures.generateFeatures();
     }
