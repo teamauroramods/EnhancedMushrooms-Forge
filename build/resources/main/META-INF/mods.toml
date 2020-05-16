@@ -14,7 +14,7 @@ issueTrackerURL="https://github.com/Epic312/EnhancedMushrooms/issues" #optional
 # The modid of the mod
 modId="enhanced_mushrooms" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="$1.0b1" #mandatory
+version="$1.0.0" #mandatory
  # A display name for the mod
 displayName="Enhanced Mushrooms" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
@@ -24,12 +24,12 @@ displayURL="https://discord.gg/BgE4EpP" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 # logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-# credits="Thanks for this example mod goes to Java" #optional
+credits="Team Aurora" #optional
 # A text field displayed in the mod UI
 authors="Epic312" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Improved mushroom stems and planks!
+Mushrooms as a wood type, as well as a new mushroom food source!
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.enhanced_mushrooms]] #optional
