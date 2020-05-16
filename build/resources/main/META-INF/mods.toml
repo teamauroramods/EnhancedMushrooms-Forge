@@ -53,12 +53,18 @@ Improved mushroom stems and planks!
 [[dependencies.enhanced_mushrooms]]
     modId="abnormals_core"
     mandatory=true
-    versionRange="[1.0.1,)"
+    versionRange="[1.0.4,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.enhanced_mushrooms]]
     modId="quark"
     mandatory=false
     versionRange="[r2.1-224,)"
+    ordering="BEFORE"
+    side="BOTH"
+[[dependencies.enhanced_mushrooms]]
+    modId="swamp_expansion"
+    mandatory=false
+    versionRange="[1.7.0,)"
     ordering="BEFORE"
     side="BOTH"
