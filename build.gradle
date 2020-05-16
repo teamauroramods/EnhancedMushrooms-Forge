@@ -113,8 +113,6 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     compile fg.deobf("curse.maven:abnormals-core:2957837")
-    compile fg.deobf("curse.maven:swamp-expansion:2957923")
-    compile fg.deobf("curse.maven:locatebiome:2922461")
 
 }
 
