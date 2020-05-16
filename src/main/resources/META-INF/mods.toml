@@ -24,12 +24,12 @@ displayURL="https://discord.gg/BgE4EpP" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 # logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-# credits="Thanks for this example mod goes to Java" #optional
+credits="Team Aurora" #optional
 # A text field displayed in the mod UI
 authors="Epic312" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Improved mushroom stems and planks!
+Mushrooms as a wood type, as well as a new mushroom food source!
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.enhanced_mushrooms]] #optional
