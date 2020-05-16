@@ -1,25 +1,19 @@
-package com.epic312.enhanced_mushrooms.event;
+package com.epic312.enhanced_mushrooms.common.event;
 
-import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsBlocks;
-import com.epic312.enhanced_mushrooms.world.biome.EnMushroomsBiomeFeatures;
+import com.epic312.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
+import com.epic312.enhanced_mushrooms.common.world.biome.EnMushroomsBiomeFeatures;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.gen.feature.BigMushroomFeatureConfig;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.server.ServerChunkProvider;
 import net.minecraft.world.server.ServerWorld;
-import net.minecraftforge.common.ForgeConfig;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.BonemealEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-import java.util.Objects;
 import java.util.Random;
 
 public class BonemealEventHandler {

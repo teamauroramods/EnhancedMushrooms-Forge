@@ -1,22 +1,11 @@
-package com.epic312.enhanced_mushrooms.block;
+package com.epic312.enhanced_mushrooms.common.block;
 
 import com.teamabnormals.abnormals_core.common.blocks.wood.AbnormalsLogBlock;
-import com.teamabnormals.abnormals_core.core.utils.ItemStackUtils;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.LogBlock;
 import net.minecraft.block.material.MaterialColor;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.AxeItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.state.StateContainer;
-import net.minecraft.util.*;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.world.World;
 
 import java.util.function.Supplier;
 

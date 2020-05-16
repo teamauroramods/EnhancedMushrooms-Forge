@@ -1,9 +1,9 @@
-package com.epic312.enhanced_mushrooms;
+package com.epic312.enhanced_mushrooms.core;
 
-import com.epic312.enhanced_mushrooms.data.EnhancedMushroomsBlockData;
-import com.epic312.enhanced_mushrooms.event.BonemealEventHandler;
-import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsFeatures;
-import com.epic312.enhanced_mushrooms.util.EMRegistryHelper;
+import com.epic312.enhanced_mushrooms.core.data.EnhancedMushroomsBlockData;
+import com.epic312.enhanced_mushrooms.common.event.BonemealEventHandler;
+import com.epic312.enhanced_mushrooms.core.registry.EnhancedMushroomsFeatures;
+import com.epic312.enhanced_mushrooms.core.registry.util.EMRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.api.distmarker.Dist;

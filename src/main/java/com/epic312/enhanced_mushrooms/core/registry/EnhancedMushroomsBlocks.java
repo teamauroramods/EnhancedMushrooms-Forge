@@ -1,8 +1,8 @@
-package com.epic312.enhanced_mushrooms.registry;
+package com.epic312.enhanced_mushrooms.core.registry;
 
-import com.epic312.enhanced_mushrooms.EnhancedMushrooms;
-import com.epic312.enhanced_mushrooms.block.AbnormalsStemBlock;
-import com.epic312.enhanced_mushrooms.util.EMRegistryHelper;
+import com.epic312.enhanced_mushrooms.core.EnhancedMushrooms;
+import com.epic312.enhanced_mushrooms.common.block.AbnormalsStemBlock;
+import com.epic312.enhanced_mushrooms.core.registry.util.EMRegistryHelper;
 import com.mojang.datafixers.util.Pair;
 import com.teamabnormals.abnormals_core.common.blocks.AbnormalsLadderBlock;
 import com.teamabnormals.abnormals_core.common.blocks.BookshelfBlock;
@@ -10,16 +10,10 @@ import com.teamabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
 import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsStandingSignBlock;
 import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsWallSignBlock;
 import com.teamabnormals.abnormals_core.common.blocks.wood.*;
-import com.teamabnormals.abnormals_core.common.items.AbnormalsSignItem;
-import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 import net.minecraft.block.*;
-import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 

@@ -1,15 +1,13 @@
-package com.epic312.enhanced_mushrooms.world.biome;
+package com.epic312.enhanced_mushrooms.common.world.biome;
 
-import com.epic312.enhanced_mushrooms.registry.EnhancedMushroomsBlocks;
+import com.epic312.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
-import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.feature.*;
-import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
 import net.minecraft.world.gen.placement.FrequencyConfig;
 import net.minecraft.world.gen.placement.Placement;
 

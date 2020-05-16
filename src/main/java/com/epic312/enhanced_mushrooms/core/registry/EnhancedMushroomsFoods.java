@@ -1,6 +1,6 @@
-package com.epic312.enhanced_mushrooms.registry;
+package com.epic312.enhanced_mushrooms.core.registry;
 
-import com.epic312.enhanced_mushrooms.EnhancedMushrooms;
+import com.epic312.enhanced_mushrooms.core.EnhancedMushrooms;
 import net.minecraft.item.Food;
 import net.minecraftforge.fml.common.Mod;
 

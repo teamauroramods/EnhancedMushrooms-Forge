@@ -1,4 +1,4 @@
-package com.epic312.enhanced_mushrooms.util;
+package com.epic312.enhanced_mushrooms.core.registry.util;
 
 import com.mojang.datafixers.util.Pair;
 import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsStandingSignBlock;

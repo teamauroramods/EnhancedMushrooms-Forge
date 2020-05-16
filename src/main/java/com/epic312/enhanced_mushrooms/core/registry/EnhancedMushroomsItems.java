@@ -1,14 +1,11 @@
-package com.epic312.enhanced_mushrooms.registry;
+package com.epic312.enhanced_mushrooms.core.registry;
 
-import com.epic312.enhanced_mushrooms.EnhancedMushrooms;
-import com.epic312.enhanced_mushrooms.util.EMRegistryHelper;
-import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
+import com.epic312.enhanced_mushrooms.core.EnhancedMushrooms;
+import com.epic312.enhanced_mushrooms.core.registry.util.EMRegistryHelper;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 
 @Mod.EventBusSubscriber(modid = EnhancedMushrooms.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EnhancedMushroomsItems {
