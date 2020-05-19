@@ -118,6 +118,8 @@ dependencies {
     compile fg.deobf("curse.maven:abnormals-core:2957837")
     compile fg.deobf("curse.maven:quark:2956472")
     compile fg.deobf("curse.maven:autoreglib:2911830")
+    compile fg.deobf("curse.maven:swamp-expansion:2958029")
+    compile fg.deobf("curse.maven:locatebiome:2922461")
 
 }
 

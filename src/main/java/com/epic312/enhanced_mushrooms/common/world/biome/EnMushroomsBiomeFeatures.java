@@ -32,6 +32,10 @@ public class EnMushroomsBiomeFeatures {
                     new SimpleBlockStateProvider(BROWN_MUSHROOM_STEM),
                     3));
 
+    public static void addSwampMushrooms(Biome biome) {
+        biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_BOOLEAN_SELECTOR.withConfiguration(new TwoFeatureChoiceConfig(Feature.HUGE_RED_MUSHROOM.withConfiguration(RED_MUSHROOM_CONFIG), Feature.HUGE_BROWN_MUSHROOM.withConfiguration(BROWN_MUSHROOM_CONFIG))).withPlacement(Placement.COUNT_HEIGHTMAP.configure(new FrequencyConfig(1))));
+    }
+
     public static void removeVanillaMushrooms(Biome biome) {
         List<ConfiguredFeature<?, ?>> list = biome.getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
         List<ConfiguredFeature<?, ?>> toRemove = new ArrayList<>();

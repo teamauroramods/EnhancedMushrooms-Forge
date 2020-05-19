@@ -4,6 +4,7 @@ import com.epic312.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
 import com.epic312.enhanced_mushrooms.common.world.biome.EnMushroomsBiomeFeatures;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.BigMushroomFeatureConfig;
@@ -24,13 +25,15 @@ public class BonemealEventHandler {
             BlockPos pos = event.getPos();
             BlockState block = event.getBlock();
             Random rand = new Random();
-            if (block.getBlock() == Blocks.RED_MUSHROOM || block.getBlock() == Blocks.BROWN_MUSHROOM) {
+            if (block.getBlock() == Blocks.RED_MUSHROOM || block.getBlock() == Blocks.BROWN_MUSHROOM || block.getBlock().getRegistryName().equals(new ResourceLocation("quark","glowshroom"))) {
                 event.setResult(Event.Result.ALLOW);
                 if (canUseBonemeal(world, rand, pos, block)) {
                     if (block.getBlock() == Blocks.RED_MUSHROOM) {
                         world.setBlockState(pos, EnhancedMushroomsBlocks.RED_MUSHROOM_STEM.get().getDefaultState());
                     } else if (block.getBlock() == Blocks.BROWN_MUSHROOM) {
                         world.setBlockState(pos, EnhancedMushroomsBlocks.BROWN_MUSHROOM_STEM.get().getDefaultState());
+                    } else if (block.getBlock().getRegistryName().equals(new ResourceLocation("quark","glowshroom"))) {
+                        //System.out.print("gamer\n");
                     }
                     mushroomGrowth(world, pos, block, rand);
                 }
@@ -47,13 +50,20 @@ public class BonemealEventHandler {
         ConfiguredFeature<BigMushroomFeatureConfig, ?> configuredfeature;
         if (state.getBlock() == Blocks.BROWN_MUSHROOM) {
             configuredfeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.BROWN_MUSHROOM_CONFIG);
-        } else {
-            if (state.getBlock() != Blocks.RED_MUSHROOM) {
-                world.setBlockState(pos, state, 3);
-                return false;
-            }
-
+        } else if (state.getBlock() == Blocks.RED_MUSHROOM) {
             configuredfeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.RED_MUSHROOM_CONFIG);
+        } else if (state.getBlock().getRegistryName().equals(new ResourceLocation("quark","glowshroom"))) {
+            if (pos.getY() <= 249) {
+                for (int i=0; i<6; i++) {
+                    if (world.getBlockState(new BlockPos(pos.getX(), pos.getY()+i, pos.getZ())).getBlock().getRegistryName().equals(new ResourceLocation("quark","glowshroom_stem"))) {
+                        world.setBlockState(new BlockPos(pos.getX(), pos.getY()+i, pos.getZ()), EnhancedMushroomsBlocks.GLOWSHROOM_STEM.get().getDefaultState());
+                    }
+                }
+            }
+            return true;
+        } else {
+            world.setBlockState(pos, state, 3);
+            return false;
         }
 
         if (configuredfeature.place(world, world.getChunkProvider().getChunkGenerator(), rand, pos)) {
