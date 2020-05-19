@@ -116,6 +116,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     compile fg.deobf("curse.maven:abnormals-core:2957837")
+    compile fg.deobf("curse.maven:quark:2956472")
+    compile fg.deobf("curse.maven:autoreglib:2911830")
 
 }
 
