@@ -83,7 +83,7 @@ public class BonemealEventHandler {
                     }
                 }
 
-                BlockState blockstate1 = Blocks.RED_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
+                BlockState blockstate1 = EnhancedMushroomsBlocks.GLOWSHROOM_CAP.get().getDefaultState().with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
 
                 for(int l1 = i - 3; l1 <= i; ++l1) {
                     int i2 = l1 < i ? 2 : 1;

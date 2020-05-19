@@ -65,6 +65,7 @@ public class EnhancedMushroomsBlocks {
     public static final RegistryObject<Block> BROWN_MUSHROOM_LADDER = HELPER.createCompatBlock("quark","brown_mushroom_ladder", ()->new AbnormalsLadderBlock(Block.Properties.from(Blocks.LADDER).harvestTool(ToolType.AXE)), ItemGroup.DECORATIONS);
 
     // glowshroom blocks (if Quark is installed)
+    public static final RegistryObject<Block> GLOWSHROOM_CAP = HELPER.createCompatBlock("quark","glowshroom_cap", ()->new GlowshroomCapBlock(Block.Properties.from(Blocks.RED_MUSHROOM_BLOCK).notSolid().lightValue(14)), ItemGroup.DECORATIONS);
     public static final RegistryObject<Block> STRIPPED_GLOWSHROOM_STEM = HELPER.createCompatBlock("quark","stripped_glowshroom_stem", ()->new AlphaStrippedLogBlock(Block.Properties.from(Blocks.STRIPPED_OAK_LOG).notSolid().lightValue(14)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GLOWSHROOM_STEM = HELPER.createCompatBlock("quark","glowshroom_stem", ()->new AlphaAbnormalsStemBlock(STRIPPED_GLOWSHROOM_STEM, MaterialColor.BLUE, Block.Properties.from(Blocks.OAK_LOG).notSolid().lightValue(14)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> STRIPPED_GLOWSHROOM_HYPHAE = HELPER.createCompatBlock("quark","stripped_glowshroom_hyphae", ()->new AlphaStrippedWoodBlock(Block.Properties.from(Blocks.STRIPPED_OAK_WOOD).notSolid().lightValue(14)), ItemGroup.BUILDING_BLOCKS);

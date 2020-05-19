@@ -59,6 +59,7 @@ public class EnhancedMushroomsBlockData {
         RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.BROWN_MUSHROOM_TRAPDOOR.get(), RenderType.getCutoutMipped());
         RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.BROWN_MUSHROOM_LADDER.get(), RenderType.getCutoutMipped());
 
+        RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.GLOWSHROOM_CAP.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.STRIPPED_GLOWSHROOM_STEM.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.GLOWSHROOM_STEM.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.STRIPPED_GLOWSHROOM_HYPHAE.get(), RenderType.getTranslucent());
