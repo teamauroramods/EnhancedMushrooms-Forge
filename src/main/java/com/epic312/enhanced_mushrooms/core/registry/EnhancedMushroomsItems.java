@@ -16,4 +16,5 @@ public class EnhancedMushroomsItems {
     public static final RegistryObject<Item> GLOWSHROOM_BOAT = HELPER.createCompatBoatItem("quark","glowshroom", EnhancedMushroomsBlocks.GLOWSHROOM_PLANKS);
 
     public static final RegistryObject<Item> ROASTED_MUSHROOMS = HELPER.createItem("roasted_mushrooms", ()->new Item(new Item.Properties().food(EnhancedMushroomsFoods.ROASTED_MUSHROOMS).group(ItemGroup.FOOD)));
+    public static final RegistryObject<Item> BEEF_STEW = HELPER.createItem("beef_stew", ()->new Item(new Item.Properties().food(EnhancedMushroomsFoods.BEEF_STEW).group(ItemGroup.FOOD)));
 }
