@@ -11,6 +11,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.*;
@@ -18,9 +19,11 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import static com.epic312.enhanced_mushrooms.core.EnhancedMushrooms.MODID;
+
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("enhanced_mushrooms")
-@Mod.EventBusSubscriber(modid = "enhanced_mushrooms", bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod(MODID)
+@Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EnhancedMushrooms
 {
     public static final String MODID = "enhanced_mushrooms";
@@ -42,14 +45,18 @@ public class EnhancedMushrooms
         });
     }
 
+    @SuppressWarnings("deprecation")
     private void commonSetup(final FMLCommonSetupEvent event) {
         MinecraftForge.EVENT_BUS.register(new BonemealEventHandler());
-        EnhancedMushroomsBlockData.registerFlammables();
-        EnhancedMushroomsFeatures.generateFeatures();
+        DeferredWorkQueue.runLater(() -> {
+            EnhancedMushroomsBlockData.registerFlammables();
+            EnhancedMushroomsFeatures.generateFeatures();
+        });
     }
 
+    @SuppressWarnings("deprecation")
     private void clientSetup(final FMLClientSetupEvent event) {
-        EnhancedMushroomsBlockData.setupRenderLayer();
+        DeferredWorkQueue.runLater(EnhancedMushroomsBlockData::setupRenderLayer);
     }
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
