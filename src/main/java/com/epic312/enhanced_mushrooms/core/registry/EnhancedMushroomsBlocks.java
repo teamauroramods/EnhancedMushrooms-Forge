@@ -8,6 +8,8 @@ import com.teamabnormals.abnormals_core.common.blocks.AbnormalsBeehiveBlock;
 import com.teamabnormals.abnormals_core.common.blocks.AbnormalsLadderBlock;
 import com.teamabnormals.abnormals_core.common.blocks.BookshelfBlock;
 import com.teamabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
+import com.teamabnormals.abnormals_core.common.blocks.chest.AbnormalsChestBlock;
+import com.teamabnormals.abnormals_core.common.blocks.chest.AbnormalsTrappedChestBlock;
 import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsStandingSignBlock;
 import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsWallSignBlock;
 import com.teamabnormals.abnormals_core.common.blocks.wood.*;
@@ -44,6 +46,7 @@ public class EnhancedMushroomsBlocks {
     public static final RegistryObject<Block> RED_MUSHROOM_VERTICAL_SLAB = HELPER.createCompatBlock("quark","red_mushroom_vertical_slab", ()->new VerticalSlabBlock(Block.Properties.from(Blocks.OAK_PLANKS)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> RED_MUSHROOM_BOOKSHELF = HELPER.createCompatBlock("quark","red_mushroom_bookshelf", ()->new BookshelfBlock(Block.Properties.from(Blocks.BOOKSHELF)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> RED_MUSHROOM_LADDER = HELPER.createCompatBlock("quark","red_mushroom_ladder", ()->new AbnormalsLadderBlock(Block.Properties.from(Blocks.LADDER).harvestTool(ToolType.AXE)), ItemGroup.DECORATIONS);
+    //public static final Pair<RegistryObject<AbnormalsChestBlock>, RegistryObject<AbnormalsTrappedChestBlock>> RED_MUSHROOM_CHESTS = HELPER.createCompatChestBlocks("red_mushroom", MaterialColor.ADOBE);
 
     public static final RegistryObject<Block> RED_MUSHROOM_BEEHIVE = HELPER.createCompatBlock("buzzierbees","red_mushroom_beehive", ()->new AbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE)), ItemGroup.DECORATIONS);
 
@@ -67,6 +70,7 @@ public class EnhancedMushroomsBlocks {
     public static final RegistryObject<Block> BROWN_MUSHROOM_VERTICAL_SLAB = HELPER.createCompatBlock("quark","brown_mushroom_vertical_slab", ()->new VerticalSlabBlock(Block.Properties.from(Blocks.OAK_PLANKS)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> BROWN_MUSHROOM_BOOKSHELF = HELPER.createCompatBlock("quark","brown_mushroom_bookshelf", ()->new BookshelfBlock(Block.Properties.from(Blocks.BOOKSHELF)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> BROWN_MUSHROOM_LADDER = HELPER.createCompatBlock("quark","brown_mushroom_ladder", ()->new AbnormalsLadderBlock(Block.Properties.from(Blocks.LADDER).harvestTool(ToolType.AXE)), ItemGroup.DECORATIONS);
+    public static final Pair<RegistryObject<AbnormalsChestBlock>, RegistryObject<AbnormalsTrappedChestBlock>> BROWN_MUSHROOM_CHESTS = HELPER.createCompatChestBlocks("brown_mushroom", MaterialColor.BROWN);
 
     public static final RegistryObject<Block> BROWN_MUSHROOM_BEEHIVE = HELPER.createCompatBlock("buzzierbees","brown_mushroom_beehive", ()->new AbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE)), ItemGroup.DECORATIONS);
 
@@ -91,6 +95,7 @@ public class EnhancedMushroomsBlocks {
     public static final RegistryObject<Block> GLOWSHROOM_VERTICAL_SLAB = HELPER.createCompatBlock("quark","glowshroom_vertical_slab", ()->new AlphaVerticalSlabBlock(Block.Properties.from(Blocks.OAK_PLANKS).notSolid().lightValue(14)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GLOWSHROOM_BOOKSHELF = HELPER.createCompatBlock("quark","glowshroom_bookshelf", ()->new AlphaBookshelfBlock(Block.Properties.from(Blocks.BOOKSHELF).notSolid().lightValue(14)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GLOWSHROOM_LADDER = HELPER.createCompatBlock("quark","glowshroom_ladder", ()->new AbnormalsLadderBlock(Block.Properties.from(Blocks.LADDER).harvestTool(ToolType.AXE).notSolid().lightValue(14)), ItemGroup.DECORATIONS);
+    public static final Pair<RegistryObject<AbnormalsChestBlock>, RegistryObject<AbnormalsTrappedChestBlock>> GLOWSHROOM_CHESTS = HELPER.createCompatChestBlocks("glowshroom", MaterialColor.CYAN);
 
     public static final RegistryObject<Block> GLOWSHROOM_BEEHIVE = HELPER.createTwoCompatBlock("buzzierbees","quark","glowshroom_beehive", ()->new AlphaAbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE).lightValue(14).notSolid()), ItemGroup.DECORATIONS);
 
