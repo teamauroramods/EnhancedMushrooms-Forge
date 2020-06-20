@@ -53,7 +53,7 @@ Mushrooms as a wood type, as well as a new mushroom food source!
 [[dependencies.enhanced_mushrooms]]
     modId="abnormals_core"
     mandatory=true
-    versionRange="[1.0.4,)"
+    versionRange="[1.0.6,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.enhanced_mushrooms]]
