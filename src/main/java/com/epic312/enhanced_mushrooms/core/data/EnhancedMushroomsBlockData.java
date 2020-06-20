@@ -79,5 +79,6 @@ public class EnhancedMushroomsBlockData {
         RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.GLOWSHROOM_VERTICAL_SLAB.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.GLOWSHROOM_BOOKSHELF.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.GLOWSHROOM_LADDER.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.GLOWSHROOM_BEEHIVE.get(), RenderType.getTranslucent());
     }
 }
