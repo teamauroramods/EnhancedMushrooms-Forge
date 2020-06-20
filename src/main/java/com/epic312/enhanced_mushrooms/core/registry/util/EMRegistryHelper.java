@@ -11,11 +11,15 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
+
+import javax.annotation.Nullable;
+import java.util.function.Supplier;
 
 public class EMRegistryHelper extends RegistryHelper {
     public EMRegistryHelper (String modID) {
@@ -45,5 +49,10 @@ public class EMRegistryHelper extends RegistryHelper {
             return new AbnormalsSignItem((Block)standing.get(), (Block)wall.get(), (new Item.Properties()).maxStackSize(16).group(determinedGroup));
         });
         return Pair.of(standing, wall);
+    }
+
+    public <B extends Block> RegistryObject<B> createTwoCompatBlock(String modId, String modId2, String name, Supplier<? extends B> supplier, @Nullable ItemGroup group) {
+        ItemGroup determinedGroup = (!ModList.get().isLoaded(modId) || !ModList.get().isLoaded(modId2)) && modId != "indev" ? null : group;
+        return createBlock(name, supplier, determinedGroup);
     }
 }
