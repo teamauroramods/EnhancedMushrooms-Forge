@@ -95,7 +95,7 @@ public class EnhancedMushroomsBlocks {
     public static final RegistryObject<Block> GLOWSHROOM_VERTICAL_SLAB = HELPER.createCompatBlock("quark","glowshroom_vertical_slab", ()->new AlphaVerticalSlabBlock(Block.Properties.from(Blocks.OAK_PLANKS).notSolid().lightValue(14)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GLOWSHROOM_BOOKSHELF = HELPER.createCompatBlock("quark","glowshroom_bookshelf", ()->new AlphaBookshelfBlock(Block.Properties.from(Blocks.BOOKSHELF).notSolid().lightValue(14)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GLOWSHROOM_LADDER = HELPER.createCompatBlock("quark","glowshroom_ladder", ()->new AbnormalsLadderBlock(Block.Properties.from(Blocks.LADDER).harvestTool(ToolType.AXE).notSolid().lightValue(14)), ItemGroup.DECORATIONS);
-    public static final Pair<RegistryObject<AbnormalsChestBlock>, RegistryObject<AbnormalsTrappedChestBlock>> GLOWSHROOM_CHESTS = HELPER.createCompatChestBlocks("glowshroom", MaterialColor.CYAN);
+    public static final Pair<RegistryObject<AbnormalsChestBlock>, RegistryObject<AbnormalsTrappedChestBlock>> GLOWSHROOM_CHESTS = HELPER.createCompatChestsWithProperties("glowshroom", net.minecraft.block.Block.Properties.create(Material.WOOD, MaterialColor.CYAN).hardnessAndResistance(2.5F).sound(SoundType.WOOD).lightValue(14));
 
     public static final RegistryObject<Block> GLOWSHROOM_BEEHIVE = HELPER.createTwoCompatBlock("buzzierbees","quark","glowshroom_beehive", ()->new AlphaAbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE).lightValue(14).notSolid()), ItemGroup.DECORATIONS);
 

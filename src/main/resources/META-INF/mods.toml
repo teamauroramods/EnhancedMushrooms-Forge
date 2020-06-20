@@ -60,7 +60,7 @@ Mushrooms as a wood type, as well as a new mushroom food source!
     modId="quark"
     mandatory=false
     versionRange="[r2.1-224,)"
-    ordering="BEFORE"
+    ordering="AFTER"
     side="BOTH"
 [[dependencies.enhanced_mushrooms]]
     modId="swamp_expansion"

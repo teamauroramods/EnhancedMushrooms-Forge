@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mushroom_chest",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "enhanced_mushrooms:red_mushroom_stems"
+    }
+  },
+  "result": {
+    "item": "quark:mushroom_chest",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enhanced_mushrooms"
+        },
+        {
+          "type": "abnormals_core:quark_flag",
+          "flag": "wood_to_chest_recipes"
+        },
+        {
+          "type": "abnormals_core:quark_flag",
+          "flag": "variant_chests"
+        }
+      ]
+    }
+  ]
+}

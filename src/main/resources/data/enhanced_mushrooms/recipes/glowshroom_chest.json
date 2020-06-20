@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowshroom_chest",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "enhanced_mushrooms:glowshroom_planks"
+    }
+  },
+  "result": {
+    "item": "enhanced_mushrooms:glowshroom_chest",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "variant_chests"
+    }
+  ]
+}
