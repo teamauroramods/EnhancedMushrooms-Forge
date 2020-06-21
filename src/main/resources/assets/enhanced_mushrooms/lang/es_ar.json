@@ -72,8 +72,19 @@
     "block.enhanced_mushrooms.red_mushroom_ladder": "Escalera de hongo rojo",
     "block.enhanced_mushrooms.brown_mushroom_ladder": "Escalera de hongo marrón",
     "block.enhanced_mushrooms.glowshroom_ladder": "Escalera de luminongo",
+
+    "block.enhanced_mushrooms.brown_mushroom_chest": "Cofre de hongo marrón",
+    "block.enhanced_mushrooms.glowshroom_chest": "Cofre de luminongo",
   
-    "_comment5": "Misc",
+    "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "Cofre con trampa de hongo marrón",
+    "block.enhanced_mushrooms.glowshroom_trapped_chest": "Cofre con trampa de luminongo",
+  
+    "_comment5": "Buzzier Bees Compat",
+    "block.enhanced_mushrooms.red_mushroom_beehive": "Apiario de hongo rojo",
+    "block.enhanced_mushrooms.brown_mushroom_beehive": "Apiario de hongo marrón",
+    "block.enhanced_mushrooms.glowshroom_beehive": "Apiario de luminongo",
+  
+    "_comment6": "Misc",
     "item.enhanced_mushrooms.roasted_mushrooms": "Hongos asados",
     "item.enhanced_mushrooms.beef_stew": "Guiso de bife"
   }
