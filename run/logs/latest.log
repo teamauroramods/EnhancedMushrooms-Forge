@@ -1,48 +1,48 @@
-[05Jul2020 16:10:42.474] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200625.160719, --fml.mcVersion, 1.16.1, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 32.0.47, --version, MOD_DEV, --assetIndex, 1.16, --assetsDir, C:\Users\Kaden\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[05Jul2020 16:10:42.478] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 14.0.1 by Oracle Corporation
-[05Jul2020 16:10:42.691] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[05Jul2020 16:10:43.654] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2020 16:10:44.101] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Kaden\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[05Jul2020 16:10:59.984] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[05Jul2020 16:10:59.989] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[05Jul2020 16:11:00.488] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[05Jul2020 16:11:02.332] [modloading-worker-4/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 32.0.47, for MC 1.16.1 with MCP 20200625.160719
-[05Jul2020 16:11:02.332] [modloading-worker-4/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v32.0.47 Initialized
-[05Jul2020 16:11:03.164] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for abnormals_core:boat
-[05Jul2020 16:11:05.794] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[05Jul2020 16:11:05.871] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[05Jul2020 16:11:05.938] [Worker-Main-9/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 2 jobs
-[05Jul2020 16:11:05.939] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[05Jul2020 16:11:06.042] [Worker-Main-9/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.098
-[05Jul2020 16:11:06.198] [Worker-Main-9/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after SIDED_SETUP: 1 jobs
-[05Jul2020 16:11:06.235] [Worker-Main-9/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.037
-[05Jul2020 16:11:06.431] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 32.0.47 Target: 32.0.47
-[05Jul2020 16:11:09.275] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'quark:block/glowshroom_block_side' referenced from: enhanced_mushrooms:glowshroom_cap#down=true,east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: quark:models/block/glowshroom_block_side.json
-[05Jul2020 16:11:09.276] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'quark:block/glowshroom_block_inside' referenced from: enhanced_mushrooms:glowshroom_cap#down=true,east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: quark:models/block/glowshroom_block_inside.json
-[05Jul2020 16:11:10.334] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'quark:block/glowshroom_block_inv' referenced from: enhanced_mushrooms:glowshroom_cap#inventory: java.io.FileNotFoundException: quark:models/block/glowshroom_block_inv.json
-[05Jul2020 16:11:10.555] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missingno in enhanced_mushrooms:item/glowshroom_cap
-[05Jul2020 16:11:10.583] [Worker-Main-13/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load quark:textures/block/glowshroom_stem.png : java.io.FileNotFoundException: quark:textures/block/glowshroom_stem.png
-[05Jul2020 16:11:11.854] [Render thread/INFO] [com.teamabnormals.abnormals_core.core.AbnormalsCore/]: Endimation Data Manager has Loaded 1 Endimations
-[05Jul2020 16:11:12.465] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[05Jul2020 16:11:12.466] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[05Jul2020 16:11:12.635] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[05Jul2020 16:11:12.660] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[05Jul2020 16:11:12.660] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[05Jul2020 16:11:12.661] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[05Jul2020 16:11:12.662] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[05Jul2020 16:11:12.662] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[05Jul2020 16:11:12.662] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[05Jul2020 16:11:13.071] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[05Jul2020 16:11:13.073] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[05Jul2020 16:11:13.073] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[05Jul2020 16:11:14.397] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[05Jul2020 16:11:24.219] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[05Jul2020 16:11:24.220] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[05Jul2020 16:11:24.221] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[05Jul2020 16:11:24.221] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[05Jul2020 16:11:24.222] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[05Jul2020 16:11:24.224] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, abnormals-core-2989106_mapped_snapshot_20200514-1.16.jar, main, forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar
-[05Jul2020 16:11:25.319] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:red_mushroom_vertical_slab_revert
+[05Jul2020 17:12:30.331] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200625.160719, --fml.mcVersion, 1.16.1, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 32.0.47, --version, MOD_DEV, --assetIndex, 1.16, --assetsDir, C:\Users\Kaden\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[05Jul2020 17:12:30.335] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 14.0.1 by Oracle Corporation
+[05Jul2020 17:12:30.557] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[05Jul2020 17:12:31.396] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2020 17:12:31.773] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Kaden\.gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[05Jul2020 17:12:46.207] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[05Jul2020 17:12:46.221] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[05Jul2020 17:12:46.747] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[05Jul2020 17:12:48.443] [modloading-worker-11/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 32.0.47, for MC 1.16.1 with MCP 20200625.160719
+[05Jul2020 17:12:48.443] [modloading-worker-11/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v32.0.47 Initialized
+[05Jul2020 17:12:49.387] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for abnormals_core:boat
+[05Jul2020 17:12:52.176] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[05Jul2020 17:12:52.258] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[05Jul2020 17:12:52.364] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[05Jul2020 17:12:52.370] [Worker-Main-9/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 2 jobs
+[05Jul2020 17:12:52.587] [Worker-Main-9/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.209
+[05Jul2020 17:12:52.679] [Worker-Main-9/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after SIDED_SETUP: 1 jobs
+[05Jul2020 17:12:52.733] [Worker-Main-9/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.054
+[05Jul2020 17:12:52.866] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 32.0.47 Target: 32.0.47
+[05Jul2020 17:12:55.496] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'quark:block/glowshroom_block_side' referenced from: enhanced_mushrooms:glowshroom_cap#down=true,east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: quark:models/block/glowshroom_block_side.json
+[05Jul2020 17:12:55.497] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'quark:block/glowshroom_block_inside' referenced from: enhanced_mushrooms:glowshroom_cap#down=true,east=true,north=true,south=true,up=true,west=true: java.io.FileNotFoundException: quark:models/block/glowshroom_block_inside.json
+[05Jul2020 17:12:56.504] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'quark:block/glowshroom_block_inv' referenced from: enhanced_mushrooms:glowshroom_cap#inventory: java.io.FileNotFoundException: quark:models/block/glowshroom_block_inv.json
+[05Jul2020 17:12:56.697] [Worker-Main-13/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missingno in enhanced_mushrooms:item/glowshroom_cap
+[05Jul2020 17:12:56.725] [Worker-Main-12/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load quark:textures/block/glowshroom_stem.png : java.io.FileNotFoundException: quark:textures/block/glowshroom_stem.png
+[05Jul2020 17:12:57.982] [Render thread/INFO] [com.teamabnormals.abnormals_core.core.AbnormalsCore/]: Endimation Data Manager has Loaded 1 Endimations
+[05Jul2020 17:12:58.617] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[05Jul2020 17:12:58.619] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[05Jul2020 17:12:58.805] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[05Jul2020 17:12:58.840] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[05Jul2020 17:12:58.841] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[05Jul2020 17:12:58.841] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[05Jul2020 17:12:58.843] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[05Jul2020 17:12:58.844] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[05Jul2020 17:12:58.844] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[05Jul2020 17:12:59.298] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[05Jul2020 17:12:59.299] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[05Jul2020 17:12:59.300] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[05Jul2020 17:12:59.998] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[05Jul2020 17:13:02.977] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[05Jul2020 17:13:02.977] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05Jul2020 17:13:02.978] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05Jul2020 17:13:02.978] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[05Jul2020 17:13:02.979] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05Jul2020 17:13:02.982] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, abnormals-core-2989106_mapped_snapshot_20200514-1.16.jar, main, forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar
+[05Jul2020 17:13:04.202] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:red_mushroom_vertical_slab_revert
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -90,7 +90,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.329] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:brown_mushroom_bookshelf
+[05Jul2020 17:13:04.212] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:brown_mushroom_bookshelf
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -138,7 +138,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.330] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_red_mushroom_planks
+[05Jul2020 17:13:04.213] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_red_mushroom_planks
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -186,7 +186,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.331] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:brown_mushroom_vertical_slab_revert
+[05Jul2020 17:13:04.214] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:brown_mushroom_vertical_slab_revert
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -234,7 +234,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.333] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:glowshroom_ladder
+[05Jul2020 17:13:04.217] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:glowshroom_ladder
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -282,7 +282,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.335] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:red_mushroom_vertical_slab
+[05Jul2020 17:13:04.220] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:red_mushroom_vertical_slab
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -330,7 +330,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.337] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:roasted_glowshrooms_from_smoking
+[05Jul2020 17:13:04.221] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:roasted_glowshrooms_from_smoking
 com.google.gson.JsonSyntaxException: Unknown item 'quark:glowshroom'
 	at net.minecraft.item.crafting.Ingredient.lambda$deserializeItemList$11(Ingredient.java:216) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:401) ~[?:?]
@@ -384,7 +384,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'quark:glowshroom'
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.340] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:glowshroom_vertical_slab_revert
+[05Jul2020 17:13:04.224] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:glowshroom_vertical_slab_revert
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -432,7 +432,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.342] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:red_mushroom_ladder
+[05Jul2020 17:13:04.227] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:red_mushroom_ladder
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -480,7 +480,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.343] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe quark:building/crafting/chests/mushroom_chest
+[05Jul2020 17:13:04.228] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe quark:building/crafting/chests/mushroom_chest
 com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at net.minecraft.util.JSONUtils.getString(JSONUtils.java:95) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:141) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -527,7 +527,7 @@ com.google.gson.JsonSyntaxException: Missing type, expected to find a string
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.344] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:brown_mushroom_vertical_slab
+[05Jul2020 17:13:04.230] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:brown_mushroom_vertical_slab
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -575,7 +575,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.345] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_red_mushroom_planks_revert
+[05Jul2020 17:13:04.231] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_red_mushroom_planks_revert
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -623,7 +623,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.346] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:roasted_glowshrooms
+[05Jul2020 17:13:04.231] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:roasted_glowshrooms
 com.google.gson.JsonSyntaxException: Unknown item 'quark:glowshroom'
 	at net.minecraft.item.crafting.Ingredient.lambda$deserializeItemList$11(Ingredient.java:216) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:401) ~[?:?]
@@ -677,7 +677,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'quark:glowshroom'
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.346] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_glowshroom_planks_revert
+[05Jul2020 17:13:04.232] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_glowshroom_planks_revert
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -725,7 +725,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.347] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:roasted_glowshrooms_from_campfire_cooking
+[05Jul2020 17:13:04.232] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:roasted_glowshrooms_from_campfire_cooking
 com.google.gson.JsonSyntaxException: Unknown item 'quark:glowshroom'
 	at net.minecraft.item.crafting.Ingredient.lambda$deserializeItemList$11(Ingredient.java:216) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:401) ~[?:?]
@@ -779,7 +779,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'quark:glowshroom'
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.349] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:glowshroom_vertical_slab
+[05Jul2020 17:13:04.234] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:glowshroom_vertical_slab
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -827,7 +827,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.349] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_brown_mushroom_planks
+[05Jul2020 17:13:04.235] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_brown_mushroom_planks
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -875,7 +875,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.350] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_brown_mushroom_planks_revert
+[05Jul2020 17:13:04.236] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_brown_mushroom_planks_revert
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -923,7 +923,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.351] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:glowshroom_bookshelf
+[05Jul2020 17:13:04.236] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:glowshroom_bookshelf
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -971,7 +971,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.351] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:brown_mushroom_ladder
+[05Jul2020 17:13:04.237] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:brown_mushroom_ladder
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -1019,7 +1019,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.353] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_glowshroom_planks
+[05Jul2020 17:13:04.239] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:vertical_glowshroom_planks
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -1067,7 +1067,7 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.354] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:red_mushroom_bookshelf
+[05Jul2020 17:13:04.240] [Render thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe enhanced_mushrooms:red_mushroom_bookshelf
 com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at net.minecraftforge.common.crafting.CraftingHelper.getCondition(CraftingHelper.java:225) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.processConditions(CraftingHelper.java:214) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
@@ -1115,8 +1115,8 @@ com.google.gson.JsonSyntaxException: Unknown condition type: quark:flag
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:25.355] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[05Jul2020 16:11:26.028] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table enhanced_mushrooms:blocks/glowshroom_cap
+[05Jul2020 17:13:04.242] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[05Jul2020 17:13:04.945] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table enhanced_mushrooms:blocks/glowshroom_cap
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'quark:glowshroom'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:111) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:401) ~[?:?]
@@ -1212,7 +1212,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:26.075] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table enhanced_mushrooms:blocks/quark_glowshroom_block
+[05Jul2020 17:13:04.993] [Render thread/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table enhanced_mushrooms:blocks/quark_glowshroom_block
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'quark:glowshroom_block'
 	at net.minecraft.util.JSONUtils.lambda$getItem$0(JSONUtils.java:111) ~[forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:401) ~[?:?]
@@ -1308,51 +1308,43 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.0.jar:?]
 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.0.jar:?]
 	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.1-32.0.47_mapped_snapshot_20200514-1.16-recomp.jar:?]
-[05Jul2020 16:11:26.520] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[05Jul2020 16:11:26.818] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[05Jul2020 16:11:26.880] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.1
-[05Jul2020 16:11:26.880] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[05Jul2020 16:11:27.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[05Jul2020 16:11:27.672] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05Jul2020 16:11:27.705] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05Jul2020 16:11:28.038] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 866 ms
-[05Jul2020 16:11:28.284] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[05Jul2020 16:11:29.372] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[05Jul2020 16:11:29.424] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@3c2b2f20
-[05Jul2020 16:11:29.443] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:1da99c1f] logged in with entity id 174 at (-0.8004757016453226, 65.49390748022948, -281.6164536163772)
-[05Jul2020 16:11:29.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[05Jul2020 16:11:29.916] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[05Jul2020 16:11:29.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:overworld
-[05Jul2020 16:11:30.028] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[05Jul2020 16:11:30.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_nether
-[05Jul2020 16:11:30.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_end
-[05Jul2020 16:11:40.774] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
-[05Jul2020 16:11:51.072] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4 advancements
-[05Jul2020 16:12:16.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Serious Dedication]
-[05Jul2020 16:12:16.389] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has completed the challenge [Serious Dedication]
-[05Jul2020 16:12:16.389] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 7 advancements
-[05Jul2020 16:12:20.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[05Jul2020 16:12:20.039] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Survival Mode
-[05Jul2020 16:12:44.523] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 16 advancements
-[05Jul2020 16:13:58.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[05Jul2020 16:13:58.757] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
-[05Jul2020 16:15:34.865] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[05Jul2020 16:15:34.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:overworld
-[05Jul2020 16:15:35.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_nether
-[05Jul2020 16:15:35.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_end
-[05Jul2020 16:15:35.322] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[05Jul2020 16:15:35.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[05Jul2020 16:15:35.328] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[05Jul2020 16:15:35.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[05Jul2020 16:15:35.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[05Jul2020 16:15:35.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[05Jul2020 16:15:35.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:overworld
-[05Jul2020 16:15:36.549] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (1_16 time): All chunks are saved
-[05Jul2020 16:15:36.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_nether
-[05Jul2020 16:15:36.551] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05Jul2020 16:15:36.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_end
-[05Jul2020 16:15:36.551] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05Jul2020 16:15:36.578] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (1_16 time): All chunks are saved
-[05Jul2020 16:15:36.627] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05Jul2020 16:15:36.627] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05Jul2020 16:15:44.686] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[05Jul2020 17:13:05.489] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[05Jul2020 17:13:05.813] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[05Jul2020 17:13:05.875] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.1
+[05Jul2020 17:13:05.875] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[05Jul2020 17:13:06.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Jul2020 17:13:06.677] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2020 17:13:06.677] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2020 17:13:07.044] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 868 ms
+[05Jul2020 17:13:07.195] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[05Jul2020 17:13:08.312] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[05Jul2020 17:13:08.357] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@75b258ef
+[05Jul2020 17:13:08.370] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:fdd6a6f5] logged in with entity id 156 at (16.266071645199794, 63.0, -283.235465994403)
+[05Jul2020 17:13:08.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[05Jul2020 17:13:08.808] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[05Jul2020 17:13:08.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:overworld
+[05Jul2020 17:13:08.945] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 16 advancements
+[05Jul2020 17:13:09.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_nether
+[05Jul2020 17:13:09.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_end
+[05Jul2020 17:13:13.212] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 19 advancements
+[05Jul2020 17:13:17.510] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 21 advancements
+[05Jul2020 17:13:21.657] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[05Jul2020 17:13:21.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:overworld
+[05Jul2020 17:13:21.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_nether
+[05Jul2020 17:13:21.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_end
+[05Jul2020 17:13:22.013] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[05Jul2020 17:13:22.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[05Jul2020 17:13:22.024] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[05Jul2020 17:13:22.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[05Jul2020 17:13:22.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[05Jul2020 17:13:22.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[05Jul2020 17:13:22.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:overworld
+[05Jul2020 17:13:23.009] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (1_16 time): All chunks are saved
+[05Jul2020 17:13:23.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_nether
+[05Jul2020 17:13:23.010] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05Jul2020 17:13:23.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[1.16 time]'/minecraft:the_end
+[05Jul2020 17:13:23.011] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05Jul2020 17:13:23.078] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (1_16 time): All chunks are saved
+[05Jul2020 17:13:23.113] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05Jul2020 17:13:23.113] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05Jul2020 17:13:23.561] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
