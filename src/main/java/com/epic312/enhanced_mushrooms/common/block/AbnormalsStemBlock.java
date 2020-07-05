@@ -22,8 +22,8 @@ public class AbnormalsStemBlock extends AbnormalsLogBlock {
     public static final BooleanProperty UP = BooleanProperty.create("up");
     public static final BooleanProperty DOWN = BooleanProperty.create("down");
 
-    public AbnormalsStemBlock(Supplier<Block> strippedBlock, MaterialColor verticalColor, Properties properties) {
-        super(strippedBlock, verticalColor, properties);
+    public AbnormalsStemBlock(Supplier<Block> strippedBlock, Properties properties) {
+        super(strippedBlock, properties);
     }
 
     @Override

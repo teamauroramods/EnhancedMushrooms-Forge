@@ -10,8 +10,8 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import java.util.function.Supplier;
 
 public class AlphaAbnormalsStemBlock extends AbnormalsStemBlock {
-    public AlphaAbnormalsStemBlock (Supplier<Block> strippedBlock, MaterialColor verticalColor, Properties properties) {
-        super(strippedBlock, verticalColor, properties);
+    public AlphaAbnormalsStemBlock (Supplier<Block> strippedBlock, Properties properties) {
+        super(strippedBlock, properties);
     }
 
     @OnlyIn(value= Dist.CLIENT)

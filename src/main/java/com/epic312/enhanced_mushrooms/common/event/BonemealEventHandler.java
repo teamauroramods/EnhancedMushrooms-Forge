@@ -51,7 +51,8 @@ public class BonemealEventHandler {
     }
 
     // Quark copy paste of a vanilla copy paste, touch only if you *really* dare
-    public static boolean placeGlowshroom(World worldIn, Random rand, BlockPos pos) {
+    //TODO: redo when Quark 1.16 releases
+    /*public static boolean placeGlowshroom(World worldIn, Random rand, BlockPos pos) {
         int i = rand.nextInt(3) + 4;
         if (rand.nextInt(12) == 0) {
             i *= 2;
@@ -120,7 +121,7 @@ public class BonemealEventHandler {
         } else {
             return false;
         }
-    }
+    }*/
 
     public boolean mushroomGrowth(ServerWorld world, BlockPos pos, BlockState state, Random rand) {
         world.removeBlock(pos, false);
@@ -130,7 +131,7 @@ public class BonemealEventHandler {
         } else if (state.getBlock() == Blocks.RED_MUSHROOM) {
             configuredfeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.RED_MUSHROOM_CONFIG);
         } else if (state.getBlock().getRegistryName().equals(new ResourceLocation("quark","glowshroom"))) {
-            if (placeGlowshroom(world, rand, pos)) {
+            if (/*placeGlowshroom(world, rand, pos)*/false/*TODO: redo glowshrooms when Quark 1.16 releases*/) {
                 return true;
             } else {
                 world.setBlockState(pos, state, 3);
@@ -141,7 +142,7 @@ public class BonemealEventHandler {
             return false;
         }
 
-        if (configuredfeature.place(world, world.getChunkProvider().getChunkGenerator(), rand, pos)) {
+        if (configuredfeature.func_236265_a_(world, world.func_241112_a_(), world.getChunkProvider().getChunkGenerator(), rand, pos)) {
             return true;
         } else {
             world.setBlockState(pos, state, 3);
