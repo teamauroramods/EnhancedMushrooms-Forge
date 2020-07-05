@@ -38,9 +38,11 @@
   "item.enhanced_mushrooms.brown_mushroom_boat": "Brown Mushroom Boat",
 
   "_comment3": "Crimson Blocks & Items",
+  "block.minecraft.nether_wart_block": "Crimson Cap",
   "item.enhanced_mushrooms.crimson_boat": "Crimson Boat",
 
   "_comment4": "Warped Blocks & Items",
+  "block.minecraft.warped_wart_block": "Warped Cap",
   "item.enhanced_mushrooms.warped_boat": "Warped Boat",
 
   "_comment5": "Glowshroom Blocks & Items",
