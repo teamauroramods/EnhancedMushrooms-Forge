@@ -37,7 +37,13 @@
 
   "item.enhanced_mushrooms.brown_mushroom_boat": "Brown Mushroom Boat",
 
-  "_comment3": "Glowshroom Blocks & Items",
+  "_comment3": "Crimson Blocks & Items",
+  "item.enhanced_mushrooms.crimson_boat": "Crimson Boat",
+
+  "_comment4": "Warped Blocks & Items",
+  "item.enhanced_mushrooms.warped_boat": "Warped Boat",
+
+  "_comment5": "Glowshroom Blocks & Items",
   "block.enhanced_mushrooms.glowshroom_cap": "Glowshroom Cap",
   "block.enhanced_mushrooms.glowshroom_stem": "Glowshroom Stem",
   "block.enhanced_mushrooms.stripped_glowshroom_stem": "Stripped Glowshroom Stem",
@@ -56,7 +62,7 @@
 
   "item.enhanced_mushrooms.glowshroom_boat": "Glowshroom Boat",
 
-  "_comment4": "Quark Compat",
+  "_comment6": "Quark Compat",
   "block.enhanced_mushrooms.vertical_red_mushroom_planks": "Vertical Red Mushroom Planks",
   "block.enhanced_mushrooms.vertical_brown_mushroom_planks": "Vertical Brown Mushroom Planks",
   "block.enhanced_mushrooms.vertical_glowshroom_planks": "Vertical Glowshroom Planks",
@@ -79,12 +85,12 @@
   "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "Brown Mushroom Trapped Chest",
   "block.enhanced_mushrooms.glowshroom_trapped_chest": "Glowshroom Trapped Chest",
 
-  "_comment5": "Buzzier Bees Compat",
+  "_comment7": "Buzzier Bees Compat",
   "block.enhanced_mushrooms.red_mushroom_beehive": "Red Mushroom Beehive",
   "block.enhanced_mushrooms.brown_mushroom_beehive": "Brown Mushroom Beehive",
   "block.enhanced_mushrooms.glowshroom_beehive": "Glowshroom Beehive",
 
-  "_comment6": "Misc",
+  "_comment8": "Misc",
   "item.enhanced_mushrooms.roasted_mushrooms": "Roasted Mushrooms",
   "item.enhanced_mushrooms.beef_stew": "Beef Stew"
 }
