@@ -80,7 +80,7 @@ public class EnhancedMushroomsBlocks {
 
     // glowshroom blocks (if Quark is installed)
     // NOTE: until mappings are really finished func_235838_a_((p_235464_0_) -> {return x;}) is lightValue(x), so I've made a little function to do that for me for now
-    public static final RegistryObject<Block> GLOWSHROOM_CAP = HELPER.createCompatBlock("quark","glowshroom_cap", ()->new GlowshroomCapBlock(addLight(Block.Properties.from(Blocks.RED_MUSHROOM_BLOCK).notSolid(), 14)), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> GLOWSHROOM_CAP = HELPER.createCompatBlock("quark","glowshroom_cap", ()->new GlowshroomCapBlock(addLight(Block.Properties.from(Blocks.RED_MUSHROOM_BLOCK).notSolid().harvestTool(ToolType.HOE), 14)), ItemGroup.DECORATIONS);
     public static final RegistryObject<Block> STRIPPED_GLOWSHROOM_STEM = HELPER.createCompatBlock("quark","stripped_glowshroom_stem", ()->new AlphaStrippedLogBlock(addLight(Block.Properties.from(Blocks.STRIPPED_OAK_LOG).notSolid(), 14)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GLOWSHROOM_STEM = HELPER.createCompatBlock("quark","glowshroom_stem", ()->new AlphaAbnormalsStemBlock(STRIPPED_GLOWSHROOM_STEM, addLight(Block.Properties.from(Blocks.OAK_LOG).notSolid(), 14)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> STRIPPED_GLOWSHROOM_HYPHAE = HELPER.createCompatBlock("quark","stripped_glowshroom_hyphae", ()->new AlphaStrippedWoodBlock(addLight(Block.Properties.from(Blocks.STRIPPED_OAK_WOOD).notSolid(),14)), ItemGroup.BUILDING_BLOCKS);
