@@ -1,13 +1,13 @@
 package com.epic312.enhanced_mushrooms.common.block;
 
+import java.util.function.Supplier;
+
 import com.teamabnormals.abnormals_core.common.blocks.wood.AbnormalsLogBlock;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.material.MaterialColor;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.state.StateContainer;
-
-import java.util.function.Supplier;
 
 /**
  * Code by SmellyModder (Luke Tonon) except the BooleanProperty jank.

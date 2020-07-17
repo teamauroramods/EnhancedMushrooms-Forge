@@ -16,10 +16,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EnMushroomsBiomeFeatures {
-    public static BlockState RED_MUSHROOM_STEM = EnhancedMushroomsBlocks.RED_MUSHROOM_STEM.get().getDefaultState();
-    public static BlockState BROWN_MUSHROOM_STEM = EnhancedMushroomsBlocks.BROWN_MUSHROOM_STEM.get().getDefaultState();
-    public static BlockState RED_MUSHROOM_CAP = Blocks.RED_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
-    public static BlockState BROWN_MUSHROOM_CAP = Blocks.BROWN_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.UP, Boolean.valueOf(true)).with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
+    public static final BlockState RED_MUSHROOM_STEM = EnhancedMushroomsBlocks.RED_MUSHROOM_STEM.get().getDefaultState();
+    public static final BlockState BROWN_MUSHROOM_STEM = EnhancedMushroomsBlocks.BROWN_MUSHROOM_STEM.get().getDefaultState();
+    public static final BlockState RED_MUSHROOM_CAP = Blocks.RED_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
+    public static final BlockState BROWN_MUSHROOM_CAP = Blocks.BROWN_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.UP, Boolean.valueOf(true)).with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
 
     public static final BigMushroomFeatureConfig RED_MUSHROOM_CONFIG = (
             new BigMushroomFeatureConfig(
@@ -37,7 +37,8 @@ public class EnMushroomsBiomeFeatures {
         biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_BOOLEAN_SELECTOR.withConfiguration(new TwoFeatureChoiceConfig(Feature.HUGE_RED_MUSHROOM.withConfiguration(RED_MUSHROOM_CONFIG), Feature.HUGE_BROWN_MUSHROOM.withConfiguration(BROWN_MUSHROOM_CONFIG))).withPlacement(Placement.COUNT_HEIGHTMAP.configure(new FrequencyConfig(1))));
     }
 
-    public static void removeVanillaMushrooms(Biome biome) {
+    @SuppressWarnings("unchecked")
+	public static void removeVanillaMushrooms(Biome biome) {
         List<ConfiguredFeature<?, ?>> list = biome.getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
         List<ConfiguredFeature<?, ?>> toRemove = new ArrayList<>();
         int listSize = list.size();
@@ -57,7 +58,7 @@ public class EnMushroomsBiomeFeatures {
                 } else if (decorated.feature.config instanceof MultipleRandomFeatureConfig) {
                     MultipleRandomFeatureConfig mushroom = (MultipleRandomFeatureConfig) decorated.feature.config;
                     List<ConfiguredRandomFeatureList<?>> tempFeatures = new ArrayList<>();
-                    for (ConfiguredRandomFeatureList crfl : mushroom.features) {
+                    for (ConfiguredRandomFeatureList<?> crfl : mushroom.features) {
                         if (crfl.feature.feature instanceof BigBrownMushroomFeature) {
                             tempFeatures.add(new ConfiguredRandomFeatureList<BigMushroomFeatureConfig>(Feature.HUGE_BROWN_MUSHROOM.withConfiguration(BROWN_MUSHROOM_CONFIG),crfl.chance));
                         } else if (crfl.feature.feature instanceof BigRedMushroomFeature) {
@@ -75,7 +76,6 @@ public class EnMushroomsBiomeFeatures {
                     toRemove.add(configuredFeature);
                     biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, tempFeature);
                 } else if (decorated.feature.config instanceof BigMushroomFeatureConfig) {
-                    BigMushroomFeatureConfig mushroom = (BigMushroomFeatureConfig)decorated.feature.config;
                     biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, new ConfiguredFeature<DecoratedFeatureConfig, DecoratedFeature>(
                             (DecoratedFeature)configuredFeature.feature, new DecoratedFeatureConfig(
                                     new ConfiguredFeature<BigMushroomFeatureConfig, Feature<BigMushroomFeatureConfig>>((Feature<BigMushroomFeatureConfig>)decorated.feature.feature,
