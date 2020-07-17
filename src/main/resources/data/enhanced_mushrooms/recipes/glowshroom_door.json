@@ -14,5 +14,11 @@
   "result": {
     "item": "enhanced_mushrooms:glowshroom_door",
     "count": 3
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ]
 }
