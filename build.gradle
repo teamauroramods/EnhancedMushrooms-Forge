@@ -118,6 +118,6 @@ dependencies {
     implementation fg.deobf("curse.maven:abnormals-core:2989106")
     // compile fg.deobf("curse.maven:quark:2980651")
     // compile fg.deobf("curse.maven:autoreglib:2911830")
-    // compile fg.deobf("curse.maven:buzzier-bees:2970005")
+    implementation fg.deobf("curse.maven:buzzier-bees:3007348")
 
 }
