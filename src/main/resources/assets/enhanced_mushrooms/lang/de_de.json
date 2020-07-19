@@ -1,0 +1,98 @@
+{
+  "_comment": "Red Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.red_mushroom_stem": "Glückspilzstiel",
+  "block.enhanced_mushrooms.stripped_red_mushroom_stem": "Geschälter Glückspilzstiel",
+  "block.enhanced_mushrooms.red_mushroom_hyphae": "Glückspilzhyphen",
+  "block.enhanced_mushrooms.stripped_red_mushroom_hyphae": "Geschälte Glückspilzhyphen",
+  "block.enhanced_mushrooms.red_mushroom_planks": "Glückspilzbretter",
+  "block.enhanced_mushrooms.red_mushroom_slab": "Glückspilzstufe",
+  "block.enhanced_mushrooms.red_mushroom_stairs": "Glückspilztreppe",
+  "block.enhanced_mushrooms.red_mushroom_pressure_plate": "Glückspilzdruckplatte",
+  "block.enhanced_mushrooms.red_mushroom_fence": "Glückspilzzaun",
+  "block.enhanced_mushrooms.red_mushroom_fence_gate": "Glückspilzzauntor",
+  "block.enhanced_mushrooms.red_mushroom_button": "Glückspilzknopf",
+  "block.enhanced_mushrooms.red_mushroom_trapdoor": "Glückspilzfalltür",
+  "block.enhanced_mushrooms.red_mushroom_door": "Glückspilztür",
+  "block.enhanced_mushrooms.red_mushroom_sign": "Glückspilzschild",
+  "block.minecraft.red_mushroom_block": "Glückspilzkappe",
+
+  "item.enhanced_mushrooms.red_mushroom_boat": "Glückspilzboot",
+
+  "_comment2": "Brown Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.brown_mushroom_stem": "Champignonstiel",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_stem": "Geschälter Champignonstiel",
+  "block.enhanced_mushrooms.brown_mushroom_hyphae": "Champignonhyphen",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_hyphae": "Geschälte Champignonhyphen",
+  "block.enhanced_mushrooms.brown_mushroom_planks": "Champignonbretter",
+  "block.enhanced_mushrooms.brown_mushroom_slab": "Champignonstufe",
+  "block.enhanced_mushrooms.brown_mushroom_stairs": "Champignontreppe",
+  "block.enhanced_mushrooms.brown_mushroom_pressure_plate": "Champignondruckplatte",
+  "block.enhanced_mushrooms.brown_mushroom_fence": "Champignonzaun",
+  "block.enhanced_mushrooms.brown_mushroom_fence_gate": "Champignonzauntor",
+  "block.enhanced_mushrooms.brown_mushroom_button": "Champignonknopf",
+  "block.enhanced_mushrooms.brown_mushroom_trapdoor": "Champignonfalltür",
+  "block.enhanced_mushrooms.brown_mushroom_door": "Champignontür",
+  "block.enhanced_mushrooms.brown_mushroom_sign": "Champignonschild",
+  "block.minecraft.brown_mushroom_block": "Champignonkappe",
+
+  "item.enhanced_mushrooms.brown_mushroom_boat": "Champignonboot",
+
+  "_comment3": "Crimson Blocks & Items",
+  "block.minecraft.nether_wart_block": "Karmesinkappe",
+  "item.enhanced_mushrooms.crimson_boat": "Karmesinboot",
+
+  "_comment4": "Warped Blocks & Items",
+  "block.minecraft.warped_wart_block": "Wirrkappe",
+  "item.enhanced_mushrooms.warped_boat": "Wirrboot",
+
+  "_comment5": "Glowshroom Blocks & Items",
+  "block.enhanced_mushrooms.glowshroom_cap": "Glühpilzkappe",
+  "block.enhanced_mushrooms.glowshroom_stem": "Glühpilzstiel",
+  "block.enhanced_mushrooms.stripped_glowshroom_stem": "Geschälter Glühpilzstiel",
+  "block.enhanced_mushrooms.glowshroom_hyphae": "Glühpilzhyphen",
+  "block.enhanced_mushrooms.stripped_glowshroom_hyphae": "Geschälte Glühpilzhyphen",
+  "block.enhanced_mushrooms.glowshroom_planks": "Glühpilzbretter",
+  "block.enhanced_mushrooms.glowshroom_slab": "Glühpilzstufe",
+  "block.enhanced_mushrooms.glowshroom_stairs": "Glühpilztreppe",
+  "block.enhanced_mushrooms.glowshroom_pressure_plate": "Glühpilzdruckplatte",
+  "block.enhanced_mushrooms.glowshroom_fence": "Glühpilzzaun",
+  "block.enhanced_mushrooms.glowshroom_fence_gate": "Glühpilzzauntor",
+  "block.enhanced_mushrooms.glowshroom_button": "Glühpilzknopf",
+  "block.enhanced_mushrooms.glowshroom_trapdoor": "Glühpilzfalltür",
+  "block.enhanced_mushrooms.glowshroom_door": "Glühpilztür",
+  "block.enhanced_mushrooms.glowshroom_sign": "Glühpilzschild",
+
+  "item.enhanced_mushrooms.glowshroom_boat": "Glühpilzboot",
+
+  "_comment6": "Quark Compat",
+  "block.enhanced_mushrooms.vertical_red_mushroom_planks": "Vertikale Glückspilzbretter",
+  "block.enhanced_mushrooms.vertical_brown_mushroom_planks": "Vertikale Champignonbretter",
+  "block.enhanced_mushrooms.vertical_glowshroom_planks": "Vertikale Glühpilzbretter",
+
+  "block.enhanced_mushrooms.red_mushroom_vertical_slab": "Vertikale Glückspilzstufe",
+  "block.enhanced_mushrooms.brown_mushroom_vertical_slab": "Vertikale Champignonstufe",
+  "block.enhanced_mushrooms.glowshroom_vertical_slab": "Vertikale Glühpilzstufe",
+
+  "block.enhanced_mushrooms.red_mushroom_bookshelf": "Glückspilzbücherregal",
+  "block.enhanced_mushrooms.brown_mushroom_bookshelf": "Champignonbücherregal",
+  "block.enhanced_mushrooms.glowshroom_bookshelf": "Glühpilzbücherregal",
+
+  "block.enhanced_mushrooms.red_mushroom_ladder": "Glückspilzleiter",
+  "block.enhanced_mushrooms.brown_mushroom_ladder": "Champignonleiter",
+  "block.enhanced_mushrooms.glowshroom_ladder": "Glühpilzleiter",
+  
+  "block.enhanced_mushrooms.brown_mushroom_chest": "Champignontruhe",
+  "block.enhanced_mushrooms.glowshroom_chest": "Glühpilztruhe",
+  
+  "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "Redstone-Champignontruhe",
+  "block.enhanced_mushrooms.glowshroom_trapped_chest": "Redstone-Glühpilztruhe",
+
+  "_comment7": "Buzzier Bees Compat",
+  "block.enhanced_mushrooms.red_mushroom_beehive": "Glückspilzbienenstock",
+  "block.enhanced_mushrooms.brown_mushroom_beehive": "Champignonbienenstock",
+  "block.enhanced_mushrooms.glowshroom_beehive": "Glühpilzbienenstock",
+
+  "_comment8": "Misc",
+  "item.enhanced_mushrooms.roasted_mushrooms": "Gebratene Pilze",
+  "item.enhanced_mushrooms.beef_stew": "Rinderragout"
+}
