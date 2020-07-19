@@ -2,7 +2,7 @@ package com.epic312.enhanced_mushrooms.core.registry;
 
 import com.epic312.enhanced_mushrooms.core.EnhancedMushrooms;
 import com.epic312.enhanced_mushrooms.core.registry.util.EMRegistryHelper;
-import net.minecraft.block.Blocks;
+
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.SoupItem;

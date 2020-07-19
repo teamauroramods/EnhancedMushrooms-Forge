@@ -1,5 +1,10 @@
 package com.epic312.enhanced_mushrooms.core.registry.util;
 
+import java.util.concurrent.Callable;
+import java.util.function.Supplier;
+
+import javax.annotation.Nullable;
+
 import com.mojang.datafixers.util.Pair;
 import com.teamabnormals.abnormals_core.client.renderer.ChestItemRenderer;
 import com.teamabnormals.abnormals_core.common.blocks.chest.AbnormalsChestBlock;
@@ -12,24 +17,19 @@ import com.teamabnormals.abnormals_core.common.tileentity.AbnormalsChestTileEnti
 import com.teamabnormals.abnormals_core.common.tileentity.AbnormalsTrappedChestTileEntity;
 import com.teamabnormals.abnormals_core.core.registry.BoatRegistry;
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
+
 import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.client.renderer.tileentity.ItemStackTileEntityRenderer;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.common.property.Properties;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
-
-import javax.annotation.Nullable;
-import java.util.concurrent.Callable;
-import java.util.function.Supplier;
 
 public class EMRegistryHelper extends RegistryHelper {
 
@@ -90,16 +90,12 @@ public class EMRegistryHelper extends RegistryHelper {
     }
 
     @OnlyIn(Dist.CLIENT)
-    private static Callable<ItemStackTileEntityRenderer> chestISTER() {
-        return () -> {
-            return new ChestItemRenderer(AbnormalsChestTileEntity::new);
-        };
-    }
-
-    @OnlyIn(Dist.CLIENT)
-    private static Callable<ItemStackTileEntityRenderer> trappedChestISTER() {
-        return () -> {
-            return new ChestItemRenderer(AbnormalsTrappedChestTileEntity::new);
-        };
-    }
+	private static Callable<ItemStackTileEntityRenderer> chestISTER() {
+		return () -> new ChestItemRenderer<TileEntity>(AbnormalsChestTileEntity::new);
+	}
+	
+	@OnlyIn(Dist.CLIENT)
+	private static Callable<ItemStackTileEntityRenderer> trappedChestISTER() {
+		return () -> new ChestItemRenderer<TileEntity>(AbnormalsTrappedChestTileEntity::new);
+	}
 }

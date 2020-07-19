@@ -2,12 +2,8 @@ package com.epic312.enhanced_mushrooms.common.event;
 
 import com.epic312.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
 import com.epic312.enhanced_mushrooms.common.world.biome.EnMushroomsBiomeFeatures;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.HugeMushroomBlock;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.util.Direction;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -131,12 +127,12 @@ public class BonemealEventHandler {
         } else if (state.getBlock() == Blocks.RED_MUSHROOM) {
             configuredfeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.RED_MUSHROOM_CONFIG);
         } else if (state.getBlock().getRegistryName().equals(new ResourceLocation("quark","glowshroom"))) {
-            if (/*placeGlowshroom(world, rand, pos)*/false/*TODO: redo glowshrooms when Quark 1.16 releases*/) {
-                return true;
-            } else {
+//            if (/*placeGlowshroom(world, rand, pos)*/false/*TODO: redo glowshrooms when Quark 1.16 releases*/) {
+//                return true;
+//            } else {
                 world.setBlockState(pos, state, 3);
                 return false;
-            }
+//            }
         } else {
             world.setBlockState(pos, state, 3);
             return false;
