@@ -12,12 +12,12 @@
     }
   },
   "result": {
-    "item": "air",
+    "item": "quark:mushroom_chest",
     "count": 1
   },
   "conditions": [
     {
-      "type": "quark:flag",
+      "type": "abnormals_core:quark_flag",
       "flag": "variant_chests"
     }
   ]

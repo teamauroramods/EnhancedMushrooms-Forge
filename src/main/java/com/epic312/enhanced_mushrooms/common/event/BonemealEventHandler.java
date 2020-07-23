@@ -2,8 +2,12 @@ package com.epic312.enhanced_mushrooms.common.event;
 
 import com.epic312.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
 import com.epic312.enhanced_mushrooms.common.world.biome.EnMushroomsBiomeFeatures;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.HugeMushroomBlock;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.util.Direction;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -15,6 +19,7 @@ import net.minecraftforge.event.entity.player.BonemealEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
+import java.util.Objects;
 import java.util.Random;
 
 public class BonemealEventHandler {
@@ -32,8 +37,7 @@ public class BonemealEventHandler {
                         world.setBlockState(pos, EnhancedMushroomsBlocks.RED_MUSHROOM_STEM.get().getDefaultState());
                     } else if (block.getBlock() == Blocks.BROWN_MUSHROOM) {
                         world.setBlockState(pos, EnhancedMushroomsBlocks.BROWN_MUSHROOM_STEM.get().getDefaultState());
-                    } else if (block.getBlock().getRegistryName().equals(new ResourceLocation("quark","glowshroom"))) {
-                        System.out.print("gamer\n");
+                    } else if (Objects.equals(block.getBlock().getRegistryName(), new ResourceLocation("quark", "glowshroom"))) {
                         world.setBlockState(pos, Blocks.AIR.getDefaultState());
                     }
                     mushroomGrowth(world, pos, block, rand);
@@ -48,7 +52,7 @@ public class BonemealEventHandler {
 
     // Quark copy paste of a vanilla copy paste, touch only if you *really* dare
     //TODO: redo when Quark 1.16 releases
-    /*public static boolean placeGlowshroom(World worldIn, Random rand, BlockPos pos) {
+    public static boolean placeGlowshroom(World worldIn, Random rand, BlockPos pos) {
         int i = rand.nextInt(3) + 4;
         if (rand.nextInt(12) == 0) {
             i *= 2;
@@ -73,7 +77,7 @@ public class BonemealEventHandler {
                     for(int i1 = -l; i1 <= l; ++i1) {
                         for(int j1 = -l; j1 <= l; ++j1) {
                             BlockState blockstate = worldIn.getBlockState(blockpos$mutableblockpos.setPos(pos).move(i1, k, j1));
-                            if (!blockstate.isAir(worldIn, blockpos$mutableblockpos) && !blockstate.isIn(BlockTags.LEAVES)) {
+                            if (!blockstate.isAir(worldIn, blockpos$mutableblockpos) && blockstate.canBeReplacedByLeaves(worldIn, blockpos$mutableblockpos)) { // isIn
                                 return false;
                             }
                         }
@@ -117,7 +121,7 @@ public class BonemealEventHandler {
         } else {
             return false;
         }
-    }*/
+    }
 
     public boolean mushroomGrowth(ServerWorld world, BlockPos pos, BlockState state, Random rand) {
         world.removeBlock(pos, false);
@@ -126,13 +130,13 @@ public class BonemealEventHandler {
             configuredfeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.BROWN_MUSHROOM_CONFIG);
         } else if (state.getBlock() == Blocks.RED_MUSHROOM) {
             configuredfeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.RED_MUSHROOM_CONFIG);
-        } else if (state.getBlock().getRegistryName().equals(new ResourceLocation("quark","glowshroom"))) {
-//            if (/*placeGlowshroom(world, rand, pos)*/false/*TODO: redo glowshrooms when Quark 1.16 releases*/) {
-//                return true;
-//            } else {
+        } else if (Objects.equals(state.getBlock().getRegistryName(), new ResourceLocation("quark", "glowshroom"))) {
+            if (placeGlowshroom(world, rand, pos)) {
+                return true;
+            } else {
                 world.setBlockState(pos, state, 3);
                 return false;
-//            }
+            }
         } else {
             world.setBlockState(pos, state, 3);
             return false;
