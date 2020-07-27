@@ -51,7 +51,6 @@ public class BonemealEventHandler {
     }
 
     // Quark copy paste of a vanilla copy paste, touch only if you *really* dare
-    //TODO: redo when Quark 1.16 releases
     public static boolean placeGlowshroom(World worldIn, Random rand, BlockPos pos) {
         int i = rand.nextInt(3) + 4;
         if (rand.nextInt(12) == 0) {
