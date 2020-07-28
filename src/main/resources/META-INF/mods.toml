@@ -38,7 +38,7 @@ Mushrooms as a wood type, as well as a new mushroom food source!
     # Does this dependency have to exist - if not, ordering below must be specified
     mandatory=true #mandatory
     # The version range of the dependency
-    versionRange="[31,)" #mandatory
+    versionRange="[32.0.88,)" #mandatory
     # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
@@ -53,13 +53,13 @@ Mushrooms as a wood type, as well as a new mushroom food source!
 [[dependencies.enhanced_mushrooms]]
     modId="abnormals_core"
     mandatory=true
-    versionRange="[2.0.0,)"
+    versionRange="[2.1.0,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.enhanced_mushrooms]]
     modId="quark"
     mandatory=false
-    versionRange="[r2.2-255,)"
+    versionRange="[r2.2-257,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.enhanced_mushrooms]]
