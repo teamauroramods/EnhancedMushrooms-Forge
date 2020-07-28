@@ -95,7 +95,7 @@ dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.16.1-32.0.47'
+    minecraft 'net.minecraftforge:forge:1.16.1-32.0.88'
 
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
@@ -115,9 +115,9 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-    implementation fg.deobf("curse.maven:abnormals-core:2989106")
-    implementation fg.deobf("curse.maven:quark:3012230")
-    implementation fg.deobf("curse.maven:autoreglib:3011755")
+    implementation fg.deobf("curse.maven:abnormals-core:3016902")
+    // implementation fg.deobf("curse.maven:quark:3012230")
+    // implementation fg.deobf("curse.maven:autoreglib:3011755")
     // implementation fg.deobf("curse.maven:buzzier-bees:3007348")
 
 }

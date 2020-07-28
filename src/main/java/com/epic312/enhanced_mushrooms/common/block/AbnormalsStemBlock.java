@@ -2,7 +2,7 @@ package com.epic312.enhanced_mushrooms.common.block;
 
 import java.util.function.Supplier;
 
-import com.teamabnormals.abnormals_core.common.blocks.wood.AbnormalsLogBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.AbnormalsLogBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

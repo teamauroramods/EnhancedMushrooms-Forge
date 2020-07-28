@@ -6,17 +6,17 @@ import java.util.function.Supplier;
 import javax.annotation.Nullable;
 
 import com.mojang.datafixers.util.Pair;
-import com.teamabnormals.abnormals_core.client.renderer.ChestItemRenderer;
-import com.teamabnormals.abnormals_core.common.blocks.chest.AbnormalsChestBlock;
-import com.teamabnormals.abnormals_core.common.blocks.chest.AbnormalsTrappedChestBlock;
-import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsStandingSignBlock;
-import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsWallSignBlock;
-import com.teamabnormals.abnormals_core.common.items.AbnormalsBoatItem;
-import com.teamabnormals.abnormals_core.common.items.AbnormalsSignItem;
-import com.teamabnormals.abnormals_core.common.tileentity.AbnormalsChestTileEntity;
-import com.teamabnormals.abnormals_core.common.tileentity.AbnormalsTrappedChestTileEntity;
-import com.teamabnormals.abnormals_core.core.registry.BoatRegistry;
-import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
+import com.minecraftabnormals.abnormals_core.client.renderer.ChestItemRenderer;
+import com.minecraftabnormals.abnormals_core.common.blocks.chest.AbnormalsChestBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.chest.AbnormalsTrappedChestBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.sign.AbnormalsStandingSignBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.sign.AbnormalsWallSignBlock;
+import com.minecraftabnormals.abnormals_core.common.items.AbnormalsBoatItem;
+import com.minecraftabnormals.abnormals_core.common.items.AbnormalsSignItem;
+import com.minecraftabnormals.abnormals_core.common.tileentity.AbnormalsChestTileEntity;
+import com.minecraftabnormals.abnormals_core.common.tileentity.AbnormalsTrappedChestTileEntity;
+import com.minecraftabnormals.abnormals_core.core.registry.BoatRegistry;
+import com.minecraftabnormals.abnormals_core.core.utils.RegistryHelper;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MaterialColor;

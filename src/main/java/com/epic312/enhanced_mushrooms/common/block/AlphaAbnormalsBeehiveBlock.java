@@ -1,6 +1,6 @@
 package com.epic312.enhanced_mushrooms.common.block;
 
-import com.teamabnormals.abnormals_core.common.blocks.AbnormalsBeehiveBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsBeehiveBlock;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.util.Direction;
