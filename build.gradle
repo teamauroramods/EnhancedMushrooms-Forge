@@ -116,8 +116,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     implementation fg.deobf("curse.maven:abnormals-core:3017821")
-    implementation fg.deobf("curse.maven:quark:3017736")
-    implementation fg.deobf("curse.maven:autoreglib:3017289")
+    // implementation fg.deobf("curse.maven:quark:3017736")
+    // implementation fg.deobf("curse.maven:autoreglib:3017289")
     // implementation fg.deobf("curse.maven:buzzier-bees:3007348")
 
 }
