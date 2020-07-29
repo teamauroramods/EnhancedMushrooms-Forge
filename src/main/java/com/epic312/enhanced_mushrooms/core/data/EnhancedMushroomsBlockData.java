@@ -1,7 +1,7 @@
 package com.epic312.enhanced_mushrooms.core.data;
 
 import com.epic312.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
-import com.minecraftabnormals.abnormals_core.core.utils.DataUtils;
+import com.teamabnormals.abnormals_core.core.utils.DataUtils;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 
