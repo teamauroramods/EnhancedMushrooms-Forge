@@ -1,11 +1,11 @@
-package com.epic312.enhanced_mushrooms.core.data;
+package com.epic312.enhanced_mushrooms.core.other;
 
 import com.epic312.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
 import com.teamabnormals.abnormals_core.core.utils.DataUtils;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 
-public class EnhancedMushroomsBlockData {
+public class EnhancedMushroomsData {
     public static void registerFlammables() {
         // Red Mushrooms
         DataUtils.registerFlammable(EnhancedMushroomsBlocks.RED_MUSHROOM_STEM.get(), 5, 5);

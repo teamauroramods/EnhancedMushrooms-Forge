@@ -1,7 +1,7 @@
 package com.epic312.enhanced_mushrooms.core;
 
-import com.epic312.enhanced_mushrooms.core.data.EnhancedMushroomsBlockData;
-import com.epic312.enhanced_mushrooms.common.event.BonemealEventHandler;
+import com.epic312.enhanced_mushrooms.core.other.EnhancedMushroomsEvents;
+import com.epic312.enhanced_mushrooms.core.other.EnhancedMushroomsData;
 import com.epic312.enhanced_mushrooms.core.registry.EnhancedMushroomsFeatures;
 import com.epic312.enhanced_mushrooms.core.registry.util.EMRegistryHelper;
 import net.minecraftforge.api.distmarker.Dist;
@@ -37,14 +37,14 @@ public class EnhancedMushrooms
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        MinecraftForge.EVENT_BUS.register(new BonemealEventHandler());
+        MinecraftForge.EVENT_BUS.register(new EnhancedMushroomsEvents());
         DeferredWorkQueue.runLater(() -> {
-            EnhancedMushroomsBlockData.registerFlammables();
+            EnhancedMushroomsData.registerFlammables();
             EnhancedMushroomsFeatures.generateFeatures();
         });
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
-        DeferredWorkQueue.runLater(EnhancedMushroomsBlockData::setupRenderLayer);
+        DeferredWorkQueue.runLater(EnhancedMushroomsData::setupRenderLayer);
     }
 }
