@@ -20,7 +20,7 @@ import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
 
 version = '1.0'
-group = 'com.epic312.enhanced_mushrooms' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'com.teamaurora.enhanced_mushrooms' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Enhanced-Mushrooms-1.16.1'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
