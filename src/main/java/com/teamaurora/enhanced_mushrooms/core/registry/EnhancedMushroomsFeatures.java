@@ -15,7 +15,7 @@ public class EnhancedMushroomsFeatures {
 
     public static void generate(Biome biome) {
         EnMushroomsBiomeFeatures.removeVanillaMushrooms(biome);
-        if ((biome == Biomes.SWAMP || biome == Biomes.SWAMP_HILLS) && ModList.get().isLoaded("swampexpansion")) {
+        if ((biome == Biomes.SWAMP || biome == Biomes.SWAMP_HILLS) && ModList.get().isLoaded("environmental")) {
             EnMushroomsBiomeFeatures.addSwampMushrooms(biome);
         }
     }

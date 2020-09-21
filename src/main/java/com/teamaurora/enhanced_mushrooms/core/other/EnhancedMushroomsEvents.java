@@ -39,7 +39,8 @@ public class EnhancedMushroomsEvents {
                     .with(HugeMushroomBlock.WEST, false);
             if (state != strippedState) {
                 if (event.getItemStack().getItem() instanceof AxeItem) {
-                    event.getItemStack().attemptDamageItem(1, event.getWorld().getRandom(), event.getPlayer() instanceof ServerPlayerEntity ? (ServerPlayerEntity) event.getPlayer() : null);
+                    if (!event.getPlayer().abilities.isCreativeMode)
+                        event.getItemStack().attemptDamageItem(1, event.getWorld().getRandom(), event.getPlayer() instanceof ServerPlayerEntity ? (ServerPlayerEntity) event.getPlayer() : null);
                     event.getWorld().setBlockState(event.getPos(), strippedState);
                     event.getWorld().playSound(event.getPlayer(), event.getPos(), SoundEvents.ITEM_AXE_STRIP, SoundCategory.BLOCKS, 1.0F, 1.0F);
                     event.getPlayer().swingArm(event.getHand());
