@@ -19,7 +19,7 @@ apply plugin: 'maven-publish'
 import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
 
-version = '1.0'
+version = '2.1.0'
 group = 'com.teamaurora.enhanced_mushrooms' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Enhanced-Mushrooms-1.16.1'
 
