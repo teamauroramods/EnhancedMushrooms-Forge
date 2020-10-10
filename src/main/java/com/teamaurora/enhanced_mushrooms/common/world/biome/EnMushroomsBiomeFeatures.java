@@ -42,9 +42,6 @@ public class EnMushroomsBiomeFeatures {
         List<ConfiguredFeature<?, ?>> list = biome.getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
         List<ConfiguredFeature<?, ?>> toRemove = new ArrayList<>();
         int listSize = list.size();
-        if (biome == Biomes.SWAMP) {
-            System.out.print("a");
-        }
         for (int i=0; i<listSize; i++) {
             ConfiguredFeature<?, ?> configuredFeature = list.get(i);
             if (configuredFeature.config instanceof DecoratedFeatureConfig) {
@@ -76,11 +73,19 @@ public class EnMushroomsBiomeFeatures {
                     toRemove.add(configuredFeature);
                     biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, tempFeature);
                 } else if (decorated.feature.config instanceof BigMushroomFeatureConfig) {
-                    biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, new ConfiguredFeature<DecoratedFeatureConfig, DecoratedFeature>(
-                            (DecoratedFeature)configuredFeature.feature, new DecoratedFeatureConfig(
-                                    new ConfiguredFeature<BigMushroomFeatureConfig, Feature<BigMushroomFeatureConfig>>((Feature<BigMushroomFeatureConfig>)decorated.feature.feature,
-                                            BROWN_MUSHROOM_CONFIG), decorated.decorator
-                    )));
+                    if (decorated.feature.feature instanceof BigBrownMushroomFeature) {
+                        biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, new ConfiguredFeature<DecoratedFeatureConfig, DecoratedFeature>(
+                                (DecoratedFeature) configuredFeature.feature, new DecoratedFeatureConfig(
+                                new ConfiguredFeature<BigMushroomFeatureConfig, Feature<BigMushroomFeatureConfig>>((Feature<BigMushroomFeatureConfig>) decorated.feature.feature,
+                                        BROWN_MUSHROOM_CONFIG), decorated.decorator
+                        )));
+                    } else if (decorated.feature.feature instanceof BigRedMushroomFeature) {
+                        biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, new ConfiguredFeature<DecoratedFeatureConfig, DecoratedFeature>(
+                                (DecoratedFeature) configuredFeature.feature, new DecoratedFeatureConfig(
+                                new ConfiguredFeature<BigMushroomFeatureConfig, Feature<BigMushroomFeatureConfig>>((Feature<BigMushroomFeatureConfig>) decorated.feature.feature,
+                                        RED_MUSHROOM_CONFIG), decorated.decorator
+                        )));
+                    }
                     toRemove.add(configuredFeature);
                 }
             }
