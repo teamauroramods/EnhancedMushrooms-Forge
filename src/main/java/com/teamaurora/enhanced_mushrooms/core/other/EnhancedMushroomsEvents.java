@@ -1,5 +1,6 @@
 package com.teamaurora.enhanced_mushrooms.core.other;
 
+import com.teamaurora.enhanced_mushrooms.core.EnhancedMushroomsConfig;
 import com.teamaurora.enhanced_mushrooms.core.compatibility.Quark;
 import com.teamaurora.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
 import com.teamaurora.enhanced_mushrooms.common.world.biome.EnMushroomsBiomeFeatures;
@@ -31,7 +32,7 @@ public class EnhancedMushroomsEvents {
     @SubscribeEvent
     public void rightClickBlockEvent (PlayerInteractEvent.RightClickBlock event) {
         BlockState state = event.getWorld().getBlockState(event.getPos());
-        if (state.getBlock() instanceof HugeMushroomBlock) {
+        if (state.getBlock() instanceof HugeMushroomBlock && EnhancedMushroomsConfig.COMMON.capsStrippable.get()) {
             BlockState strippedState = state.with(HugeMushroomBlock.DOWN, false)
                     .with(HugeMushroomBlock.UP, false)
                     .with(HugeMushroomBlock.NORTH, false)

@@ -1,6 +1,7 @@
 package com.teamaurora.enhanced_mushrooms.core.registry;
 
 import com.teamaurora.enhanced_mushrooms.core.EnhancedMushrooms;
+import com.teamaurora.enhanced_mushrooms.core.EnhancedMushroomsConfig;
 import com.teamaurora.enhanced_mushrooms.core.registry.util.EMRegistryHelper;
 
 import net.minecraft.item.Item;

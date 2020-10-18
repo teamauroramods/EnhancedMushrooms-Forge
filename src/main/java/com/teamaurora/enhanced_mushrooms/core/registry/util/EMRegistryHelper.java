@@ -24,6 +24,7 @@ import net.minecraft.client.renderer.tileentity.ItemStackTileEntityRenderer;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SoupItem;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
@@ -45,6 +46,18 @@ public class EMRegistryHelper extends RegistryHelper {
         });
         BoatRegistry.registerBoat(type, boat, block);
         return boat;
+    }
+
+    public RegistryObject<Item> createConditionalItem(boolean bool, String name, Item.Properties properties, ItemGroup group) {
+        ItemGroup determinedGroup = bool ? group : null;
+        RegistryObject<Item> item = this.getDeferredItemRegister().register(name, () -> new Item(properties.group(determinedGroup)));
+        return item;
+    }
+
+    public RegistryObject<Item> createConditionalSoupItem(boolean bool, String name, Item.Properties properties, ItemGroup group) {
+        ItemGroup determinedGroup = bool ? group : null;
+        RegistryObject<Item> item = this.getDeferredItemRegister().register(name, () -> new SoupItem(properties.group(determinedGroup)));
+        return item;
     }
 
     public Pair<RegistryObject<AbnormalsStandingSignBlock>, RegistryObject<AbnormalsWallSignBlock>> createCompatSignBlock(String modId, String name, MaterialColor color, Block.Properties properties) {
