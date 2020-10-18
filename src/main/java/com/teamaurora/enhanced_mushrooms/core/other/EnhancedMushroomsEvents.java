@@ -1,5 +1,6 @@
 package com.teamaurora.enhanced_mushrooms.core.other;
 
+import com.teamaurora.enhanced_mushrooms.core.compatibility.Quark;
 import com.teamaurora.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
 import com.teamaurora.enhanced_mushrooms.common.world.biome.EnMushroomsBiomeFeatures;
 import net.minecraft.block.Block;
@@ -78,6 +79,9 @@ public class EnhancedMushroomsEvents {
 
     // Quark copy paste of a vanilla copy paste, touch only if you *really* dare
     public static boolean placeGlowshroom(World worldIn, Random rand, BlockPos pos) {
+        if (!Quark.isInstalled() || Quark.GLOWSHROOM_BLOCK == null) {
+            return false;
+        }
         int i = rand.nextInt(3) + 4;
         if (rand.nextInt(12) == 0) {
             i *= 2;
@@ -109,7 +113,7 @@ public class EnhancedMushroomsEvents {
                     }
                 }
 
-                BlockState blockstate1 = EnhancedMushroomsBlocks.GLOWSHROOM_CAP.get().getDefaultState().with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
+                BlockState blockstate1 = Quark.GLOWSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
 
                 for(int l1 = i - 3; l1 <= i; ++l1) {
                     int i2 = l1 < i ? 2 : 1;
