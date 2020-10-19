@@ -30,7 +30,7 @@ logoFile="logo.png" #optional
 authors="Team Aurora" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Mushrooms as a wood type, as well as a new mushroom food source!
+New mushroom-based wood types and a couple mushroom foods.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.enhanced_mushrooms]] #optional
