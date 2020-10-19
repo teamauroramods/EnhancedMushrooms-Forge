@@ -14,7 +14,6 @@
     "block.enhanced_mushrooms.red_mushroom_trapdoor": "Escotilla de hongo rojo",
     "block.enhanced_mushrooms.red_mushroom_door": "Puerta de hongo rojo",
     "block.enhanced_mushrooms.red_mushroom_sign": "Cartel de hongo rojo",
-    "block.minecraft.red_mushroom_block": "Sombrero de hongo rojo",
   
     "item.enhanced_mushrooms.red_mushroom_boat": "Bote de hongo rojo",
   
@@ -33,20 +32,10 @@
     "block.enhanced_mushrooms.brown_mushroom_trapdoor": "Escotilla de hongo marrón",
     "block.enhanced_mushrooms.brown_mushroom_door": "Puerta de hongo marrón",
     "block.enhanced_mushrooms.brown_mushroom_sign": "Cartel de hongo marrón",
-    "block.minecraft.brown_mushroom_block": "Sombrero de hongo marrón",
   
     "item.enhanced_mushrooms.brown_mushroom_boat": "Bote de hongo marrón",
   
-    "_comment3": "Crimson Blocks & Items",
-    "block.minecraft.nether_wart_block": "Sombrero carmesí",
-    "item.enhanced_mushrooms.crimson_boat": "Bote carmesí",
-  
-    "_comment4": "Warped Blocks & Items",
-    "block.minecraft.warped_wart_block": "Sombrero distorsionado",
-    "item.enhanced_mushrooms.warped_boat": "Bote distorsionado",
-  
     "_comment5": "Glowshroom Blocks & Items",
-    "block.enhanced_mushrooms.glowshroom_cap": "Sombrero de luminongo",
     "block.enhanced_mushrooms.glowshroom_stem": "Tallo de luminongo",
     "block.enhanced_mushrooms.stripped_glowshroom_stem": "Tallo de luminongo sin corteza",
     "block.enhanced_mushrooms.glowshroom_hyphae": "Hifas de luminongo",
