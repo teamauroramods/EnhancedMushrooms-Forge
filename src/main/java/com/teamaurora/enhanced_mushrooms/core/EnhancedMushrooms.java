@@ -45,7 +45,7 @@ public class EnhancedMushrooms
         MinecraftForge.EVENT_BUS.register(new EnhancedMushroomsEvents());
         DeferredWorkQueue.runLater(() -> {
             EnhancedMushroomsData.registerFlammables();
-            EnhancedMushroomsFeatures.generateFeatures();
+            //EnhancedMushroomsFeatures.generateFeatures();
         });
     }
 

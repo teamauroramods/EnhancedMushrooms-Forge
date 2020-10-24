@@ -64,8 +64,8 @@ New mushroom-based wood types and a couple mushroom foods.
     ordering="AFTER"
     side="BOTH"
 [[dependencies.enhanced_mushrooms]]
-    modId="swamp_expansion"
+    modId="environmental"
     mandatory=false
-    versionRange="[1.7.0,)"
-    ordering="BEFORE"
+    versionRange="[0.1.0,)"
+    ordering="AFTER"
     side="BOTH"
