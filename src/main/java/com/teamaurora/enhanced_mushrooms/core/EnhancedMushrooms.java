@@ -18,7 +18,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import static com.teamaurora.enhanced_mushrooms.core.EnhancedMushrooms.MODID;
 
 @Mod(MODID)
-@Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 @SuppressWarnings("deprecation")
 public class EnhancedMushrooms
 {
@@ -31,12 +30,7 @@ public class EnhancedMushrooms
         REGISTRY_HELPER.getDeferredItemRegister().register(eventBus);
         REGISTRY_HELPER.getDeferredBlockRegister().register(eventBus);
 
-        MinecraftForge.EVENT_BUS.register(this);
-
         eventBus.addListener(this::commonSetup);
-        DistExecutor.runWhenOn(Dist.CLIENT, () -> () -> {
-            eventBus.addListener(this::clientSetup);
-        });
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, EnhancedMushroomsConfig.COMMON_SPEC);
     }
@@ -47,9 +41,5 @@ public class EnhancedMushrooms
             EnhancedMushroomsData.registerFlammables();
             //EnhancedMushroomsFeatures.generateFeatures();
         });
-    }
-
-    private void clientSetup(final FMLClientSetupEvent event) {
-        DeferredWorkQueue.runLater(EnhancedMushroomsData::setupRenderLayer);
     }
 }
