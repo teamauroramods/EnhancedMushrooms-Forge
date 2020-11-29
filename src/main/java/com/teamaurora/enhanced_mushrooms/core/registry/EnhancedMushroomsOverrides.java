@@ -24,8 +24,8 @@ public class EnhancedMushroomsOverrides {
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
 		event.getRegistry().registerAll(
-				new HugeMushroomBlock(Block.Properties.create(Material.ORGANIC, MaterialColor.RED).hardnessAndResistance(0.1F).sound(SoundType.field_235588_J_).harvestTool(ToolType.HOE)).setRegistryName("minecraft:red_mushroom_block"),
-				new HugeMushroomBlock(Block.Properties.create(Material.ORGANIC, MaterialColor.DIRT).hardnessAndResistance(0.1F).sound(SoundType.field_235588_J_).harvestTool(ToolType.HOE)).setRegistryName("minecraft:brown_mushroom_block")
+				new HugeMushroomBlock(Block.Properties.create(Material.ORGANIC, MaterialColor.RED).hardnessAndResistance(0.2F).sound(SoundType.field_235588_J_).harvestTool(ToolType.HOE)).setRegistryName("minecraft:red_mushroom_block"),
+				new HugeMushroomBlock(Block.Properties.create(Material.ORGANIC, MaterialColor.DIRT).hardnessAndResistance(0.2F).sound(SoundType.field_235588_J_).harvestTool(ToolType.HOE)).setRegistryName("minecraft:brown_mushroom_block")
 				);
 	}
 }
