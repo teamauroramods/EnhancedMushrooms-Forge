@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "enhanced_mushrooms:brown_mushroom_trapped_chest",
+    "enhanced_mushrooms:glowshroom_trapped_chest"
+  ],
+  "optional": [
+    "quark:mushroom_trapped_chest"
+  ]
+}
