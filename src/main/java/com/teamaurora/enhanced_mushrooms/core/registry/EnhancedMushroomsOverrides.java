@@ -1,6 +1,6 @@
-package com.epic312.enhanced_mushrooms.core.registry;
+package com.teamaurora.enhanced_mushrooms.core.registry;
 
-import com.epic312.enhanced_mushrooms.core.EnhancedMushrooms;
+import com.teamaurora.enhanced_mushrooms.core.EnhancedMushrooms;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.HugeMushroomBlock;
