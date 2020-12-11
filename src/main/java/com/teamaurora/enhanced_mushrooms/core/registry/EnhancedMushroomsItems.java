@@ -17,7 +17,6 @@ public class EnhancedMushroomsItems {
 
     public static final RegistryObject<Item> RED_MUSHROOM_BOAT = HELPER.createBoatItem("red_mushroom", EnhancedMushroomsBlocks.RED_MUSHROOM_PLANKS);
     public static final RegistryObject<Item> BROWN_MUSHROOM_BOAT = HELPER.createBoatItem("brown_mushroom", EnhancedMushroomsBlocks.BROWN_MUSHROOM_PLANKS);
-    // TODO: reimplement glowshroom boat
     public static final RegistryObject<Item> GLOWSHROOM_BOAT = HELPER.createCompatBoatItem("glowshroom", EnhancedMushroomsBlocks.GLOWSHROOM_PLANKS, "quark");
 
     public static final RegistryObject<Item> ROASTED_MUSHROOMS = HELPER.createItem("roasted_mushrooms", ()->new Item(new Item.Properties().food(EnhancedMushroomsFoods.ROASTED_MUSHROOMS).group(ItemGroup.FOOD)));

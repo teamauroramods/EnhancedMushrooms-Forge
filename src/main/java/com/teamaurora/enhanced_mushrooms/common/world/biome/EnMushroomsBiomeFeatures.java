@@ -1,5 +1,7 @@
 package com.teamaurora.enhanced_mushrooms.common.world.biome;
 
+import com.google.common.collect.ImmutableSet;
+import com.minecraftabnormals.abnormals_core.common.world.modification.BiomeFeatureModifier;
 import com.teamaurora.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -31,4 +33,18 @@ public class EnMushroomsBiomeFeatures {
                     new SimpleBlockStateProvider(BROWN_MUSHROOM_CAP),
                     new SimpleBlockStateProvider(BROWN_MUSHROOM_STEM),
                     3));
+
+    public static final BiomeFeatureModifier HUGE_BROWN_MUSHROOM_MODIFIER = BiomeFeatureModifier.createFeatureReplacer(
+            (biomeKey, biome) -> (true),
+            ImmutableSet.of(GenerationStage.Decoration.VEGETAL_DECORATION),
+            ()->Feature.HUGE_BROWN_MUSHROOM,
+            ()->(Feature.HUGE_BROWN_MUSHROOM.withConfiguration(BROWN_MUSHROOM_CONFIG))
+    );
+
+    public static final BiomeFeatureModifier HUGE_RED_MUSHROOM_MODIFIER = BiomeFeatureModifier.createFeatureReplacer(
+            (biomeKey, biome) -> (true),
+            ImmutableSet.of(GenerationStage.Decoration.VEGETAL_DECORATION),
+            ()->Feature.HUGE_RED_MUSHROOM,
+            ()->(Feature.HUGE_RED_MUSHROOM.withConfiguration(RED_MUSHROOM_CONFIG))
+    );
 }
