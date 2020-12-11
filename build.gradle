@@ -85,9 +85,9 @@ jar {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    implementation fg.deobf("curse.maven:abnormals-core-3133295:3133295")
-    implementation fg.deobf("curse.maven:quark-3135556:3135556")
-    implementation fg.deobf("curse.maven:autoreglib-3128555:3128555")
+    implementation fg.deobf("curse.maven:abnormals-core-382216:3133295")
+    implementation fg.deobf("curse.maven:quark-243121:3135556")
+    implementation fg.deobf("curse.maven:autoreglib-250363:3128555")
     //implementation fg.deobf("curse.maven:buzzier-bees:3007348")
 }
 

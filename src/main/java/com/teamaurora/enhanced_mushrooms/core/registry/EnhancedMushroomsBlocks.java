@@ -51,6 +51,7 @@ import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 
+@SuppressWarnings("deprecation")
 @Mod.EventBusSubscriber(modid = EnhancedMushrooms.MODID, bus=Mod.EventBusSubscriber.Bus.MOD)
 public class EnhancedMushroomsBlocks {
     public static final EnhancedMushroomsBlockSubRegistryHelper HELPER = EnhancedMushrooms.REGISTRY_HELPER.getBlockSubHelper();

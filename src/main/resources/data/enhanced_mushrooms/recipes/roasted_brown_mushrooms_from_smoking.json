@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "ingredient": {
-    "item": "minecraft:brown_mushroom"
-  },
-  "result": "enhanced_mushrooms:roasted_mushrooms",
-  "experience": 0.35,
-  "cookingtime": 100
-}
