@@ -23,8 +23,8 @@ public class EnhancedMushrooms
 {
     public static final String MODID = "enhanced_mushrooms";
     public static final RegistryHelper REGISTRY_HELPER = RegistryHelper.create(MODID, helper -> {
-        helper.putSubHelper(ForgeRegistries.BLOCKS, new EnhancedMushroomsBlockSubRegistryHelper(helper));
         helper.putSubHelper(ForgeRegistries.ITEMS, new EnhancedMushroomsItemSubRegistryHelper(helper));
+        helper.putSubHelper(ForgeRegistries.BLOCKS, new EnhancedMushroomsBlockSubRegistryHelper(helper));
     });
 
 	public EnhancedMushrooms() {
