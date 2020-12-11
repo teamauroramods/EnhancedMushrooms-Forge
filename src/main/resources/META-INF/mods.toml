@@ -15,34 +15,20 @@ issueTrackerURL="https://github.com/teamauroramods/EnhancedMushrooms/issues"
 [[dependencies.enhanced_mushrooms]]
     modId="forge"
     mandatory=true
-    versionRange="[32.0.88,)"
+    versionRange="[35.1.10,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.enhanced_mushrooms]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.1]"
+    versionRange="[1.16.4]"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.enhanced_mushrooms]]
     modId="abnormals_core"
     mandatory=true
-    versionRange="[2.0.1,)"
-    ordering="AFTER"
-    side="BOTH"
-
-[[dependencies.enhanced_mushrooms]]
-    modId="quark"
-    mandatory=false
-    versionRange="[r2.2-257,)"
-    ordering="AFTER"
-    side="BOTH"
-
-[[dependencies.enhanced_mushrooms]]
-    modId="environmental"
-    mandatory=false
-    versionRange="[0.1.0,)"
+    versionRange="[3.0.2,)"
     ordering="AFTER"
     side="BOTH"

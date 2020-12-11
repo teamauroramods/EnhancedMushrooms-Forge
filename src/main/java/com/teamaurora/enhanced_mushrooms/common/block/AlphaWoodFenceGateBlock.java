@@ -1,6 +1,6 @@
 package com.teamaurora.enhanced_mushrooms.common.block;
 
-import com.teamabnormals.abnormals_core.common.blocks.wood.WoodFenceGateBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodFenceGateBlock;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.util.Direction;

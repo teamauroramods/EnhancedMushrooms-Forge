@@ -1,5 +1,7 @@
 package com.teamaurora.enhanced_mushrooms.core.registry;
 
+import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
+import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
 import com.teamaurora.enhanced_mushrooms.common.block.AbnormalsStemBlock;
 import com.teamaurora.enhanced_mushrooms.common.block.AlphaAbnormalsBeehiveBlock;
 import com.teamaurora.enhanced_mushrooms.common.block.AlphaAbnormalsStemBlock;
@@ -14,31 +16,30 @@ import com.teamaurora.enhanced_mushrooms.common.block.AlphaWoodFenceBlock;
 import com.teamaurora.enhanced_mushrooms.common.block.AlphaWoodFenceGateBlock;
 import com.teamaurora.enhanced_mushrooms.common.block.AlphaWoodSlabBlock;
 import com.teamaurora.enhanced_mushrooms.common.block.AlphaWoodStairsBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.GlowshroomCapBlock;
 import com.teamaurora.enhanced_mushrooms.core.EnhancedMushrooms;
-import com.teamaurora.enhanced_mushrooms.core.registry.util.EMRegistryHelper;
 import com.mojang.datafixers.util.Pair;
-import com.teamabnormals.abnormals_core.common.blocks.AbnormalsBeehiveBlock;
-import com.teamabnormals.abnormals_core.common.blocks.AbnormalsLadderBlock;
-import com.teamabnormals.abnormals_core.common.blocks.BookshelfBlock;
-import com.teamabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
-import com.teamabnormals.abnormals_core.common.blocks.chest.AbnormalsChestBlock;
-import com.teamabnormals.abnormals_core.common.blocks.chest.AbnormalsTrappedChestBlock;
-import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsStandingSignBlock;
-import com.teamabnormals.abnormals_core.common.blocks.sign.AbnormalsWallSignBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.AbnormalsWoodButtonBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.PlanksBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.StrippedLogBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.StrippedWoodBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.WoodBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.WoodDoorBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.WoodFenceBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.WoodFenceGateBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.WoodPressurePlateBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.WoodSlabBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.WoodStairsBlock;
-import com.teamabnormals.abnormals_core.common.blocks.wood.WoodTrapDoorBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsBeehiveBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsLadderBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.BookshelfBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.chest.AbnormalsChestBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.chest.AbnormalsTrappedChestBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.sign.AbnormalsStandingSignBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.sign.AbnormalsWallSignBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.AbnormalsWoodButtonBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.PlanksBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.StrippedLogBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.StrippedWoodBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodDoorBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodFenceBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodFenceGateBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodPressurePlateBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodSlabBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodStairsBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodTrapDoorBlock;
 
+import com.teamaurora.enhanced_mushrooms.core.registry.util.EnhancedMushroomsBlockSubRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.PressurePlateBlock;
@@ -52,7 +53,7 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = EnhancedMushrooms.MODID, bus=Mod.EventBusSubscriber.Bus.MOD)
 public class EnhancedMushroomsBlocks {
-    public static final EMRegistryHelper HELPER = EnhancedMushrooms.REGISTRY_HELPER;
+    public static final EnhancedMushroomsBlockSubRegistryHelper HELPER = EnhancedMushrooms.REGISTRY_HELPER.getBlockSubHelper();
 
     // red mushroom blocks
     public static final RegistryObject<Block> STRIPPED_RED_MUSHROOM_STEM = HELPER.createBlock("stripped_red_mushroom_stem", ()->new StrippedLogBlock(Block.Properties.from(Blocks.STRIPPED_OAK_LOG)), ItemGroup.BUILDING_BLOCKS);
@@ -115,14 +116,16 @@ public class EnhancedMushroomsBlocks {
     public static final RegistryObject<Block> GLOWSHROOM_BUTTON = HELPER.createCompatBlock("quark","glowshroom_button", ()->new AbnormalsWoodButtonBlock(Block.Properties.from(Blocks.OAK_BUTTON).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.REDSTONE);
     public static final RegistryObject<Block> GLOWSHROOM_TRAPDOOR = HELPER.createCompatBlock("quark","glowshroom_trapdoor", ()->new WoodTrapDoorBlock(Block.Properties.from(Blocks.OAK_TRAPDOOR).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.REDSTONE);
     public static final RegistryObject<Block> GLOWSHROOM_DOOR = HELPER.createCompatBlock("quark","glowshroom_door", ()->new WoodDoorBlock(Block.Properties.from(Blocks.OAK_DOOR).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.REDSTONE);
-    public static final Pair<RegistryObject<AbnormalsStandingSignBlock>, RegistryObject<AbnormalsWallSignBlock>> GLOWSHROOM_SIGNS = HELPER.createCompatSignBlock("quark","glowshroom", MaterialColor.BLUE, Block.Properties.create(Material.WOOD).doesNotBlockMovement().hardnessAndResistance(1.0F).sound(SoundType.WOOD).setLightLevel((a)->{return 14;}));
+    // TODO: make glowing maby?
+    public static final Pair<RegistryObject<AbnormalsStandingSignBlock>, RegistryObject<AbnormalsWallSignBlock>> GLOWSHROOM_SIGNS = HELPER.createCompatSignBlock("glowshroom", MaterialColor.CYAN, "quark");
 
     public static final RegistryObject<Block> VERTICAL_GLOWSHROOM_PLANKS = HELPER.createCompatBlock("quark","vertical_glowshroom_planks", ()->new AlphaBlock(Block.Properties.from(Blocks.OAK_PLANKS).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GLOWSHROOM_VERTICAL_SLAB = HELPER.createCompatBlock("quark","glowshroom_vertical_slab", ()->new AlphaVerticalSlabBlock(Block.Properties.from(Blocks.OAK_PLANKS).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GLOWSHROOM_BOOKSHELF = HELPER.createCompatBlock("quark","glowshroom_bookshelf", ()->new AlphaBookshelfBlock(Block.Properties.from(Blocks.BOOKSHELF).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> GLOWSHROOM_LADDER = HELPER.createCompatBlock("quark","glowshroom_ladder", ()->new AbnormalsLadderBlock(Block.Properties.from(Blocks.LADDER).harvestTool(ToolType.AXE).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.DECORATIONS);
-    public static final Pair<RegistryObject<AbnormalsChestBlock>, RegistryObject<AbnormalsTrappedChestBlock>> GLOWSHROOM_CHESTS = HELPER.createCompatChestsWithProperties("glowshroom", net.minecraft.block.Block.Properties.create(Material.WOOD, MaterialColor.CYAN).hardnessAndResistance(2.5F).sound(SoundType.WOOD).setLightLevel((a)->{return 14;}));
+    // TODO: make glowing maby?
+    public static final Pair<RegistryObject<AbnormalsChestBlock>, RegistryObject<AbnormalsTrappedChestBlock>> GLOWSHROOM_CHESTS = HELPER.createCompatChestBlocks("glowshroom", MaterialColor.CYAN);
 
-    public static final RegistryObject<Block> GLOWSHROOM_BEEHIVE = HELPER.createTwoCompatBlock("buzzier_bees","quark","glowshroom_beehive", ()->new AlphaAbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> GLOWSHROOM_BEEHIVE = HELPER.createCompatBlock("glowshroom_beehive", ()->new AlphaAbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.DECORATIONS, "buzzier_bees", "quark");
 
 }

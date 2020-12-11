@@ -14,6 +14,6 @@ public class EnhancedMushroomsFeatures {
     }
 
     public static void generate(Biome biome) {
-        EnMushroomsBiomeFeatures.removeVanillaMushrooms(biome);
+        //EnMushroomsBiomeFeatures.removeVanillaMushrooms(biome);
     }
 }
