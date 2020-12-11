@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "quark:glowshroom"
+  },
+  "result": "enhanced_mushrooms:roasted_mushrooms",
+  "experience": 0.35,
+  "cookingtime": 600,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "enhanced_mushrooms:red_mushroom_planks"
+    }
+  ],
+  "result": {
+    "item": "enhanced_mushrooms:red_mushroom_button"
+  }
+}

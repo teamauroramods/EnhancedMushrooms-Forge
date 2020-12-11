@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "enhanced_mushrooms:vertical_glowshroom_planks"
+    }
+  ],
+  "result": {
+    "item": "enhanced_mushrooms:glowshroom_planks",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_planks"
+    }
+  ]
+}

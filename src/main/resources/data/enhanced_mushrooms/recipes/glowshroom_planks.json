@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "enhanced_mushrooms:glowshroom_stems"
+    }
+  ],
+  "result": {
+    "item": "enhanced_mushrooms:glowshroom_planks",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "enhanced_mushrooms:red_mushroom_planks"
+    }
+  },
+  "result": {
+    "item": "enhanced_mushrooms:red_mushroom_boat"
+  }
+}

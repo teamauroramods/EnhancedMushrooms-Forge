@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "pattern": [
+    "x#x",
+    "x#x"
+  ],
+  "key": {
+    "#": {
+      "item": "enhanced_mushrooms:red_mushroom_planks"
+    },
+    "x": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "enhanced_mushrooms:red_mushroom_fence_gate"
+  }
+}
