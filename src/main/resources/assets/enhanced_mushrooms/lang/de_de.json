@@ -14,7 +14,6 @@
   "block.enhanced_mushrooms.red_mushroom_trapdoor": "Roter-Pilz-Falltür",
   "block.enhanced_mushrooms.red_mushroom_door": "Roter-Pilz-Tür",
   "block.enhanced_mushrooms.red_mushroom_sign": "Roter-Pilz-Schild",
-  "block.minecraft.red_mushroom_block": "Roter-Pilz-Kappe",
 
   "item.enhanced_mushrooms.red_mushroom_boat": "Roter-Pilz-Boot",
 
@@ -33,20 +32,10 @@
   "block.enhanced_mushrooms.brown_mushroom_trapdoor": "Brauner-Pilz-Falltür",
   "block.enhanced_mushrooms.brown_mushroom_door": "Brauner-Pilz-Tür",
   "block.enhanced_mushrooms.brown_mushroom_sign": "Brauner-Pilz-Schild",
-  "block.minecraft.brown_mushroom_block": "Brauner-Pilz-Kappe",
 
   "item.enhanced_mushrooms.brown_mushroom_boat": "Brauner-Pilz-Boot",
 
-  "_comment3": "Crimson Blocks & Items",
-  "block.minecraft.nether_wart_block": "Karmesinkappe",
-  "item.enhanced_mushrooms.crimson_boat": "Karmesinboot",
-
-  "_comment4": "Warped Blocks & Items",
-  "block.minecraft.warped_wart_block": "Wirrkappe",
-  "item.enhanced_mushrooms.warped_boat": "Wirrboot",
-
   "_comment5": "Glowshroom Blocks & Items",
-  "block.enhanced_mushrooms.glowshroom_cap": "Glühpilzkappe",
   "block.enhanced_mushrooms.glowshroom_stem": "Glühpilzstiel",
   "block.enhanced_mushrooms.stripped_glowshroom_stem": "Geschälter Glühpilzstiel",
   "block.enhanced_mushrooms.glowshroom_hyphae": "Glühpilzhyphen",
