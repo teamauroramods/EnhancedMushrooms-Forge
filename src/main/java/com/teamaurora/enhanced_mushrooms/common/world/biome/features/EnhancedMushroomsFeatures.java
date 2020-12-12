@@ -1,4 +1,4 @@
-package com.teamaurora.enhanced_mushrooms.core.registry;
+package com.teamaurora.enhanced_mushrooms.common.world.biome.features;
 
 import com.google.common.collect.ImmutableSet;
 import com.minecraftabnormals.abnormals_core.common.world.modification.BiomeFeatureModifier;

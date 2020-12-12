@@ -1,11 +1,13 @@
 package com.teamaurora.enhanced_mushrooms.core;
 
 import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
+import com.teamaurora.enhanced_mushrooms.common.world.biome.EnMushroomsBiomeFeatures;
 import com.teamaurora.enhanced_mushrooms.core.other.EnhancedMushroomsEvents;
 import com.teamaurora.enhanced_mushrooms.core.other.EnhancedMushroomsData;
 import com.teamaurora.enhanced_mushrooms.core.registry.util.EnhancedMushroomsBlockSubRegistryHelper;
 import com.teamaurora.enhanced_mushrooms.core.registry.util.EnhancedMushroomsItemSubRegistryHelper;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,15 +34,16 @@ public class EnhancedMushrooms
 
         REGISTRY_HELPER.register(eventBus);
 
-        eventBus.addListener(this::commonSetup);
+        eventBus.addListener(EventPriority.LOWEST, this::commonSetup);
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, EnhancedMushroomsConfig.COMMON_SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         MinecraftForge.EVENT_BUS.register(new EnhancedMushroomsEvents());
-        DeferredWorkQueue.runLater(() -> {
+        event.enqueueWork(() -> {
             EnhancedMushroomsData.registerFlammables();
+            //EnMushroomsBiomeFeatures.applyBiomeModifiers();
             //EnhancedMushroomsFeatures.generateFeatures();
         });
     }

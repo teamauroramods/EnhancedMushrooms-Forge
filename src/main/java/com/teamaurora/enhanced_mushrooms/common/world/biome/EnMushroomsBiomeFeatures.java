@@ -2,6 +2,7 @@ package com.teamaurora.enhanced_mushrooms.common.world.biome;
 
 import com.google.common.collect.ImmutableSet;
 import com.minecraftabnormals.abnormals_core.common.world.modification.BiomeFeatureModifier;
+import com.minecraftabnormals.abnormals_core.common.world.modification.BiomeModificationManager;
 import com.teamaurora.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -14,6 +15,7 @@ import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.placement.Placement;
 
 import java.util.ArrayList;
+import java.util.EnumSet;
 import java.util.List;
 
 public class EnMushroomsBiomeFeatures {
@@ -36,15 +38,20 @@ public class EnMushroomsBiomeFeatures {
 
     public static final BiomeFeatureModifier HUGE_BROWN_MUSHROOM_MODIFIER = BiomeFeatureModifier.createFeatureReplacer(
             (biomeKey, biome) -> (true),
-            ImmutableSet.of(GenerationStage.Decoration.VEGETAL_DECORATION),
+            EnumSet.of(GenerationStage.Decoration.VEGETAL_DECORATION),
             ()->Feature.HUGE_BROWN_MUSHROOM,
             ()->(Feature.HUGE_BROWN_MUSHROOM.withConfiguration(BROWN_MUSHROOM_CONFIG))
     );
 
     public static final BiomeFeatureModifier HUGE_RED_MUSHROOM_MODIFIER = BiomeFeatureModifier.createFeatureReplacer(
             (biomeKey, biome) -> (true),
-            ImmutableSet.of(GenerationStage.Decoration.VEGETAL_DECORATION),
+            EnumSet.of(GenerationStage.Decoration.VEGETAL_DECORATION),
             ()->Feature.HUGE_RED_MUSHROOM,
             ()->(Feature.HUGE_RED_MUSHROOM.withConfiguration(RED_MUSHROOM_CONFIG))
     );
+
+    public static void applyBiomeModifiers() {
+        BiomeModificationManager.INSTANCE.addModifier(HUGE_BROWN_MUSHROOM_MODIFIER);
+        BiomeModificationManager.INSTANCE.addModifier(HUGE_RED_MUSHROOM_MODIFIER);
+    }
 }
