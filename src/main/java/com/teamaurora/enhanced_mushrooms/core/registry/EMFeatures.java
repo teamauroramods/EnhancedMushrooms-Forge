@@ -1,13 +1,11 @@
 package com.teamaurora.enhanced_mushrooms.core.registry;
 
-import com.teamaurora.enhanced_mushrooms.common.world.biome.EnMushroomsBiomeFeatures;
+import com.teamaurora.enhanced_mushrooms.common.world.biome.EMBiomeFeatures;
 import com.teamaurora.enhanced_mushrooms.core.EnhancedMushrooms;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.HugeMushroomBlock;
-import net.minecraft.world.biome.Biomes;
 import net.minecraft.world.gen.GenerationStage;
-import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.feature.*;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,7 +16,7 @@ import java.util.List;
 import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(modid = EnhancedMushrooms.MODID)
-public class EnhancedMushroomsFeatures {
+public class EMFeatures {
     protected static final BlockState RED_MUSHROOM_BLOCK_DOWN = Blocks.RED_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
     protected static final BlockState BROWN_MUSHROOM_BLOCK_UP = Blocks.BROWN_MUSHROOM_BLOCK.getDefaultState().with(HugeMushroomBlock.UP, Boolean.valueOf(true)).with(HugeMushroomBlock.DOWN, Boolean.valueOf(false));
 
@@ -65,18 +63,18 @@ public class EnhancedMushroomsFeatures {
 
                         ConfiguredFeature<?, ?> tempDef = mrfconfig.defaultFeature.get();
                         if (isHugeRedMushroom(tempDef)) {
-                            tempDef = Feature.HUGE_RED_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.RED_MUSHROOM_CONFIG);
+                            tempDef = Feature.HUGE_RED_MUSHROOM.withConfiguration(EMBiomeFeatures.RED_MUSHROOM_CONFIG);
                         } else if (isHugeBrownMushroom(tempDef)) {
-                            tempDef = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.BROWN_MUSHROOM_CONFIG);
+                            tempDef = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EMBiomeFeatures.BROWN_MUSHROOM_CONFIG);
                         }
 
                         List<ConfiguredRandomFeatureList> tempFeatures = new ArrayList<>();
                         for (ConfiguredRandomFeatureList crfl : mrfconfig.features) {
                             ConfiguredFeature<?, ?> crflFeature = crfl.feature.get();
                             if (isHugeRedMushroom(crflFeature)) {
-                                tempFeatures.add(new ConfiguredRandomFeatureList(Feature.HUGE_RED_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.RED_MUSHROOM_CONFIG), crfl.chance));
+                                tempFeatures.add(new ConfiguredRandomFeatureList(Feature.HUGE_RED_MUSHROOM.withConfiguration(EMBiomeFeatures.RED_MUSHROOM_CONFIG), crfl.chance));
                             } else if (isHugeBrownMushroom(crflFeature)) {
-                                tempFeatures.add(new ConfiguredRandomFeatureList(Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.BROWN_MUSHROOM_CONFIG), crfl.chance));
+                                tempFeatures.add(new ConfiguredRandomFeatureList(Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EMBiomeFeatures.BROWN_MUSHROOM_CONFIG), crfl.chance));
                             } else {
                                 tempFeatures.add(crfl);
                             }
@@ -94,17 +92,17 @@ public class EnhancedMushroomsFeatures {
                         // this code is fucking AWFUL but it *should* work
                         ConfiguredFeature<?, ?> leftFeature = tfcconfig.field_227285_a_.get();
                         if (isHugeRedMushroom(leftFeature)) {
-                            leftFeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.RED_MUSHROOM_CONFIG);
+                            leftFeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EMBiomeFeatures.RED_MUSHROOM_CONFIG);
                         } else if (isHugeBrownMushroom(leftFeature)) {
-                            leftFeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.BROWN_MUSHROOM_CONFIG);
+                            leftFeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EMBiomeFeatures.BROWN_MUSHROOM_CONFIG);
                         }
                         final ConfiguredFeature<?, ?> leftFeatureFinal = leftFeature;
 
                         ConfiguredFeature<?, ?> rightFeature = tfcconfig.field_227286_b_.get();
                         if (isHugeRedMushroom(rightFeature)) {
-                            rightFeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.RED_MUSHROOM_CONFIG);
+                            rightFeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EMBiomeFeatures.RED_MUSHROOM_CONFIG);
                         } else if (isHugeBrownMushroom(rightFeature)) {
-                            rightFeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.BROWN_MUSHROOM_CONFIG);
+                            rightFeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EMBiomeFeatures.BROWN_MUSHROOM_CONFIG);
                         }
                         final ConfiguredFeature<?, ?> rightFeatureFinal = rightFeature;
 

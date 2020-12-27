@@ -16,8 +16,8 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 
-public class EnhancedMushroomsBlockSubRegistryHelper extends BlockSubRegistryHelper {
-    public EnhancedMushroomsBlockSubRegistryHelper(RegistryHelper helper) {
+public class EMBlockSubRegistryHelper extends BlockSubRegistryHelper {
+    public EMBlockSubRegistryHelper(RegistryHelper helper) {
         super(helper);
     }
 

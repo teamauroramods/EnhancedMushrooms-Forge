@@ -1,7 +1,5 @@
 package com.teamaurora.enhanced_mushrooms.core.registry;
 
-import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
-import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
 import com.teamaurora.enhanced_mushrooms.common.block.AbnormalsStemBlock;
 import com.teamaurora.enhanced_mushrooms.common.block.AlphaAbnormalsBeehiveBlock;
 import com.teamaurora.enhanced_mushrooms.common.block.AlphaAbnormalsStemBlock;
@@ -39,12 +37,10 @@ import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodSlabBlock;
 import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodStairsBlock;
 import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodTrapDoorBlock;
 
-import com.teamaurora.enhanced_mushrooms.core.registry.util.EnhancedMushroomsBlockSubRegistryHelper;
+import com.teamaurora.enhanced_mushrooms.core.registry.util.EMBlockSubRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.PressurePlateBlock;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.ToolType;
@@ -53,8 +49,8 @@ import net.minecraftforge.fml.common.Mod;
 
 @SuppressWarnings("deprecation")
 @Mod.EventBusSubscriber(modid = EnhancedMushrooms.MODID, bus=Mod.EventBusSubscriber.Bus.MOD)
-public class EnhancedMushroomsBlocks {
-    public static final EnhancedMushroomsBlockSubRegistryHelper HELPER = EnhancedMushrooms.REGISTRY_HELPER.getBlockSubHelper();
+public class EMBlocks {
+    public static final EMBlockSubRegistryHelper HELPER = EnhancedMushrooms.REGISTRY_HELPER.getBlockSubHelper();
 
     // red mushroom blocks
     public static final RegistryObject<Block> STRIPPED_RED_MUSHROOM_STEM = HELPER.createBlock("stripped_red_mushroom_stem", ()->new StrippedLogBlock(Block.Properties.from(Blocks.STRIPPED_OAK_LOG)), ItemGroup.BUILDING_BLOCKS);

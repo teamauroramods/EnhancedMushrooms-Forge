@@ -1,9 +1,9 @@
 package com.teamaurora.enhanced_mushrooms.core.other;
 
-import com.teamaurora.enhanced_mushrooms.core.EnhancedMushroomsConfig;
+import com.teamaurora.enhanced_mushrooms.core.EMConfig;
 import com.teamaurora.enhanced_mushrooms.core.compatibility.Quark;
-import com.teamaurora.enhanced_mushrooms.core.registry.EnhancedMushroomsBlocks;
-import com.teamaurora.enhanced_mushrooms.common.world.biome.EnMushroomsBiomeFeatures;
+import com.teamaurora.enhanced_mushrooms.core.registry.EMBlocks;
+import com.teamaurora.enhanced_mushrooms.common.world.biome.EMBiomeFeatures;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -28,11 +28,11 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import java.util.Objects;
 import java.util.Random;
 
-public class EnhancedMushroomsEvents {
+public class EMEvents {
     @SubscribeEvent
     public void rightClickBlockEvent (PlayerInteractEvent.RightClickBlock event) {
         BlockState state = event.getWorld().getBlockState(event.getPos());
-        if (state.getBlock() instanceof HugeMushroomBlock && EnhancedMushroomsConfig.COMMON.capsStrippable.get()) {
+        if (state.getBlock() instanceof HugeMushroomBlock && EMConfig.COMMON.capsStrippable.get()) {
             BlockState strippedState = state.with(HugeMushroomBlock.DOWN, false)
                     .with(HugeMushroomBlock.UP, false)
                     .with(HugeMushroomBlock.NORTH, false)
@@ -62,9 +62,9 @@ public class EnhancedMushroomsEvents {
                 event.setResult(Event.Result.ALLOW);
                 if (canUseBonemeal(world, rand, pos, block)) {
                     if (block.getBlock() == Blocks.RED_MUSHROOM) {
-                        world.setBlockState(pos, EnhancedMushroomsBlocks.RED_MUSHROOM_STEM.get().getDefaultState());
+                        world.setBlockState(pos, EMBlocks.RED_MUSHROOM_STEM.get().getDefaultState());
                     } else if (block.getBlock() == Blocks.BROWN_MUSHROOM) {
-                        world.setBlockState(pos, EnhancedMushroomsBlocks.BROWN_MUSHROOM_STEM.get().getDefaultState());
+                        world.setBlockState(pos, EMBlocks.BROWN_MUSHROOM_STEM.get().getDefaultState());
                     } else if (Objects.equals(block.getBlock().getRegistryName(), new ResourceLocation("quark", "glowshroom"))) {
                         world.setBlockState(pos, Blocks.AIR.getDefaultState());
                     }
@@ -137,7 +137,7 @@ public class EnhancedMushroomsEvents {
                     }
                 }
 
-                BlockState blockstate2 = EnhancedMushroomsBlocks.GLOWSHROOM_STEM.get().getDefaultState();
+                BlockState blockstate2 = EMBlocks.GLOWSHROOM_STEM.get().getDefaultState();
 
                 for(int j2 = 0; j2 < i; ++j2) {
                     blockpos$mutableblockpos.setPos(pos).move(Direction.UP, j2);
@@ -157,9 +157,9 @@ public class EnhancedMushroomsEvents {
         world.removeBlock(pos, false);
         ConfiguredFeature<BigMushroomFeatureConfig, ?> configuredfeature;
         if (state.getBlock() == Blocks.BROWN_MUSHROOM) {
-            configuredfeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.BROWN_MUSHROOM_CONFIG);
+            configuredfeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EMBiomeFeatures.BROWN_MUSHROOM_CONFIG);
         } else if (state.getBlock() == Blocks.RED_MUSHROOM) {
-            configuredfeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EnMushroomsBiomeFeatures.RED_MUSHROOM_CONFIG);
+            configuredfeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EMBiomeFeatures.RED_MUSHROOM_CONFIG);
         } else if (Objects.equals(state.getBlock().getRegistryName(), new ResourceLocation("quark", "glowshroom"))) {
             if (placeGlowshroom(world, rand, pos)) {
                 return true;

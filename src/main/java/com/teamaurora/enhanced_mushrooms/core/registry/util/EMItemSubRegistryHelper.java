@@ -10,8 +10,8 @@ import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 
-public class EnhancedMushroomsItemSubRegistryHelper extends ItemSubRegistryHelper {
-    public EnhancedMushroomsItemSubRegistryHelper(RegistryHelper helper) {
+public class EMItemSubRegistryHelper extends ItemSubRegistryHelper {
+    public EMItemSubRegistryHelper(RegistryHelper helper) {
         super(helper);
     }
 

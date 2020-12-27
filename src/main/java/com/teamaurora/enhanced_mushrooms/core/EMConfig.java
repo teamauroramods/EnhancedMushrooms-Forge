@@ -3,7 +3,7 @@ package com.teamaurora.enhanced_mushrooms.core;
 import net.minecraftforge.common.ForgeConfigSpec;
 import org.apache.commons.lang3.tuple.Pair;
 
-public class EnhancedMushroomsConfig {
+public class EMConfig {
     public static class Common {
         public final ForgeConfigSpec.ConfigValue<Boolean> capsStrippable;
 
