@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = "${mod_version}-${minecraft_version}"
+version = "${minecraft_version}-${mod_version}"
 group = 'com.teamaurora.enhanced_mushrooms'
 archivesBaseName = 'Enhanced-Mushrooms'
 
