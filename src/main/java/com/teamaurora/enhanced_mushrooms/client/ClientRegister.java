@@ -37,13 +37,12 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_BUTTON.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_TRAPDOOR.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_DOOR.get(), RenderType.getTranslucent());
-        //RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.GLOWSHROOM_SIGNS.getFirst().get(), RenderType.getTranslucent());
-        //RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.GLOWSHROOM_SIGNS.getSecond().get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_SIGNS.getFirst().get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_SIGNS.getSecond().get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.VERTICAL_GLOWSHROOM_PLANKS.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_VERTICAL_SLAB.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_BOOKSHELF.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_LADDER.get(), RenderType.getTranslucent());
-        //RenderTypeLookup.setRenderLayer(EnhancedMushroomsBlocks.GLOWSHROOM_BEEHIVE.get(), RenderType.getTranslucent());
-        // TODO: uncomment this shit when fixed
+        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_BEEHIVE.get(), RenderType.getTranslucent());
     }
 }
