@@ -172,13 +172,11 @@ public class EMEvents {
             return false;
         }
 
-        /*if (configuredfeature.func_236265_a_(world, world.func_241112_a_(), world.getChunkProvider().getChunkGenerator(), rand, pos)) {
+        if (configuredfeature.generate(world, world.getChunkProvider().getChunkGenerator(), rand, pos)) {
             return true;
         } else {
             world.setBlockState(pos, state, 3);
             return false;
-        }*/
-        // TODO: fix this shit
-        return false; //temporary
+        }
     }
 }
