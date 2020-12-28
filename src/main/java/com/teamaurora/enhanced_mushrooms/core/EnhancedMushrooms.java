@@ -1,11 +1,13 @@
 package com.teamaurora.enhanced_mushrooms.core;
 
 import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
+import com.teamaurora.enhanced_mushrooms.core.library.api.conditions.EMFoodRecipeCondition;
 import com.teamaurora.enhanced_mushrooms.core.other.EMEvents;
 import com.teamaurora.enhanced_mushrooms.core.other.EMData;
 import com.teamaurora.enhanced_mushrooms.core.registry.util.EMBlockSubRegistryHelper;
 import com.teamaurora.enhanced_mushrooms.core.registry.util.EMItemSubRegistryHelper;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -27,6 +29,8 @@ public class EnhancedMushrooms
 
 	public EnhancedMushrooms() {
         final IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        CraftingHelper.register(new EMFoodRecipeCondition.Serializer());
 
         REGISTRY_HELPER.register(eventBus);
 

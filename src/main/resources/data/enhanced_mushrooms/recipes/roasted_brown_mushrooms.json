@@ -5,5 +5,10 @@
   },
   "result": "enhanced_mushrooms:roasted_mushrooms",
   "experience": 0.35,
-  "cookingtime": 200
+  "cookingtime": 200,
+  "conditions": [
+    {
+      "type": "enhanced_mushrooms:foods_enabled"
+    }
+  ]
 }
