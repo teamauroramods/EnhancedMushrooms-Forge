@@ -3,7 +3,7 @@ package com.teamaurora.enhanced_mushrooms.core.other;
 import com.teamaurora.enhanced_mushrooms.core.EMConfig;
 import com.teamaurora.enhanced_mushrooms.core.compatibility.Quark;
 import com.teamaurora.enhanced_mushrooms.core.registry.EMBlocks;
-import com.teamaurora.enhanced_mushrooms.common.world.biome.EMBiomeFeatures;
+import com.teamaurora.enhanced_mushrooms.core.registry.EMFeatures;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -157,9 +157,9 @@ public class EMEvents {
         world.removeBlock(pos, false);
         ConfiguredFeature<BigMushroomFeatureConfig, ?> configuredfeature;
         if (state.getBlock() == Blocks.BROWN_MUSHROOM) {
-            configuredfeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EMBiomeFeatures.BROWN_MUSHROOM_CONFIG);
+            configuredfeature = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EMFeatures.Configs.BROWN_MUSHROOM_CONFIG);
         } else if (state.getBlock() == Blocks.RED_MUSHROOM) {
-            configuredfeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EMBiomeFeatures.RED_MUSHROOM_CONFIG);
+            configuredfeature = Feature.HUGE_RED_MUSHROOM.withConfiguration(EMFeatures.Configs.RED_MUSHROOM_CONFIG);
         } else if (Objects.equals(state.getBlock().getRegistryName(), new ResourceLocation("quark", "glowshroom"))) {
             if (placeGlowshroom(world, rand, pos)) {
                 return true;
