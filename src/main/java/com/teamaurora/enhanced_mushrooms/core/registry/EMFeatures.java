@@ -70,7 +70,9 @@ public class EMFeatures {
     // Code originally by bageldotjpg, modified by me to work with what I'm doing (Epic)
     @SubscribeEvent
     public static void onBiomeLoad(BiomeLoadingEvent event) {
-        List<Supplier<ConfiguredFeature<?, ?>>> features = event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
+        Features.HUGE_BROWN_MUSHROOM = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(Configs.BROWN_MUSHROOM_CONFIG);
+        Features.HUGE_RED_MUSHROOM = Feature.HUGE_RED_MUSHROOM.withConfiguration(Configs.RED_MUSHROOM_CONFIG);
+        /*List<Supplier<ConfiguredFeature<?, ?>>> features = event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
         if (event.getName() != null) {
             List<Supplier<ConfiguredFeature<?, ?>>> toRemove = new ArrayList<>();
             List<ConfiguredFeature<?, ?>> toAdd = new ArrayList<>();
@@ -139,6 +141,6 @@ public class EMFeatures {
             for (ConfiguredFeature<?, ?> f : toAdd) {
                 event.getGeneration().withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, f);
             }
-        }
+        }*/
     }
 }

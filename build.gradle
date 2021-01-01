@@ -20,7 +20,7 @@ sourceCompatibility = targetCompatibility = JavaVersion.VERSION_1_8
 
 minecraft {
     mappings channel: 'snapshot', version: '20201028-1.16.3'
-    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 
     runs {
         client {
@@ -89,6 +89,7 @@ dependencies {
     implementation fg.deobf("curse.maven:quark-243121:3135556")
     implementation fg.deobf("curse.maven:autoreglib-250363:3128555")
     implementation fg.deobf("curse.maven:jei-238222:3136600")
+    implementation fg.deobf("curse.maven:autumnity-365045:3154935")
     //implementation fg.deobf("curse.maven:buzzier-bees:3007348")
 }
 
