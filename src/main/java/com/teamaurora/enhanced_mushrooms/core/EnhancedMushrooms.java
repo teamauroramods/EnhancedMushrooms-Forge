@@ -4,8 +4,11 @@ import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
 import com.teamaurora.enhanced_mushrooms.core.library.api.conditions.EMFoodRecipeCondition;
 import com.teamaurora.enhanced_mushrooms.core.other.EMEvents;
 import com.teamaurora.enhanced_mushrooms.core.other.EMData;
+import com.teamaurora.enhanced_mushrooms.core.registry.EMFeatures;
 import com.teamaurora.enhanced_mushrooms.core.registry.util.EMBlockSubRegistryHelper;
 import com.teamaurora.enhanced_mushrooms.core.registry.util.EMItemSubRegistryHelper;
+import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.Features;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.crafting.CraftingHelper;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -43,8 +46,9 @@ public class EnhancedMushrooms
         MinecraftForge.EVENT_BUS.register(new EMEvents());
         event.enqueueWork(() -> {
             EMData.registerFlammables();
-            //EnMushroomsBiomeFeatures.applyBiomeModifiers();
-            //EnhancedMushroomsFeatures.generateFeatures();
+            // this is very hacky, but it works for some reason so I'm keeping it
+            Features.HUGE_BROWN_MUSHROOM = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EMFeatures.Configs.BROWN_MUSHROOM_CONFIG);
+            Features.HUGE_RED_MUSHROOM = Feature.HUGE_RED_MUSHROOM.withConfiguration(EMFeatures.Configs.RED_MUSHROOM_CONFIG);
         });
     }
 }

@@ -9,6 +9,7 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.feature.*;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
+import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
@@ -68,11 +69,10 @@ public class EMFeatures {
     }
 
     // Code originally by bageldotjpg, modified by me to work with what I'm doing (Epic)
+    // This part is necessary for vanilla worldgen. I have no idea why but it works so I'll take it
     @SubscribeEvent
     public static void onBiomeLoad(BiomeLoadingEvent event) {
-        Features.HUGE_BROWN_MUSHROOM = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(Configs.BROWN_MUSHROOM_CONFIG);
-        Features.HUGE_RED_MUSHROOM = Feature.HUGE_RED_MUSHROOM.withConfiguration(Configs.RED_MUSHROOM_CONFIG);
-        /*List<Supplier<ConfiguredFeature<?, ?>>> features = event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
+        List<Supplier<ConfiguredFeature<?, ?>>> features = event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
         if (event.getName() != null) {
             List<Supplier<ConfiguredFeature<?, ?>>> toRemove = new ArrayList<>();
             List<ConfiguredFeature<?, ?>> toAdd = new ArrayList<>();
@@ -141,6 +141,6 @@ public class EMFeatures {
             for (ConfiguredFeature<?, ?> f : toAdd) {
                 event.getGeneration().withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, f);
             }
-        }*/
+        }
     }
 }
