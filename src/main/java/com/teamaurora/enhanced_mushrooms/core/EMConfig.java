@@ -13,7 +13,7 @@ public class EMConfig {
 
             capsStrippable = builder.define("Whether mushroom blocks should be strippable with an axe", true);
 
-            foodItems = builder.define("Whether the mod's food items are enabled", true);
+            foodItems = builder.define("Whether the mod's food items are obtainable in survival", true);
 
             builder.pop();
         }
