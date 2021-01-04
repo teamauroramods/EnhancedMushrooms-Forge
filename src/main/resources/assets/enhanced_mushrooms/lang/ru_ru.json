@@ -1,0 +1,87 @@
+{
+  "_comment": "Red Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.red_mushroom_stem": "Ножка красного гриба",
+  "block.enhanced_mushrooms.stripped_red_mushroom_stem": "Очищенная ножка красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_hyphae": "Гифа красного гриба",
+  "block.enhanced_mushrooms.stripped_red_mushroom_hyphae": "Очищенная гифа красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_planks": "Доски из красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_slab": "Плита из красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_stairs": "Ступеньки из красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_pressure_plate": "Нажимная плита из красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_fence": "Забор из красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_fence_gate": "Калитка из красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_button": "Кнопка из красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_trapdoor": "Люк из красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_door": "Дверь из красного гриба",
+  "block.enhanced_mushrooms.red_mushroom_sign": "Табличка из красного гриба",
+
+  "item.enhanced_mushrooms.red_mushroom_boat": "Лодка из красного гриба",
+
+  "_comment2": "Brown Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.brown_mushroom_stem": "Ножка коричневого гриба",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_stem": "Очищенная ножка коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_hyphae": "Гифа коричневого гриба",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_hyphae": "Очищенная гифа коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_planks": "Доски из коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_slab": "Плита из коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_stairs": "Ступеньки из коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_pressure_plate": "Нажимная плита из коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_fence": "Забор из коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_fence_gate": "Калитка из коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_button": "Кнопка из коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_trapdoor": "Люк из коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_door": "Дверь из коричневого гриба",
+  "block.enhanced_mushrooms.brown_mushroom_sign": "Табличка из коричневого гриба",
+
+  "item.enhanced_mushrooms.brown_mushroom_boat": "Лодка из коричневого гриба",
+
+  "_comment5": "Glowshroom Blocks & Items",
+  "block.enhanced_mushrooms.glowshroom_stem": "Ножка светящегося гриба",
+  "block.enhanced_mushrooms.stripped_glowshroom_stem": "Очищенная ножка светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_hyphae": "Гифа из светящегося гриба",
+  "block.enhanced_mushrooms.stripped_glowshroom_hyphae": "Очищенная гифа из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_planks": "Доски из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_slab": "Плита из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_stairs": "Ступеньки из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_pressure_plate": "Нажимная плита из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_fence": "Забор из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_fence_gate": "Калитка из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_button": "Кнопка из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_trapdoor": "Люк из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_door": "Дверь из светящегося гриба",
+  "block.enhanced_mushrooms.glowshroom_sign": "Табличка из светящегося гриба",
+
+  "item.enhanced_mushrooms.glowshroom_boat": "Лодка из светящегося гриба",
+
+  "_comment6": "Quark Compat",
+  "block.enhanced_mushrooms.vertical_red_mushroom_planks": "Вертикальные доски из красного гриба",
+  "block.enhanced_mushrooms.vertical_brown_mushroom_planks": "Вертикальные доски из коричневого гриба",
+  "block.enhanced_mushrooms.vertical_glowshroom_planks": "Вертикальные доски из светящегося гриба",
+
+  "block.enhanced_mushrooms.red_mushroom_vertical_slab": "Вертикальная плита из красного гриба",
+  "block.enhanced_mushrooms.brown_mushroom_vertical_slab": "Вертикальная плита из коричневого гриба",
+  "block.enhanced_mushrooms.glowshroom_vertical_slab": "Вертикальная плита из светящегося гриба",
+
+  "block.enhanced_mushrooms.red_mushroom_bookshelf": "Книжная полка из красного гриба",
+  "block.enhanced_mushrooms.brown_mushroom_bookshelf": "Книжная полка из коричневого гриба",
+  "block.enhanced_mushrooms.glowshroom_bookshelf": "Книжная полка из светящегося гриба",
+
+  "block.enhanced_mushrooms.red_mushroom_ladder": "Лестница из красного гриба",
+  "block.enhanced_mushrooms.brown_mushroom_ladder": "Лестница из коричневого гриба",
+  "block.enhanced_mushrooms.glowshroom_ladder": "Лестница из светящегося гриба",
+
+  "block.enhanced_mushrooms.brown_mushroom_chest": "Сундук из коричневого гриба",
+  "block.enhanced_mushrooms.glowshroom_chest": "Сундук из светящегося гриба",
+
+  "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "Сундук-ловушка из коричневого гриба",
+  "block.enhanced_mushrooms.glowshroom_trapped_chest": "Сундук-ловушка из светящегося гриба",
+
+  "_comment7": "Buzzier Bees Compat",
+  "block.enhanced_mushrooms.red_mushroom_beehive": "Улей из красного гриба",
+  "block.enhanced_mushrooms.brown_mushroom_beehive": "Улей из коричневого гриба",
+  "block.enhanced_mushrooms.glowshroom_beehive": "Улей из светящегося гриба",
+
+  "_comment8": "Misc",
+  "item.enhanced_mushrooms.roasted_mushrooms": "Жареные грибы",
+  "item.enhanced_mushrooms.beef_stew": "Тушёная говядина"
+}
