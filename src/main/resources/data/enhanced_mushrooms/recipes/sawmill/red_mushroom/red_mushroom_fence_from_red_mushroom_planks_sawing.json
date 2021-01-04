@@ -1,0 +1,14 @@
+{
+  "type": "environmental:sawing",
+  "ingredient": {
+    "item": "enhanced_mushrooms:red_mushroom_planks"
+  },
+  "result": "enhanced_mushrooms:red_mushroom_fence",
+  "count": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "environmental"
+    }
+  ]
+}

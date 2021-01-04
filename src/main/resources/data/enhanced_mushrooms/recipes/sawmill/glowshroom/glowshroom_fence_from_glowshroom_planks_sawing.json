@@ -1,0 +1,14 @@
+{
+  "type": "environmental:sawing",
+  "ingredient": {
+    "item": "enhanced_mushrooms:glowshroom_planks"
+  },
+  "result": "enhanced_mushrooms:glowshroom_fence",
+  "count": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "environmental"
+    }
+  ]
+}

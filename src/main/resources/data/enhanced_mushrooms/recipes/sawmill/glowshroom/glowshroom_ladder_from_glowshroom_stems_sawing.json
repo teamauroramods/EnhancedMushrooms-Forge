@@ -1,0 +1,18 @@
+{
+  "type": "environmental:sawing",
+  "ingredient": {
+    "tag": "enhanced_mushrooms:glowshroom_stems"
+  },
+  "result": "enhanced_mushrooms:glowshroom_ladder",
+  "count": 8,
+  "conditions":[
+    {
+      "type":"abnormals_core:quark_flag",
+      "flag":"variant_ladders"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "environmental"
+    }
+  ]
+}

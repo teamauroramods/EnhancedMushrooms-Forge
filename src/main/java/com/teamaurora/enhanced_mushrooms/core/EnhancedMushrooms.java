@@ -31,6 +31,8 @@ public class EnhancedMushrooms
     });
 
 	public EnhancedMushrooms() {
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, EMConfig.COMMON_SPEC);
+
         final IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         CraftingHelper.register(new EMFoodRecipeCondition.Serializer());
@@ -38,8 +40,6 @@ public class EnhancedMushrooms
         REGISTRY_HELPER.register(eventBus);
 
         eventBus.addListener(EventPriority.LOWEST, this::commonSetup);
-
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, EMConfig.COMMON_SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

@@ -1,0 +1,18 @@
+{
+  "type": "environmental:sawing",
+  "ingredient": {
+    "tag": "enhanced_mushrooms:red_mushroom_stems"
+  },
+  "result": "enhanced_mushrooms:red_mushroom_vertical_slab",
+  "count": 8,
+  "conditions":[
+    {
+      "type":"abnormals_core:quark_flag",
+      "flag":"vertical_slabs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "environmental"
+    }
+  ]
+}

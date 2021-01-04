@@ -1,0 +1,18 @@
+{
+  "type": "environmental:sawing",
+  "ingredient": {
+    "tag": "enhanced_mushrooms:glowshroom_stems"
+  },
+  "result": "enhanced_mushrooms:vertical_glowshroom_planks",
+  "count": 4,
+  "conditions":[
+    {
+      "type":"abnormals_core:quark_flag",
+      "flag":"vertical_planks"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "environmental"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "environmental:sawing",
+  "ingredient": {
+    "item": "enhanced_mushrooms:red_mushroom_planks"
+  },
+  "result": "enhanced_mushrooms:red_mushroom_ladder",
+  "count": 2,
+  "conditions":[
+    {
+      "type":"abnormals_core:quark_flag",
+      "flag":"variant_ladders"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "environmental"
+    }
+  ]
+}
