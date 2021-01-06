@@ -1,14 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "farmersdelight:cooking",
   "ingredients": [
     {
       "item": "minecraft:potato"
     },
     {
       "item": "minecraft:cooked_beef"
-    },
-    {
-      "item": "minecraft:bowl"
     },
     {
       "item": "minecraft:potato"
@@ -20,9 +17,16 @@
   "result": {
     "item": "enhanced_mushrooms:beef_stew"
   },
+  "container": {
+    "item": "minecraft:bowl"
+  },
   "conditions": [
     {
       "type": "enhanced_mushrooms:foods_enabled"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
     }
   ]
 }
