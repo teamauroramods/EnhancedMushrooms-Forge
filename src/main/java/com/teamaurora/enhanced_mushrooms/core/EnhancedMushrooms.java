@@ -45,10 +45,11 @@ public class EnhancedMushrooms
     private void commonSetup(final FMLCommonSetupEvent event) {
         MinecraftForge.EVENT_BUS.register(new EMEvents());
         event.enqueueWork(() -> {
+            EMFeatures.Configured.registerConfiguredFeatures();
             EMData.registerFlammables();
             // this is very hacky, but it works for some reason so I'm keeping it
-            Features.HUGE_BROWN_MUSHROOM = Feature.HUGE_BROWN_MUSHROOM.withConfiguration(EMFeatures.Configs.BROWN_MUSHROOM_CONFIG);
-            Features.HUGE_RED_MUSHROOM = Feature.HUGE_RED_MUSHROOM.withConfiguration(EMFeatures.Configs.RED_MUSHROOM_CONFIG);
+            Features.HUGE_BROWN_MUSHROOM = EMFeatures.Configured.HUGE_BROWN_MUSHROOM;
+            Features.HUGE_RED_MUSHROOM = EMFeatures.Configured.HUGE_RED_MUSHROOM;
         });
     }
 }
