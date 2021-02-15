@@ -1,7 +1,7 @@
 {
   "type": "environmental:sawing",
   "ingredient": {
-    "item": "environmental:vertical_brown_mushroom_planks"
+    "item": "enhanced_mushrooms:vertical_brown_mushroom_planks"
   },
   "result": "enhanced_mushrooms:brown_mushroom_planks",
   "count": 1,
