@@ -19,12 +19,15 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.*;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Mod("enhanced_mushrooms")
-@SuppressWarnings("deprecation")
 public class EnhancedMushrooms
 {
     public static final String MODID = "enhanced_mushrooms";
+    public static final Logger LOGGER = LogManager.getLogger(MODID);
+
     public static final RegistryHelper REGISTRY_HELPER = RegistryHelper.create(MODID, helper -> {
         helper.putSubHelper(ForgeRegistries.ITEMS, new EMItemSubRegistryHelper(helper));
         helper.putSubHelper(ForgeRegistries.BLOCKS, new EMBlockSubRegistryHelper(helper));

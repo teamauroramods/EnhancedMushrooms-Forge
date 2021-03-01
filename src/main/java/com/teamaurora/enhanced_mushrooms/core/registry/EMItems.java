@@ -1,5 +1,7 @@
 package com.teamaurora.enhanced_mushrooms.core.registry;
 
+import com.teamaurora.enhanced_mushrooms.common.item.DynamicItemGroupItem;
+import com.teamaurora.enhanced_mushrooms.common.item.DynamicItemGroupSoupItem;
 import com.teamaurora.enhanced_mushrooms.core.EMConfig;
 import com.teamaurora.enhanced_mushrooms.core.EnhancedMushrooms;
 
@@ -10,6 +12,8 @@ import net.minecraft.item.SoupItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 
+import java.util.function.Supplier;
+
 @Mod.EventBusSubscriber(modid = EnhancedMushrooms.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EMItems {
     public static final EMItemSubRegistryHelper HELPER = EnhancedMushrooms.REGISTRY_HELPER.getItemSubHelper();
@@ -18,9 +22,10 @@ public class EMItems {
     public static final RegistryObject<Item> BROWN_MUSHROOM_BOAT = HELPER.createBoatItem("brown_mushroom", EMBlocks.BROWN_MUSHROOM_PLANKS);
     public static final RegistryObject<Item> GLOWSHROOM_BOAT = HELPER.createCompatBoatItem("glowshroom", EMBlocks.GLOWSHROOM_PLANKS, "quark");
 
-    public static final ItemGroup foodsGroup = EMConfig.COMMON.foodItems.get() ? ItemGroup.FOOD : null;
+    public static final RegistryObject<Item> ROASTED_MUSHROOMS = HELPER.createItem("roasted_mushrooms", ()->new DynamicItemGroupItem(new Item.Properties().food(EMFoods.ROASTED_MUSHROOMS), foodGroup()));
+    public static final RegistryObject<Item> BEEF_STEW = HELPER.createItem("beef_stew", ()->new DynamicItemGroupSoupItem(new Item.Properties().maxStackSize(1).food(EMFoods.BEEF_STEW), foodGroup()));
 
-    public static final RegistryObject<Item> ROASTED_MUSHROOMS = HELPER.createItem("roasted_mushrooms", ()->new Item(new Item.Properties().food(EMFoods.ROASTED_MUSHROOMS).group(foodsGroup)));
-    public static final RegistryObject<Item> BEEF_STEW = HELPER.createItem("beef_stew", ()->new SoupItem(new Item.Properties().maxStackSize(1).food(EMFoods.BEEF_STEW).group(foodsGroup)));
-    // TODO: figure out why this isn't working lol
+    private static Supplier<ItemGroup> foodGroup() {
+        return () -> EMConfig.COMMON.foodItems.get() ? ItemGroup.FOOD : null;
+    }
 }

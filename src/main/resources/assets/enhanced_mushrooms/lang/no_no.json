@@ -1,0 +1,87 @@
+{
+  "_comment": "Red Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.red_mushroom_stem": "Rød sopp-stilk",
+  "block.enhanced_mushrooms.stripped_red_mushroom_stem": "Slindet rød sopp-stilk",
+  "block.enhanced_mushrooms.red_mushroom_hyphae": "Rød sopp-hyfer",
+  "block.enhanced_mushrooms.stripped_red_mushroom_hyphae": "Slindede rød sopp-hyfer",
+  "block.enhanced_mushrooms.red_mushroom_planks": "Rød sopp-planker",
+  "block.enhanced_mushrooms.red_mushroom_slab": "Rød sopp-helle",
+  "block.enhanced_mushrooms.red_mushroom_stairs": "Rød sopp-trapp",
+  "block.enhanced_mushrooms.red_mushroom_pressure_plate": "Rød sopp-trykkplate",
+  "block.enhanced_mushrooms.red_mushroom_fence": "Rød sopp-gjerde",
+  "block.enhanced_mushrooms.red_mushroom_fence_gate": "Rød sopp-grind",
+  "block.enhanced_mushrooms.red_mushroom_button": "Rød sopp-knapp",
+  "block.enhanced_mushrooms.red_mushroom_trapdoor": "Rød sopp-fallem",
+  "block.enhanced_mushrooms.red_mushroom_door": "Rød sopp-dør",
+  "block.enhanced_mushrooms.red_mushroom_sign": "Rød sopp-skilt",
+
+  "item.enhanced_mushrooms.red_mushroom_boat": "Rød sopp-båt",
+
+  "_comment2": "Brown Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.brown_mushroom_stem": "Brun sopp-stilk",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_stem": "Slindet brun sopp-stilk",
+  "block.enhanced_mushrooms.brown_mushroom_hyphae": "Rød sopp-hyfer",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_hyphae": "Slindede brun sopp-hyfer",
+  "block.enhanced_mushrooms.brown_mushroom_planks": "Brun sopp-planker",
+  "block.enhanced_mushrooms.brown_mushroom_slab": "Brun sopp-helle",
+  "block.enhanced_mushrooms.brown_mushroom_stairs": "Brun sopp-trapp",
+  "block.enhanced_mushrooms.brown_mushroom_pressure_plate": "Brun sopp-trykkplate",
+  "block.enhanced_mushrooms.brown_mushroom_fence": "Brun sopp-gjerde",
+  "block.enhanced_mushrooms.brown_mushroom_fence_gate": "Brun sopp-grind",
+  "block.enhanced_mushrooms.brown_mushroom_button": "Brun sopp-knapp",
+  "block.enhanced_mushrooms.brown_mushroom_trapdoor": "Brun sopp-fallem",
+  "block.enhanced_mushrooms.brown_mushroom_door": "Brun sopp-dør",
+  "block.enhanced_mushrooms.brown_mushroom_sign": "Brun sopp-skilt",
+
+  "item.enhanced_mushrooms.brown_mushroom_boat": "Brun sopp-båt",
+
+  "_comment5": "Glowshroom Blocks & Items",
+  "block.enhanced_mushrooms.glowshroom_stem": "Glødsopp-stilk",
+  "block.enhanced_mushrooms.stripped_glowshroom_stem": "Slindet glødsopp-stilk",
+  "block.enhanced_mushrooms.glowshroom_hyphae": "Glødsopp-hyfer",
+  "block.enhanced_mushrooms.stripped_glowshroom_hyphae": "Slindede glødsopp-hyfer",
+  "block.enhanced_mushrooms.glowshroom_planks": "Glødsopp-planker",
+  "block.enhanced_mushrooms.glowshroom_slab": "Glødsopp-helle",
+  "block.enhanced_mushrooms.glowshroom_stairs": "Glødsopp-trapp",
+  "block.enhanced_mushrooms.glowshroom_pressure_plate": "Glødsopp-trykkplate",
+  "block.enhanced_mushrooms.glowshroom_fence": "Glødsopp-gjerde",
+  "block.enhanced_mushrooms.glowshroom_fence_gate": "Glødsopp-grind",
+  "block.enhanced_mushrooms.glowshroom_button": "Glødsopp-knapp",
+  "block.enhanced_mushrooms.glowshroom_trapdoor": "Glødsopp-fallem",
+  "block.enhanced_mushrooms.glowshroom_door": "Glødsopp-dør",
+  "block.enhanced_mushrooms.glowshroom_sign": "Glødsopp-skilt",
+
+  "item.enhanced_mushrooms.glowshroom_boat": "Glødsopp-båt",
+
+  "_comment6": "Quark Compat",
+  "block.enhanced_mushrooms.vertical_red_mushroom_planks": "Vertikale rød sopp-planker",
+  "block.enhanced_mushrooms.vertical_brown_mushroom_planks": "Vertikale brun sopp-planker",
+  "block.enhanced_mushrooms.vertical_glowshroom_planks": "Vertikale glødsopp-planker",
+
+  "block.enhanced_mushrooms.red_mushroom_vertical_slab": "Vertikal rød sopp-helle",
+  "block.enhanced_mushrooms.brown_mushroom_vertical_slab": "Vertikal brun sopp-helle",
+  "block.enhanced_mushrooms.glowshroom_vertical_slab": "Vertikal glødsopp-helle",
+
+  "block.enhanced_mushrooms.red_mushroom_bookshelf": "Rød sopp-bokhylle",
+  "block.enhanced_mushrooms.brown_mushroom_bookshelf": "Brun sopp-bokhylle",
+  "block.enhanced_mushrooms.glowshroom_bookshelf": "Glødsopp-bokhylle",
+
+  "block.enhanced_mushrooms.red_mushroom_ladder": "Rød sopp-stige",
+  "block.enhanced_mushrooms.brown_mushroom_ladder": "Brun sopp-stige",
+  "block.enhanced_mushrooms.glowshroom_ladder": "Glødsopp-stige",
+
+  "block.enhanced_mushrooms.brown_mushroom_chest": "Brun sopp-kiste",
+  "block.enhanced_mushrooms.glowshroom_chest": "Glødsopp-kiste",
+
+  "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "Brun sopp-redstone-kiste",
+  "block.enhanced_mushrooms.glowshroom_trapped_chest": "Glødsopp-redstone-kiste",
+
+  "_comment7": "Buzzier Bees Compat",
+  "block.enhanced_mushrooms.red_mushroom_beehive": "Rød sopp-bikube",
+  "block.enhanced_mushrooms.brown_mushroom_beehive": "Brun sopp-bikube",
+  "block.enhanced_mushrooms.glowshroom_beehive": "Glødsopp-bikube",
+
+  "_comment8": "Misc",
+  "item.enhanced_mushrooms.roasted_mushrooms": "Stekt sopp",
+  "item.enhanced_mushrooms.beef_stew": "Biffgryte"
+}

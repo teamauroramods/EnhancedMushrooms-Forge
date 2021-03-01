@@ -11,9 +11,11 @@ public class EMConfig {
         Common(ForgeConfigSpec.Builder builder) {
             builder.comment("Common configurations for Enhanced Mushrooms").push("common");
 
-            capsStrippable = builder.define("Whether mushroom blocks should be strippable with an axe", true);
+            builder.comment("Whether mushroom blocks should be strippable with an axe");
+            capsStrippable = builder.define("strippable_mushroom_blocks", true);
 
-            foodItems = builder.define("Whether the mod's food items are obtainable in survival", true);
+            builder.comment("Whether the mod's food items are obtainable in survival");
+            foodItems = builder.define("food_obtainable", true);
 
             builder.pop();
         }
