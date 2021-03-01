@@ -1,0 +1,6 @@
+{
+  "parent": "abnormals_core:block/post",
+  "textures": {
+    "texture": "enhanced_mushrooms:block/red_mushroom_stem"
+  }
+}

@@ -15,6 +15,8 @@ public class EMData {
         DataUtil.registerFlammable(EMBlocks.RED_MUSHROOM_STAIRS.get(), 5, 20);
         DataUtil.registerFlammable(EMBlocks.RED_MUSHROOM_FENCE.get(), 5, 20);
         DataUtil.registerFlammable(EMBlocks.RED_MUSHROOM_FENCE_GATE.get(), 5, 20);
+        DataUtil.registerFlammable(EMBlocks.RED_MUSHROOM_POST.get(), 5, 20);
+        DataUtil.registerFlammable(EMBlocks.STRIPPED_RED_MUSHROOM_POST.get(), 5, 20);
         // Brown Mushrooms
         DataUtil.registerFlammable(EMBlocks.BROWN_MUSHROOM_STEM.get(), 5, 5);
         DataUtil.registerFlammable(EMBlocks.BROWN_MUSHROOM_HYPHAE.get(), 5, 5);
@@ -25,6 +27,8 @@ public class EMData {
         DataUtil.registerFlammable(EMBlocks.BROWN_MUSHROOM_STAIRS.get(), 5, 20);
         DataUtil.registerFlammable(EMBlocks.BROWN_MUSHROOM_FENCE.get(), 5, 20);
         DataUtil.registerFlammable(EMBlocks.BROWN_MUSHROOM_FENCE_GATE.get(), 5, 20);
+        DataUtil.registerFlammable(EMBlocks.BROWN_MUSHROOM_POST.get(), 5, 20);
+        DataUtil.registerFlammable(EMBlocks.STRIPPED_BROWN_MUSHROOM_POST.get(), 5, 20);
         // Glowshrooms
         DataUtil.registerFlammable(EMBlocks.GLOWSHROOM_STEM.get(), 5, 5);
         DataUtil.registerFlammable(EMBlocks.GLOWSHROOM_HYPHAE.get(), 5, 5);
@@ -35,6 +39,8 @@ public class EMData {
         DataUtil.registerFlammable(EMBlocks.GLOWSHROOM_STAIRS.get(), 5, 20);
         DataUtil.registerFlammable(EMBlocks.GLOWSHROOM_FENCE.get(), 5, 20);
         DataUtil.registerFlammable(EMBlocks.GLOWSHROOM_FENCE_GATE.get(), 5, 20);
+        DataUtil.registerFlammable(EMBlocks.GLOWSHROOM_POST.get(), 5, 20);
+        DataUtil.registerFlammable(EMBlocks.STRIPPED_GLOWSHROOM_POST.get(), 5, 20);
         // Quark Compat
         DataUtil.registerFlammable(EMBlocks.RED_MUSHROOM_BOOKSHELF.get(), 5, 5);
         DataUtil.registerFlammable(EMBlocks.RED_MUSHROOM_VERTICAL_SLAB.get(), 5, 5);

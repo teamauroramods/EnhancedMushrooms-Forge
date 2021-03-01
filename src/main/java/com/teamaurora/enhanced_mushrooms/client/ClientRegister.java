@@ -42,6 +42,8 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(EMBlocks.VERTICAL_GLOWSHROOM_PLANKS.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_VERTICAL_SLAB.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_BOOKSHELF.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_POST.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_GLOWSHROOM_POST.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_LADDER.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_BEEHIVE.get(), RenderType.getTranslucent());
     }
