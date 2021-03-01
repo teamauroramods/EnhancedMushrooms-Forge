@@ -1,0 +1,95 @@
+{
+  "_comment": "Red Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.red_mushroom_stem": "Caule de cogumelo vermelho",
+  "block.enhanced_mushrooms.stripped_red_mushroom_stem": "Caule de cogumelo vermelho descascado",
+  "block.enhanced_mushrooms.red_mushroom_hyphae": "Píleo de cogumelo vermelho",
+  "block.enhanced_mushrooms.stripped_red_mushroom_hyphae": "Píleo de cogumelo vermelho descascado",
+  "block.enhanced_mushrooms.red_mushroom_planks": "Tábuas de cogumelo vermelho",
+  "block.enhanced_mushrooms.red_mushroom_slab": "Laje de cogumelo vermelho",
+  "block.enhanced_mushrooms.red_mushroom_stairs": "Escadas de cogumelo vermelho",
+  "block.enhanced_mushrooms.red_mushroom_pressure_plate": "Placa de pressão de cogumelo vermelho",
+  "block.enhanced_mushrooms.red_mushroom_fence": "Cerca de cogumelo vermelho",
+  "block.enhanced_mushrooms.red_mushroom_fence_gate": "Portão de cogumelo vermelho",
+  "block.enhanced_mushrooms.red_mushroom_button": "Botão de cogumelo vermelho",
+  "block.enhanced_mushrooms.red_mushroom_trapdoor": "Alçapão de cogumelo vermelho",
+  "block.enhanced_mushrooms.red_mushroom_door": "Porta de cogumelo vermelho",
+  "block.enhanced_mushrooms.red_mushroom_sign": "Placa de cogumelo vermelho",
+
+  "item.enhanced_mushrooms.red_mushroom_boat": "Bote de cogumelo vermelho",
+
+  "_comment2": "Brown Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.brown_mushroom_stem": "Caule de cogumelo marrom",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_stem": "Caule de cogumelo marrom descascado",
+  "block.enhanced_mushrooms.brown_mushroom_hyphae": "Píleo de cogumelo marrom",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_hyphae": "Píleo de cogumelo marrom descascado",
+  "block.enhanced_mushrooms.brown_mushroom_planks": "Tábuas de cogumelo marrom",
+  "block.enhanced_mushrooms.brown_mushroom_slab": "Laje de cogumelo marrom",
+  "block.enhanced_mushrooms.brown_mushroom_stairs": "Escadas de cogumelo marrom",
+  "block.enhanced_mushrooms.brown_mushroom_pressure_plate": "Placa de pressão de cogumelo marrom",
+  "block.enhanced_mushrooms.brown_mushroom_fence": "Cerca de cogumelo marrom",
+  "block.enhanced_mushrooms.brown_mushroom_fence_gate": "Portão de cogumelo marrom",
+  "block.enhanced_mushrooms.brown_mushroom_button": "Botão de cogumelo marrom",
+  "block.enhanced_mushrooms.brown_mushroom_trapdoor": "Alçapão de cogumelo marrom",
+  "block.enhanced_mushrooms.brown_mushroom_door": "Porta de cogumelo marrom",
+  "block.enhanced_mushrooms.brown_mushroom_sign": "Placa de cogumelo marrom",
+
+  "item.enhanced_mushrooms.brown_mushroom_boat": "Bote de cogumelo marrom",
+
+  "_comment5": "Glowshroom Blocks & Items",
+  "block.enhanced_mushrooms.glowshroom_stem": "Caule de cogumelo-brilhante",
+  "block.enhanced_mushrooms.stripped_glowshroom_stem": "Caule de cogumelo-brilhante descascado",
+  "block.enhanced_mushrooms.glowshroom_hyphae": "Píleo de cogumelo-brilhante",
+  "block.enhanced_mushrooms.stripped_glowshroom_hyphae": "Píleo de cogumelo-brilhante descascado",
+  "block.enhanced_mushrooms.glowshroom_planks": "Tábuas de cogumelo-brilhante",
+  "block.enhanced_mushrooms.glowshroom_slab": "Laje de cogumelo-brilhante",
+  "block.enhanced_mushrooms.glowshroom_stairs": "Escadas de cogumelo-brilhante",
+  "block.enhanced_mushrooms.glowshroom_pressure_plate": "Placa de pressão de cogumelo-brilhante",
+  "block.enhanced_mushrooms.glowshroom_fence": "Cerca de cogumelo-brilhante",
+  "block.enhanced_mushrooms.glowshroom_fence_gate": "Portão de cogumelo-brilhante",
+  "block.enhanced_mushrooms.glowshroom_button": "Botão de cogumelo-brilhante",
+  "block.enhanced_mushrooms.glowshroom_trapdoor": "Alçapão de cogumelo-brilhante",
+  "block.enhanced_mushrooms.glowshroom_door": "Porta de cogumelo-brilhante",
+  "block.enhanced_mushrooms.glowshroom_sign": "Placa de cogumelo-brilhante",
+
+  "item.enhanced_mushrooms.glowshroom_boat": "Bote de cogumelo-brilhante",
+
+  "_comment6": "Quark Compat",
+  "block.enhanced_mushrooms.vertical_red_mushroom_planks": "Tábuas de cogumelo vermelho verticais",
+  "block.enhanced_mushrooms.vertical_brown_mushroom_planks": "Tábuas de cogumelo marrom verticais",
+  "block.enhanced_mushrooms.vertical_glowshroom_planks": "Tábuas de cogumelo-brilhante verticais",
+
+  "block.enhanced_mushrooms.red_mushroom_vertical_slab": "Laje vertical de cogumelo vermelho",
+  "block.enhanced_mushrooms.brown_mushroom_vertical_slab": "Laje vertical de cogumelo marrom",
+  "block.enhanced_mushrooms.glowshroom_vertical_slab": "Laje vertical de cogumelo-brilhante",
+
+  "block.enhanced_mushrooms.red_mushroom_bookshelf": "Estante de livros de cogumelo vermelho",
+  "block.enhanced_mushrooms.brown_mushroom_bookshelf": "Estante de livros de cogumelo marrom",
+  "block.enhanced_mushrooms.glowshroom_bookshelf": "Estante de livros de cogumelo-brilhante",
+
+  "block.enhanced_mushrooms.red_mushroom_ladder": "Escada de mão de cogumelo vermelho",
+  "block.enhanced_mushrooms.brown_mushroom_ladder": "Escada de mão de cogumelo marrom",
+  "block.enhanced_mushrooms.glowshroom_ladder": "Escada de mão de cogumelo-brilhante",
+
+  "block.enhanced_mushrooms.red_mushroom_post": "Poste de cogumelo vermelho",
+  "block.enhanced_mushrooms.brown_mushroom_post": "Poste de cogumelo marrom",
+  "block.enhanced_mushrooms.glowshroom_post": "Poste de cogumelo-brilhante",
+
+  "block.enhanced_mushrooms.stripped_red_mushroom_post": "Poste de cogumelo vermelho descascado",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_post": "Poste de cogumelo marrom descascado",
+  "block.enhanced_mushrooms.stripped_glowshroom_post": "Poste de cogumelo-brilhante descascado",
+
+  "block.enhanced_mushrooms.brown_mushroom_chest": "Baú de cogumelo marrom",
+  "block.enhanced_mushrooms.glowshroom_chest": "Baú de cogumelo-brilhante",
+
+  "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "Baú de cogumelo marrom com armadilha",
+  "block.enhanced_mushrooms.glowshroom_trapped_chest": "Baú de cogumelo-brilhante com armadilha",
+
+  "_comment7": "Buzzier Bees Compat",
+  "block.enhanced_mushrooms.red_mushroom_beehive": "Colmeia de cogumelo vermelho",
+  "block.enhanced_mushrooms.brown_mushroom_beehive": "Colmeia de cogumelo marrom",
+  "block.enhanced_mushrooms.glowshroom_beehive": "Colmeia de cogumelo-brilhante",
+
+  "_comment8": "Misc",
+  "item.enhanced_mushrooms.roasted_mushrooms": "Cogumelos assados",
+  "item.enhanced_mushrooms.beef_stew": "Ensopado de bife"
+}
