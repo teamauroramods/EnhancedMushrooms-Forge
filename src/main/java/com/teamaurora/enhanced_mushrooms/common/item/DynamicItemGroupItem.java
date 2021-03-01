@@ -17,14 +17,12 @@ public class DynamicItemGroupItem extends Item {
 
     @Override
     protected boolean isInGroup(ItemGroup group) {
-        EnhancedMushrooms.LOGGER.info("Is in group: " + super.isInGroup(group));
         return super.isInGroup(group);
     }
 
 
     @Override
     public ItemGroup getGroup() {
-        EnhancedMushrooms.LOGGER.error("Item group:" + (this.optionalGroup.get() == null ? "null" : this.optionalGroup.get().getPath()));
         return this.optionalGroup.get();
     }
 }
