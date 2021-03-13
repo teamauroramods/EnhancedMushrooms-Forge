@@ -107,7 +107,7 @@ public class EMFeatures {
     @SubscribeEvent
     public static void onBiomeLoad(BiomeLoadingEvent event) {
         List<Supplier<ConfiguredFeature<?, ?>>> features = event.getGeneration().getFeatures(GenerationStage.Decoration.VEGETAL_DECORATION);
-        if (event.getName() != null) {
+        if (event.getName() != null && DataUtil.matchesKeys(event.getName(), Biomes.MUSHROOM_FIELDS, Biomes.MUSHROOM_FIELD_SHORE, Biomes.DARK_FOREST, Biomes.DARK_FOREST_HILLS)) {
             List<Supplier<ConfiguredFeature<?, ?>>> toRemove = new ArrayList<>();
             List<ConfiguredFeature<?, ?>> toAdd = new ArrayList<>();
             for (Supplier<ConfiguredFeature<?, ?>> configuredFeatureSupplier : features) {
@@ -117,56 +117,45 @@ public class EMFeatures {
                     if (configuredFeature.config instanceof MultipleRandomFeatureConfig) {
                         MultipleRandomFeatureConfig mrfconfig = (MultipleRandomFeatureConfig) configuredFeature.config;
 
-                        ConfiguredFeature<?, ?> tempDef = mrfconfig.defaultFeature.get();
-                        if (isHugeRedMushroom(tempDef)) {
-                            tempDef = Configured.HUGE_RED_MUSHROOM;
-                        } else if (isHugeBrownMushroom(tempDef)) {
-                            tempDef = Configured.HUGE_BROWN_MUSHROOM;
+                        boolean remove = false;
+
+                        if (isHugeRedMushroom(mrfconfig.defaultFeature.get())) {
+                            remove = true;
+                        } else if (isHugeBrownMushroom(mrfconfig.defaultFeature.get())) {
+                            remove = true;
                         }
 
-                        List<ConfiguredRandomFeatureList> tempFeatures = new ArrayList<>();
                         for (ConfiguredRandomFeatureList crfl : mrfconfig.features) {
-                            ConfiguredFeature<?, ?> crflFeature = crfl.feature.get();
-                            if (isHugeRedMushroom(crflFeature)) {
-                                tempFeatures.add(new ConfiguredRandomFeatureList(Configured.HUGE_RED_MUSHROOM, crfl.chance));
-                            } else if (isHugeBrownMushroom(crflFeature)) {
-                                tempFeatures.add(new ConfiguredRandomFeatureList(Configured.HUGE_BROWN_MUSHROOM, crfl.chance));
-                            } else {
-                                tempFeatures.add(crfl);
+                            if (isHugeRedMushroom(crfl.feature.get())) {
+                                remove = true;
+                            } else if (isHugeBrownMushroom(crfl.feature.get())) {
+                                remove = true;
                             }
                         }
 
-                        MultipleRandomFeatureConfig tempConfig = new MultipleRandomFeatureConfig(tempFeatures, tempDef);
-                        if (tempConfig != mrfconfig) {
+                        if (remove) {
                             toRemove.add(configuredFeatureSupplier);
-                            Feature<MultipleRandomFeatureConfig> featureMRFC = (Feature<MultipleRandomFeatureConfig>) configuredFeature.feature;
-                            toAdd.add(featureMRFC.withConfiguration(tempConfig).withPlacement(((DecoratedFeatureConfig) config).decorator));
                         }
                     } else if (configuredFeature.config instanceof TwoFeatureChoiceConfig) {
                         TwoFeatureChoiceConfig tfcconfig = (TwoFeatureChoiceConfig) configuredFeature.config;
 
+                        boolean remove = false;
+
                         // this code is fucking AWFUL but it *should* work
-                        ConfiguredFeature<?, ?> leftFeature = tfcconfig.field_227285_a_.get();
-                        if (isHugeRedMushroom(leftFeature)) {
-                            leftFeature = Configured.HUGE_RED_MUSHROOM;
-                        } else if (isHugeBrownMushroom(leftFeature)) {
-                            leftFeature = Configured.HUGE_BROWN_MUSHROOM;
+                        if (isHugeRedMushroom(tfcconfig.field_227285_a_.get())) {
+                            remove = true;
+                        } else if (isHugeBrownMushroom(tfcconfig.field_227285_a_.get())) {
+                            remove = true;
                         }
-                        final ConfiguredFeature<?, ?> leftFeatureFinal = leftFeature;
 
-                        ConfiguredFeature<?, ?> rightFeature = tfcconfig.field_227286_b_.get();
-                        if (isHugeRedMushroom(rightFeature)) {
-                            rightFeature = Configured.HUGE_RED_MUSHROOM;
-                        } else if (isHugeBrownMushroom(rightFeature)) {
-                            rightFeature = Configured.HUGE_BROWN_MUSHROOM;
+                        if (isHugeRedMushroom(tfcconfig.field_227286_b_.get())) {
+                            remove = true;
+                        } else if (isHugeBrownMushroom(tfcconfig.field_227286_b_.get())) {
+                            remove = true;
                         }
-                        final ConfiguredFeature<?, ?> rightFeatureFinal = rightFeature;
 
-                        TwoFeatureChoiceConfig tempConfig = new TwoFeatureChoiceConfig(() -> leftFeatureFinal, () -> rightFeatureFinal);
-                        if (tempConfig != tfcconfig) {
+                        if (remove) {
                             toRemove.add(configuredFeatureSupplier);
-                            Feature<TwoFeatureChoiceConfig> featureTFCC = (Feature<TwoFeatureChoiceConfig>) configuredFeature.feature;
-                            toAdd.add(featureTFCC.withConfiguration(tempConfig).withPlacement(((DecoratedFeatureConfig) config).decorator));
                         }
                     }
                 }
