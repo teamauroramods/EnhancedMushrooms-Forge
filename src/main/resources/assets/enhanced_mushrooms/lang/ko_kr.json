@@ -71,6 +71,14 @@
   "block.enhanced_mushrooms.glowshroom_ladder": "발광버섯 사다리",
 
   "block.enhanced_mushrooms.brown_mushroom_chest": "갈색 버섯 상자",
+  "block.enhanced_mushrooms.brown_mushroom_post": "갈색 버섯 말뚝",
+  "block.enhanced_mushrooms.glowshroom_chest": "발광버섯 상자",
+
+  "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "갈색 버섯 덫 상자",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_post": "껍질 벗긴 갈색 버섯 말뚝",
+  "block.enhanced_mushrooms.glowshroom_trapped_chest": "발광버섯 덫 상자",
+
+  "block.enhanced_mushrooms.brown_mushroom_chest": "갈색 버섯 상자",
   "block.enhanced_mushrooms.glowshroom_chest": "발광버섯 상자",
 
   "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "갈색 버섯 덫 상자",
