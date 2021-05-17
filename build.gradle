@@ -89,7 +89,7 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:autoreglib-250363:3128555")
     runtimeOnly fg.deobf("curse.maven:jei-238222:3136600")
     runtimeOnly fg.deobf("curse.maven:autumnity-365045:3154935")
-    runtimeOnly fg.deobf("curse.maven:farmers-delight-398521:3249879")
+    runtimeOnly fg.deobf("curse.maven:farmers-delight-398521:3233486")
 
     implementation fg.deobf("curse.maven:abnormals-core-382216:3218058")
     implementation fg.deobf("curse.maven:buzzier-bees-355458:3154937")
