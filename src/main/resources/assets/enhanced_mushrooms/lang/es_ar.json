@@ -70,6 +70,14 @@
   "block.enhanced_mushrooms.brown_mushroom_ladder": "Escalera de hongo marrón",
   "block.enhanced_mushrooms.glowshroom_ladder": "Escalera de luminongo",
 
+  "block.enhanced_mushrooms.red_mushroom_post": "Poste de hongo rojo",
+  "block.enhanced_mushrooms.brown_mushroom_post": "Poste de hongo marrón",
+  "block.enhanced_mushrooms.glowshroom_post": "Poste de luminongo",
+
+  "block.enhanced_mushrooms.stripped_red_mushroom_post": "Poste de hongo rojo sin corteza",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_post": "Poste de hongo marrón sin corteza",
+  "block.enhanced_mushrooms.stripped_glowshroom_post": "Poste de luminongo sin corteza",
+
   "block.enhanced_mushrooms.brown_mushroom_chest": "Cofre de hongo marrón",
   "block.enhanced_mushrooms.glowshroom_chest": "Cofre de luminongo",
 
