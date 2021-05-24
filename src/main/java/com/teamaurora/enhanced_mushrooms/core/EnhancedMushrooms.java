@@ -50,6 +50,7 @@ public class EnhancedMushrooms
         event.enqueueWork(() -> {
             EMFeatures.Configured.registerConfiguredFeatures();
             EMData.registerFlammables();
+            EMData.registerCompostables();
             // this is very hacky, but it works for some reason so I'm keeping it
             Features.HUGE_BROWN_MUSHROOM = EMFeatures.Configured.HUGE_BROWN_MUSHROOM;
             Features.HUGE_RED_MUSHROOM = EMFeatures.Configured.HUGE_RED_MUSHROOM;

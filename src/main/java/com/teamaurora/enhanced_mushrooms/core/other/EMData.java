@@ -2,6 +2,7 @@ package com.teamaurora.enhanced_mushrooms.core.other;
 
 import com.teamaurora.enhanced_mushrooms.core.registry.EMBlocks;
 import com.minecraftabnormals.abnormals_core.core.util.DataUtil;
+import com.teamaurora.enhanced_mushrooms.core.registry.EMItems;
 
 public class EMData {
     public static void registerFlammables() {
@@ -54,5 +55,9 @@ public class EMData {
         DataUtil.registerFlammable(EMBlocks.GLOWSHROOM_VERTICAL_SLAB.get(), 5, 5);
         DataUtil.registerFlammable(EMBlocks.VERTICAL_GLOWSHROOM_PLANKS.get(), 5, 5);
 
+    }
+
+    public static void registerCompostables() {
+        DataUtil.registerCompostable(EMItems.ROASTED_MUSHROOMS.get(), 0.85F);
     }
 }
