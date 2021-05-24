@@ -18,11 +18,15 @@ public class ClientRegister {
     }
 
     private static void setupRenderLayer() {
-        RenderTypeLookup.setRenderLayer(EMBlocks.RED_MUSHROOM_LADDER.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(EMBlocks.RED_MUSHROOM_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(EMBlocks.RED_MUSHROOM_POST.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_RED_MUSHROOM_POST.get(), RenderType.getCutout());
 
-        RenderTypeLookup.setRenderLayer(EMBlocks.BROWN_MUSHROOM_DOOR.get(), RenderType.getCutoutMipped());
-        RenderTypeLookup.setRenderLayer(EMBlocks.BROWN_MUSHROOM_TRAPDOOR.get(), RenderType.getCutoutMipped());
-        RenderTypeLookup.setRenderLayer(EMBlocks.BROWN_MUSHROOM_LADDER.get(), RenderType.getCutoutMipped());
+        RenderTypeLookup.setRenderLayer(EMBlocks.BROWN_MUSHROOM_DOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(EMBlocks.BROWN_MUSHROOM_TRAPDOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(EMBlocks.BROWN_MUSHROOM_LADDER.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(EMBlocks.BROWN_MUSHROOM_POST.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_BROWN_MUSHROOM_POST.get(), RenderType.getCutout());
 
         RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_GLOWSHROOM_STEM.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_STEM.get(), RenderType.getTranslucent());
@@ -46,5 +50,7 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_GLOWSHROOM_POST.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_LADDER.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_BEEHIVE.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_POST.get(), RenderType.getTranslucent());
+        RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_GLOWSHROOM_POST.get(), RenderType.getTranslucent());
     }
 }
