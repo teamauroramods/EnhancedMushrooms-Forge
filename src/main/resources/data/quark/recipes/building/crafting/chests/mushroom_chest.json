@@ -12,7 +12,7 @@
     }
   },
   "result": {
-    "item": "quark:mushroom_chest",
+    "item": "minecraft:air",
     "count": 1
   },
   "conditions": [
