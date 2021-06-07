@@ -10,7 +10,7 @@
       "item": "enhanced_mushrooms:red_mushroom_planks"
     },
     "x": {
-      "item": "minecraft:stick"
+      "tag": "forge:rods/wooden"
     }
   },
   "result": {
