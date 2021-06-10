@@ -1,0 +1,97 @@
+{
+  "_comment": "Red Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.red_mushroom_stem": "Gambo di fungo rosso",
+  "block.enhanced_mushrooms.stripped_red_mushroom_stem": "Gambo di fungo rosso scortecciato",
+  "block.enhanced_mushrooms.red_mushroom_hyphae": "Ife di fungo rosso",
+  "block.enhanced_mushrooms.stripped_red_mushroom_hyphae": "Ife di fungo rosso scortecciate",
+  "block.enhanced_mushrooms.red_mushroom_planks": "Assi di fungo rosso",
+  "block.enhanced_mushrooms.red_mushroom_slab": "Lastra di fungo rosso",
+  "block.enhanced_mushrooms.red_mushroom_stairs": "Scalini di fungo rosso",
+  "block.enhanced_mushrooms.red_mushroom_pressure_plate": "Pedana a pressione di fungo rosso",
+  "block.enhanced_mushrooms.red_mushroom_fence": "Staccionata di fungo rosso",
+  "block.enhanced_mushrooms.red_mushroom_fence_gate": "Cancelletto di fungo rosso",
+  "block.enhanced_mushrooms.red_mushroom_button": "Pulsante di fungo rosso",
+  "block.enhanced_mushrooms.red_mushroom_trapdoor": "Botola di fungo rosso",
+  "block.enhanced_mushrooms.red_mushroom_door": "Porta di fungo rosso",
+  "block.enhanced_mushrooms.red_mushroom_sign": "Cartello di fungo rosso",
+
+  "item.enhanced_mushrooms.red_mushroom_boat": "Barca di fungo rosso",
+
+  "_comment2": "Brown Mushroom Blocks & Items",
+  "block.enhanced_mushrooms.brown_mushroom_stem": "Gambo di fungo marrone",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_stem": "Gambo di fungo marrone scortecciato",
+  "block.enhanced_mushrooms.brown_mushroom_hyphae": "Ife di fungo marrone",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_hyphae": "Ife di fungo marrone scortecciate",
+  "block.enhanced_mushrooms.brown_mushroom_planks": "Assi di fungo marrone",
+  "block.enhanced_mushrooms.brown_mushroom_slab": "Lastra di fungo marrone",
+  "block.enhanced_mushrooms.brown_mushroom_stairs": "Scalini di fungo marrone",
+  "block.enhanced_mushrooms.brown_mushroom_pressure_plate": "Pedana a pressione di fungo marrone",
+  "block.enhanced_mushrooms.brown_mushroom_fence": "Staccionata di fungo marrone",
+  "block.enhanced_mushrooms.brown_mushroom_fence_gate": "Cancelletto di fungo marrone",
+  "block.enhanced_mushrooms.brown_mushroom_button": "Pulsante di fungo marrone",
+  "block.enhanced_mushrooms.brown_mushroom_trapdoor": "Botola di fungo marrone",
+  "block.enhanced_mushrooms.brown_mushroom_door": "Porta di fungo marrone",
+  "block.enhanced_mushrooms.brown_mushroom_sign": "Cartello di fungo marrone",
+
+  "item.enhanced_mushrooms.brown_mushroom_boat": "Barca di fungo marrone",
+
+  "_comment5": "Glowshroom Blocks & Items",
+  "block.enhanced_mushrooms.glowshroom_stem": "Gambo di fungo luminoso",
+  "block.enhanced_mushrooms.stripped_glowshroom_stem": "Gambo di fungo luminoso scortecciato",
+  "block.enhanced_mushrooms.glowshroom_hyphae": "Ife di fungo luminoso",
+  "block.enhanced_mushrooms.stripped_glowshroom_hyphae": "Ife di fungo luminoso scortecciate",
+  "block.enhanced_mushrooms.glowshroom_planks": "Assi di fungo luminoso",
+  "block.enhanced_mushrooms.glowshroom_slab": "Lastra di fungo luminoso",
+  "block.enhanced_mushrooms.glowshroom_stairs": "Scalini di fungo luminoso",
+  "block.enhanced_mushrooms.glowshroom_pressure_plate": "Pedana a pressione di fungo luminoso",
+  "block.enhanced_mushrooms.glowshroom_fence": "Staccionata di fungo luminoso",
+  "block.enhanced_mushrooms.glowshroom_fence_gate": "Cancelletto di fungo luminoso",
+  "block.enhanced_mushrooms.glowshroom_button": "Pulsante di fungo luminoso",
+  "block.enhanced_mushrooms.glowshroom_trapdoor": "Botola di fungo luminoso",
+  "block.enhanced_mushrooms.glowshroom_door": "Porta di fungo luminoso",
+  "block.enhanced_mushrooms.glowshroom_sign": "Cartello di fungo luminoso",
+
+  "item.enhanced_mushrooms.glowshroom_boat": "Barca di fungo luminoso",
+
+  "_comment6": "Quark Compat",
+  "block.enhanced_mushrooms.vertical_red_mushroom_planks": "Assi verticali di fungo rosso",
+  "block.enhanced_mushrooms.vertical_brown_mushroom_planks": "Assi verticali di fungo marrone",
+  "block.enhanced_mushrooms.vertical_glowshroom_planks": "Assi verticali di fungo luminoso",
+
+  "block.enhanced_mushrooms.red_mushroom_vertical_slab": "Lastra verticale di fungo rosso",
+  "block.enhanced_mushrooms.brown_mushroom_vertical_slab": "Lastra verticale di fungo marrone",
+  "block.enhanced_mushrooms.glowshroom_vertical_slab": "Lastra verticale di fungo luminoso",
+
+  "block.enhanced_mushrooms.red_mushroom_bookshelf": "Libreria di fungo rosso",
+  "block.enhanced_mushrooms.brown_mushroom_bookshelf": "Libreria di fungo marrone",
+  "block.enhanced_mushrooms.glowshroom_bookshelf": "Libreria di fungo luminoso",
+
+  "block.enhanced_mushrooms.red_mushroom_ladder": "Scala a pioli di fungo rosso",
+  "block.enhanced_mushrooms.brown_mushroom_ladder": "Scala a pioli di fungo marrone",
+  "block.enhanced_mushrooms.glowshroom_ladder": "Scala a pioli di fungo luminoso",
+
+  "block.enhanced_mushrooms.red_mushroom_post": "Palo di fungo rosso",
+  "block.enhanced_mushrooms.brown_mushroom_post": "Palo di di fungo marrone",
+  "block.enhanced_mushrooms.glowshroom_post": "Palo di fungo luminoso",
+
+  "block.enhanced_mushrooms.stripped_red_mushroom_post": "Palo di fungo rosso scortecciato",
+  "block.enhanced_mushrooms.stripped_brown_mushroom_post": "Palo di di fungo marrone scortecciato",
+  "block.enhanced_mushrooms.stripped_glowshroom_post": "Palo di fungo luminoso scortecciato",
+
+  "block.quark.mushroom_chest": "Baule di fungo rosso",
+  "block.enhanced_mushrooms.brown_mushroom_chest": "Baule di fungo marrone",
+  "block.enhanced_mushrooms.glowshroom_chest": "Baule di fungo luminoso",
+
+  "block.quark.mushroom_trapped_chest": "Baule trappola di fungo rosso",
+  "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "Baule trappola di fungo marrone",
+  "block.enhanced_mushrooms.glowshroom_trapped_chest": "Baule trappola di fungo luminoso",
+
+  "_comment7": "Buzzier Bees Compat",
+  "block.enhanced_mushrooms.red_mushroom_beehive": "Arnia di fungo rosso",
+  "block.enhanced_mushrooms.brown_mushroom_beehive": "Arnia di fungo marrone",
+  "block.enhanced_mushrooms.glowshroom_beehive": "Arnia di fungo luminoso",
+
+  "_comment8": "Misc",
+  "item.enhanced_mushrooms.roasted_mushrooms": "Funghi arrostiti",
+  "item.enhanced_mushrooms.beef_stew": "Zuppa di manzo"
+}
