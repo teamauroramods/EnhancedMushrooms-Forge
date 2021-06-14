@@ -1,13 +1,13 @@
 modLoader="javafml"
 loaderVersion="[32,)"
 license="All rights reserved"
-issueTrackerURL="https://github.com/teamauroramods/EnhancedMushrooms/issues"
+issueTrackerURL="https://github.com/teamauroramods/EnhancedMushrooms-Forge/issues"
 
 [[mods]]
     modId="enhanced_mushrooms"
     version="${file.jarVersion}"
     displayName="Enhanced Mushrooms"
-    displayURL="https://discord.gg/BgE4EpP"
+    displayURL="https://discord.gg/VzXSCFp"
     logoFile="logo.png"
     authors="Team Aurora"
     description="New mushroom-based wood types and a couple mushroom foods."
