@@ -78,9 +78,11 @@
   "block.enhanced_mushrooms.stripped_brown_mushroom_post": "Poste de hongo café sin corteza",
   "block.enhanced_mushrooms.stripped_glowshroom_post": "Poste de luminongo sin corteza",
 
+  "block.quark.mushroom_chest": "Cofre de hongo rojo",
   "block.enhanced_mushrooms.brown_mushroom_chest": "Cofre de hongo café",
   "block.enhanced_mushrooms.glowshroom_chest": "Cofre de luminongo",
 
+  "block.quark.mushroom_trapped_chest": "Cofre trampa de hongo rojo",
   "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "Cofre trampa de hongo café",
   "block.enhanced_mushrooms.glowshroom_trapped_chest": "Cofre trampa de luminongo",
 
