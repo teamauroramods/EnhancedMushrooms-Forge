@@ -1,6 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "enhanced_mushrooms:block/glowshroom_planks"
-  }
-}

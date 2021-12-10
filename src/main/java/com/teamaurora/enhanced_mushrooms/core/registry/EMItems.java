@@ -20,7 +20,6 @@ public class EMItems {
 
     public static final RegistryObject<Item> RED_MUSHROOM_BOAT = HELPER.createBoatItem("red_mushroom", EMBlocks.RED_MUSHROOM_PLANKS);
     public static final RegistryObject<Item> BROWN_MUSHROOM_BOAT = HELPER.createBoatItem("brown_mushroom", EMBlocks.BROWN_MUSHROOM_PLANKS);
-    public static final RegistryObject<Item> GLOWSHROOM_BOAT = HELPER.createCompatBoatItem("glowshroom", EMBlocks.GLOWSHROOM_PLANKS, "quark");
 
     public static final RegistryObject<Item> ROASTED_MUSHROOMS = HELPER.createItem("roasted_mushrooms", ()->new DynamicItemGroupItem(new Item.Properties().food(EMFoods.ROASTED_MUSHROOMS), foodGroup()));
     public static final RegistryObject<Item> BEEF_STEW = HELPER.createItem("beef_stew", ()->new DynamicItemGroupSoupItem(new Item.Properties().maxStackSize(1).food(EMFoods.BEEF_STEW), foodGroup()));

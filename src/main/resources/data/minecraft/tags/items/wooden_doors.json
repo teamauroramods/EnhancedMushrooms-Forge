@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "enhanced_mushrooms:red_mushroom_door",
-    "enhanced_mushrooms:brown_mushroom_door",
-    "enhanced_mushrooms:glowshroom_door"
+    "enhanced_mushrooms:brown_mushroom_door"
   ]
 }

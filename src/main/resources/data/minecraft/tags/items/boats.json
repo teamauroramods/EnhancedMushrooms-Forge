@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "enhanced_mushrooms:red_mushroom_boat",
-    "enhanced_mushrooms:brown_mushroom_boat",
-    "enhanced_mushrooms:glowshroom_boat"
+    "enhanced_mushrooms:brown_mushroom_boat"
   ]
 }

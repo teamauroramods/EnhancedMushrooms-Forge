@@ -2,19 +2,6 @@ package com.teamaurora.enhanced_mushrooms.core.registry;
 
 import com.minecraftabnormals.abnormals_core.common.blocks.wood.*;
 import com.teamaurora.enhanced_mushrooms.common.block.AbnormalsStemBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaAbnormalsBeehiveBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaAbnormalsStemBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaBookshelfBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaPlanksBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaStrippedLogBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaStrippedWoodBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaVerticalSlabBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaWoodBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaWoodFenceBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaWoodFenceGateBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaWoodSlabBlock;
-import com.teamaurora.enhanced_mushrooms.common.block.AlphaWoodStairsBlock;
 import com.teamaurora.enhanced_mushrooms.core.EnhancedMushrooms;
 import com.mojang.datafixers.util.Pair;
 import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsBeehiveBlock;
@@ -37,7 +24,6 @@ import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 
-@SuppressWarnings("deprecation")
 @Mod.EventBusSubscriber(modid = EnhancedMushrooms.MODID, bus=Mod.EventBusSubscriber.Bus.MOD)
 public class EMBlocks {
     public static final EMBlockSubRegistryHelper HELPER = EnhancedMushrooms.REGISTRY_HELPER.getBlockSubHelper();
@@ -92,31 +78,5 @@ public class EMBlocks {
     public static final Pair<RegistryObject<AbnormalsChestBlock>, RegistryObject<AbnormalsTrappedChestBlock>> BROWN_MUSHROOM_CHESTS = HELPER.createCompatChestBlocks("quark", "brown_mushroom", MaterialColor.BROWN);
 
     public static final RegistryObject<Block> BROWN_MUSHROOM_BEEHIVE = HELPER.createCompatBlock("buzzier_bees","brown_mushroom_beehive", ()->new AbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE)), ItemGroup.DECORATIONS);
-
-    // glowshroom blocks (if Quark is installed)
-    public static final RegistryObject<Block> STRIPPED_GLOWSHROOM_STEM = HELPER.createCompatBlock("quark","stripped_glowshroom_stem", ()->new AlphaStrippedLogBlock(Block.Properties.from(Blocks.STRIPPED_OAK_LOG).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_STEM = HELPER.createCompatBlock("quark","glowshroom_stem", ()->new AlphaAbnormalsStemBlock(STRIPPED_GLOWSHROOM_STEM, Block.Properties.from(Blocks.OAK_LOG).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> STRIPPED_GLOWSHROOM_HYPHAE = HELPER.createCompatBlock("quark","stripped_glowshroom_hyphae", ()->new AlphaStrippedWoodBlock(Block.Properties.from(Blocks.STRIPPED_OAK_WOOD).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_HYPHAE = HELPER.createCompatBlock("quark","glowshroom_hyphae", ()->new AlphaWoodBlock(STRIPPED_GLOWSHROOM_HYPHAE, Block.Properties.from(Blocks.OAK_WOOD).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_PLANKS = HELPER.createCompatBlock("quark","glowshroom_planks", ()->new AlphaPlanksBlock(Block.Properties.from(Blocks.OAK_PLANKS).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_SLAB = HELPER.createCompatBlock("quark","glowshroom_slab", ()->new AlphaWoodSlabBlock(Block.Properties.from(Blocks.OAK_SLAB).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_STAIRS = HELPER.createCompatBlock("quark","glowshroom_stairs", ()->new AlphaWoodStairsBlock(BROWN_MUSHROOM_PLANKS.get().getDefaultState(), Block.Properties.from(Blocks.OAK_STAIRS).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_PRESSURE_PLATE = HELPER.createCompatBlock("quark","glowshroom_pressure_plate", ()->new WoodPressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, Block.Properties.from(Blocks.OAK_PRESSURE_PLATE).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.REDSTONE);
-    public static final RegistryObject<Block> GLOWSHROOM_FENCE = HELPER.createCompatFuelBlock("quark","glowshroom_fence", ()->new AlphaWoodFenceBlock(Block.Properties.from(Blocks.OAK_FENCE).notSolid().setLightLevel((a)->{return 14;})), 300, ItemGroup.DECORATIONS);
-    public static final RegistryObject<Block> GLOWSHROOM_FENCE_GATE = HELPER.createCompatFuelBlock("quark","glowshroom_fence_gate", ()->new AlphaWoodFenceGateBlock(Block.Properties.from(Blocks.OAK_FENCE_GATE).notSolid().setLightLevel((a)->{return 14;})), 300, ItemGroup.REDSTONE);
-    public static final RegistryObject<Block> GLOWSHROOM_BUTTON = HELPER.createCompatBlock("quark","glowshroom_button", ()->new AbnormalsWoodButtonBlock(Block.Properties.from(Blocks.OAK_BUTTON).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.REDSTONE);
-    public static final RegistryObject<Block> GLOWSHROOM_TRAPDOOR = HELPER.createCompatBlock("quark","glowshroom_trapdoor", ()->new WoodTrapDoorBlock(Block.Properties.from(Blocks.OAK_TRAPDOOR).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.REDSTONE);
-    public static final RegistryObject<Block> GLOWSHROOM_DOOR = HELPER.createCompatBlock("quark","glowshroom_door", ()->new WoodDoorBlock(Block.Properties.from(Blocks.OAK_DOOR).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.REDSTONE);
-    public static final Pair<RegistryObject<AbnormalsStandingSignBlock>, RegistryObject<AbnormalsWallSignBlock>> GLOWSHROOM_SIGNS = HELPER.createCompatSignBlock("glowshroom", MaterialColor.CYAN, "quark");
-
-    public static final RegistryObject<Block> VERTICAL_GLOWSHROOM_PLANKS = HELPER.createCompatBlock("quark","vertical_glowshroom_planks", ()->new AlphaBlock(Block.Properties.from(Blocks.OAK_PLANKS).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_VERTICAL_SLAB = HELPER.createCompatFuelBlock("quark","glowshroom_vertical_slab", ()->new AlphaVerticalSlabBlock(Block.Properties.from(Blocks.OAK_PLANKS).notSolid().setLightLevel((a)->{return 14;})), 150, ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_BOOKSHELF = HELPER.createCompatFuelBlock("quark","glowshroom_bookshelf", ()->new AlphaBookshelfBlock(Block.Properties.from(Blocks.BOOKSHELF).notSolid().setLightLevel((a)->{return 14;})), 300, ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_LADDER = HELPER.createCompatFuelBlock("quark","glowshroom_ladder", ()->new AbnormalsLadderBlock(Block.Properties.from(Blocks.LADDER).harvestTool(ToolType.AXE).notSolid().setLightLevel((a)->{return 14;})), 300, ItemGroup.DECORATIONS);
-    public static final RegistryObject<Block> STRIPPED_GLOWSHROOM_POST = HELPER.createCompatFuelBlock("quark", "stripped_glowshroom_post", () -> new WoodPostBlock(AbstractBlock.Properties.from(Blocks.OAK_FENCE).notSolid().setLightLevel((a)->{return 14;})), 300, ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> GLOWSHROOM_POST = HELPER.createCompatFuelBlock("quark", "glowshroom_post", () -> new WoodPostBlock(STRIPPED_GLOWSHROOM_POST, AbstractBlock.Properties.from(Blocks.OAK_FENCE).notSolid().setLightLevel((a)->{return 14;})), 300, ItemGroup.BUILDING_BLOCKS);
-    public static final Pair<RegistryObject<AbnormalsChestBlock>, RegistryObject<AbnormalsTrappedChestBlock>> GLOWSHROOM_CHESTS = HELPER.createCompatChestBlocks("quark", "glowshroom", MaterialColor.CYAN);
-
-    public static final RegistryObject<Block> GLOWSHROOM_BEEHIVE = HELPER.createCompatBlock("glowshroom_beehive", ()->new AlphaAbnormalsBeehiveBlock(Block.Properties.from(Blocks.BEEHIVE).notSolid().setLightLevel((a)->{return 14;})), ItemGroup.DECORATIONS, "buzzier_bees", "quark");
 
 }

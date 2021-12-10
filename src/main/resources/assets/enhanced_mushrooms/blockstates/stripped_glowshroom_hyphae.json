@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "axis=y": { "model": "enhanced_mushrooms:block/stripped_glowshroom_hyphae" },
-    "axis=z": { "model": "enhanced_mushrooms:block/stripped_glowshroom_hyphae", "x": 90 },
-    "axis=x": { "model": "enhanced_mushrooms:block/stripped_glowshroom_hyphae", "x": 90, "y": 90 }
-  }
-}

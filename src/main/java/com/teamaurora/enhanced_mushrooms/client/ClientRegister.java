@@ -27,30 +27,5 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(EMBlocks.BROWN_MUSHROOM_LADDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(EMBlocks.BROWN_MUSHROOM_POST.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_BROWN_MUSHROOM_POST.get(), RenderType.getCutout());
-
-        RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_GLOWSHROOM_STEM.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_STEM.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_GLOWSHROOM_HYPHAE.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_HYPHAE.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_PLANKS.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_SLAB.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_STAIRS.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_PRESSURE_PLATE.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_FENCE.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_FENCE_GATE.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_BUTTON.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_TRAPDOOR.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_DOOR.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_SIGNS.getFirst().get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_SIGNS.getSecond().get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.VERTICAL_GLOWSHROOM_PLANKS.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_VERTICAL_SLAB.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_BOOKSHELF.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_POST.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_GLOWSHROOM_POST.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_LADDER.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_BEEHIVE.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.GLOWSHROOM_POST.get(), RenderType.getTranslucent());
-        RenderTypeLookup.setRenderLayer(EMBlocks.STRIPPED_GLOWSHROOM_POST.get(), RenderType.getTranslucent());
     }
 }

@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "enhanced_mushrooms:red_mushroom_wall_sign",
-    "enhanced_mushrooms:brown_mushroom_wall_sign",
-    "enhanced_mushrooms:glowshroom_wall_sign"
+    "enhanced_mushrooms:brown_mushroom_wall_sign"
   ]
 }

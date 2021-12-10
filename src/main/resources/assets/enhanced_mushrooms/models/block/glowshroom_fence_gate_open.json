@@ -1,6 +1,0 @@
-{
-  "parent": "block/template_fence_gate_open",
-  "textures": {
-    "texture": "enhanced_mushrooms:block/glowshroom_planks"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "enhanced_mushrooms:block/glowshroom_planks",
-    "top": "enhanced_mushrooms:block/glowshroom_planks",
-    "side": "enhanced_mushrooms:block/glowshroom_planks"
-  }
-}

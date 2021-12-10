@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "enhanced_mushrooms:red_mushroom_vertical_slab",
-    "enhanced_mushrooms:brown_mushroom_vertical_slab",
-    "enhanced_mushrooms:glowshroom_vertical_slab"
+    "enhanced_mushrooms:brown_mushroom_vertical_slab"
   ]
 }

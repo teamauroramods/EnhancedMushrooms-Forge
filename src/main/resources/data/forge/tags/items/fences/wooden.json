@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "enhanced_mushrooms:red_mushroom_fence",
-    "enhanced_mushrooms:brown_mushroom_fence",
-    "enhanced_mushrooms:glowshroom_fence"
+    "enhanced_mushrooms:brown_mushroom_fence"
   ]
 }

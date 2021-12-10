@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_column",
-  "textures": {
-    "end": "enhanced_mushrooms:block/stripped_glowshroom_stem",
-    "side": "enhanced_mushrooms:block/stripped_glowshroom_stem"
-  }
-}
