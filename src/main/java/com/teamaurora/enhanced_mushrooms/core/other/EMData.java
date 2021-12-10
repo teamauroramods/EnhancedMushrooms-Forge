@@ -33,11 +33,9 @@ public class EMData {
         // Quark Compat
         DataUtil.registerFlammable(EMBlocks.RED_MUSHROOM_BOOKSHELF.get(), 5, 5);
         DataUtil.registerFlammable(EMBlocks.RED_MUSHROOM_VERTICAL_SLAB.get(), 5, 5);
-        DataUtil.registerFlammable(EMBlocks.VERTICAL_RED_MUSHROOM_PLANKS.get(), 5, 5);
 
         DataUtil.registerFlammable(EMBlocks.BROWN_MUSHROOM_BOOKSHELF.get(), 5, 5);
         DataUtil.registerFlammable(EMBlocks.BROWN_MUSHROOM_VERTICAL_SLAB.get(), 5, 5);
-        DataUtil.registerFlammable(EMBlocks.VERTICAL_BROWN_MUSHROOM_PLANKS.get(), 5, 5);
 
     }
 
