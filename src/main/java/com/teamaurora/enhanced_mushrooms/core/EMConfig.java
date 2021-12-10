@@ -6,16 +6,12 @@ import org.apache.commons.lang3.tuple.Pair;
 public class EMConfig {
     public static class Common {
         public final ForgeConfigSpec.ConfigValue<Boolean> capsStrippable;
-        public final ForgeConfigSpec.ConfigValue<Boolean> foodItems;
 
         Common(ForgeConfigSpec.Builder builder) {
             builder.comment("Common configurations for Enhanced Mushrooms").push("common");
 
             builder.comment("Whether mushroom blocks should be strippable with an axe");
             capsStrippable = builder.define("strippable_mushroom_blocks", true);
-
-            builder.comment("Whether the mod's food items are obtainable in survival");
-            foodItems = builder.define("food_obtainable", true);
 
             builder.pop();
         }

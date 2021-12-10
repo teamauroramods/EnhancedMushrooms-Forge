@@ -1,7 +1,6 @@
 package com.teamaurora.enhanced_mushrooms.core;
 
 import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
-import com.teamaurora.enhanced_mushrooms.core.library.api.conditions.EMFoodRecipeCondition;
 import com.teamaurora.enhanced_mushrooms.core.other.EMEvents;
 import com.teamaurora.enhanced_mushrooms.core.other.EMData;
 import com.teamaurora.enhanced_mushrooms.core.registry.EMFeatures;
@@ -38,8 +37,6 @@ public class EnhancedMushrooms
 
         final IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        CraftingHelper.register(new EMFoodRecipeCondition.Serializer());
-
         REGISTRY_HELPER.register(eventBus);
 
         eventBus.addListener(EventPriority.LOWEST, this::commonSetup);
@@ -50,7 +47,6 @@ public class EnhancedMushrooms
         event.enqueueWork(() -> {
             EMFeatures.Configured.registerConfiguredFeatures();
             EMData.registerFlammables();
-            EMData.registerCompostables();
             // this is very hacky, but it works for some reason so I'm keeping it
             Features.HUGE_BROWN_MUSHROOM = EMFeatures.Configured.HUGE_BROWN_MUSHROOM;
             Features.HUGE_RED_MUSHROOM = EMFeatures.Configured.HUGE_RED_MUSHROOM;

@@ -62,9 +62,5 @@
 
   "_comment7": "Buzzier Bees Compat",
   "block.enhanced_mushrooms.red_mushroom_beehive": "Red Mushroom Beehive",
-  "block.enhanced_mushrooms.brown_mushroom_beehive": "Brown Mushroom Beehive",
-
-  "_comment8": "Misc",
-  "item.enhanced_mushrooms.roasted_mushrooms": "Roasted Mushrooms",
-  "item.enhanced_mushrooms.beef_stew": "Beef Stew"
+  "block.enhanced_mushrooms.brown_mushroom_beehive": "Brown Mushroom Beehive"
 }

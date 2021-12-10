@@ -41,7 +41,4 @@ public class EMData {
 
     }
 
-    public static void registerCompostables() {
-        DataUtil.registerCompostable(EMItems.ROASTED_MUSHROOMS.get(), 0.85F);
-    }
 }
