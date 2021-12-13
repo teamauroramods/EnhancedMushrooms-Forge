@@ -35,63 +35,30 @@
 
   "item.enhanced_mushrooms.brown_mushroom_boat": "Barca de champiñón marrón",
 
-  "_comment5": "Glowshroom Blocks & Items",
-  "block.enhanced_mushrooms.glowshroom_stem": "Tallo de champiluz",
-  "block.enhanced_mushrooms.stripped_glowshroom_stem": "Tallo de champiluz sin corteza",
-  "block.enhanced_mushrooms.glowshroom_hyphae": "Hifas de champiluz",
-  "block.enhanced_mushrooms.stripped_glowshroom_hyphae": "Hifas de champiluz sin corteza",
-  "block.enhanced_mushrooms.glowshroom_planks": "Tablones de champiluz",
-  "block.enhanced_mushrooms.glowshroom_slab": "Losa de champiluz",
-  "block.enhanced_mushrooms.glowshroom_stairs": "Escaleras de champiluz",
-  "block.enhanced_mushrooms.glowshroom_pressure_plate": "Placa de presión de champiluz",
-  "block.enhanced_mushrooms.glowshroom_fence": "Valla de champiluz",
-  "block.enhanced_mushrooms.glowshroom_fence_gate": "Puerta de valla de champiluz",
-  "block.enhanced_mushrooms.glowshroom_button": "Botón de champiluz",
-  "block.enhanced_mushrooms.glowshroom_trapdoor": "Trampilla de champiluz",
-  "block.enhanced_mushrooms.glowshroom_door": "Puerta de champiluz",
-  "block.enhanced_mushrooms.glowshroom_sign": "Cartel de champiluz",
-
-  "item.enhanced_mushrooms.glowshroom_boat": "Barca de champiluz",
-
   "_comment6": "Quark Compat",
-  "block.enhanced_mushrooms.vertical_red_mushroom_planks": "Tablones de champiñón rojo verticales",
-  "block.enhanced_mushrooms.vertical_brown_mushroom_planks": "Tablones de champiñón marrón verticales",
-  "block.enhanced_mushrooms.vertical_glowshroom_planks": "Tablones de champiluz verticales",
 
   "block.enhanced_mushrooms.red_mushroom_vertical_slab": "Losa vertical de champiñón rojo",
   "block.enhanced_mushrooms.brown_mushroom_vertical_slab": "Losa vertical de champiñón marrón",
-  "block.enhanced_mushrooms.glowshroom_vertical_slab": "Losa vertical de champiluz",
 
   "block.enhanced_mushrooms.red_mushroom_bookshelf": "Librería de champiñón rojo",
   "block.enhanced_mushrooms.brown_mushroom_bookshelf": "Librería de champiñón marrón",
-  "block.enhanced_mushrooms.glowshroom_bookshelf": "Librería de champiluz",
 
   "block.enhanced_mushrooms.red_mushroom_ladder": "Escalera de mano de champiñón rojo",
   "block.enhanced_mushrooms.brown_mushroom_ladder": "Escalera de mano de champiñón marrón",
-  "block.enhanced_mushrooms.glowshroom_ladder": "Escalera de mano de champiluz",
 
   "block.enhanced_mushrooms.red_mushroom_post": "Poste de champiñón rojo",
   "block.enhanced_mushrooms.brown_mushroom_post": "Poste de champiñón marrón",
-  "block.enhanced_mushrooms.glowshroom_post": "Poste de champiluz",
 
   "block.enhanced_mushrooms.stripped_red_mushroom_post": "Poste de champiñón rojo sin corteza",
   "block.enhanced_mushrooms.stripped_brown_mushroom_post": "Poste de champiñón marrón sin corteza",
-  "block.enhanced_mushrooms.stripped_glowshroom_post": "Poste de champiluz sin corteza",
 
   "block.quark.mushroom_chest": "Cofre de champiñón rojo",
   "block.enhanced_mushrooms.brown_mushroom_chest": "Cofre de champiñón marrón",
-  "block.enhanced_mushrooms.glowshroom_chest": "Cofre de champiluz",
 
   "block.quark.mushroom_trapped_chest": "Cofre trampa de champiñón rojo",
   "block.enhanced_mushrooms.brown_mushroom_trapped_chest": "Cofre trampa de champiñón marrón",
-  "block.enhanced_mushrooms.glowshroom_trapped_chest": "Cofre trampa de champiluz",
 
   "_comment7": "Buzzier Bees Compat",
   "block.enhanced_mushrooms.red_mushroom_beehive": "Apiario de champiñón rojo",
-  "block.enhanced_mushrooms.brown_mushroom_beehive": "Apiario de champiñón marrón",
-  "block.enhanced_mushrooms.glowshroom_beehive": "Apiario de champiluz",
-
-  "_comment8": "Misc",
-  "item.enhanced_mushrooms.roasted_mushrooms": "Champiñones rostizados",
-  "item.enhanced_mushrooms.beef_stew": "Estofado de res"
+  "block.enhanced_mushrooms.brown_mushroom_beehive": "Apiario de champiñón marrón"
 }
