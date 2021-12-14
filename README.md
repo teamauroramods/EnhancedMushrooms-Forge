@@ -1,4 +1,6 @@
+# NOTE: This repo is DEPRECATED and will not be updated. For pull requests, issues, etc. please see https://github.com/teamauroramods/EnhancedMushrooms
 # Enhanced Mushrooms
+
 A Team Aurora mod. Join our discord at https://discord.gg/BgE4EpP.
 
 Minecraft 1.16's new wood types are new nether mushrooms. Enhanced Mushrooms aims to add consistency by making red and brown mushrooms also work as wood types.
